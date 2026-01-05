@@ -1,0 +1,109 @@
+"use client"
+
+import { Button } from "@/components/ui/button"
+import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { BookOpen, RotateCcw, Trophy } from "lucide-react"
+import { useEffect, useState } from "react"
+import { quizData } from "@/lib/quiz-data"
+
+interface UnitSelectorProps {
+  gender: "male" | "female"
+  onSelectUnit: (unit: string) => void
+  onReset: () => void
+}
+
+const getScoresFromStorage = () => {
+  if (typeof window === "undefined") return {}
+  const stored = localStorage.getItem("examScores")
+  return stored ? JSON.parse(stored) : {}
+}
+
+export default function UnitSelector({ gender, onSelectUnit, onReset }: UnitSelectorProps) {
+  const [scores, setScores] = useState({})
+
+  useEffect(() => {
+    setScores(getScoresFromStorage())
+  }, [])
+
+  const primaryColor = gender === "male" ? "from-blue-600 to-blue-700" : "from-pink-500 to-purple-600"
+  const accentColor = gender === "male" ? "#2563eb" : "#ec4899"
+  const bgAccent = gender === "male" ? "bg-blue-50 dark:bg-blue-950" : "bg-pink-50 dark:bg-purple-950"
+
+  const units = [
+    { id: "unit1", data: quizData.unit1 },
+    { id: "unit2", data: quizData.unit2 },
+    { id: "unit3", data: quizData.unit3 },
+  ]
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted px-4 py-12 md:py-20">
+      <div className="max-w-5xl mx-auto">
+        <div className="mb-16 text-center">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
+            English Proficiency Exam
+          </h1>
+          <p className="text-xl text-foreground/60 max-w-2xl mx-auto">
+            Master English grammar, comprehension, and communication skills
+          </p>
+        </div>
+
+        <div className="grid gap-6 md:gap-8 mb-12">
+          {units.map((unit, index) => {
+            const unitScore = scores[unit.id]
+            return (
+              <button key={unit.id} onClick={() => onSelectUnit(unit.id)} className="quiz-card text-left group">
+                <Card className={`h-full border-2 border-border hover:border-opacity-100 transition-all ${bgAccent}`}>
+                  <CardHeader>
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex-1">
+                        <CardTitle className="text-2xl md:text-3xl mb-2 group-hover:text-primary transition-colors">
+                          {unit.data.name}
+                        </CardTitle>
+                        <CardDescription className="text-base md:text-lg">{unit.data.description}</CardDescription>
+                      </div>
+                      <div
+                        className="w-16 h-16 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg"
+                        style={{
+                          background: `linear-gradient(135deg, ${accentColor}20 0%, ${accentColor}40 100%)`,
+                        }}
+                      >
+                        <BookOpen className="w-8 h-8" style={{ color: accentColor }} />
+                      </div>
+                    </div>
+
+                    {unitScore ? (
+                      <div className="mt-6 pt-6 border-t border-border">
+                        <div className="flex items-center gap-2 text-sm">
+                          <Trophy className="w-4 h-4" style={{ color: accentColor }} />
+                          <span className="text-foreground/70">Previous Score:</span>
+                          <span className="font-bold text-lg" style={{ color: accentColor }}>
+                            {unitScore}%
+                          </span>
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="mt-6 pt-6 border-t border-border">
+                        <p className="text-sm text-foreground/50">No attempts yet</p>
+                      </div>
+                    )}
+                  </CardHeader>
+                </Card>
+              </button>
+            )
+          })}
+        </div>
+
+        <div className="flex justify-center pt-4">
+          <Button
+            onClick={onReset}
+            variant="outline"
+            className="gap-2 px-6 py-2 text-base border-2 hover:bg-secondary bg-transparent"
+          >
+            <RotateCcw className="w-4 h-4" />
+            Change Gender
+          </Button>
+        </div>
+      </div>
+    </div>
+  )
+}
