@@ -19,13 +19,12 @@ const getScoresFromStorage = () => {
 }
 
 export default function UnitSelector({ gender, onSelectUnit, onReset }: UnitSelectorProps) {
-  const [scores, setScores] = useState({})
+  const [scores, setScores] = useState<Record<string, number>>({})
 
   useEffect(() => {
     setScores(getScoresFromStorage())
   }, [])
 
-  const primaryColor = gender === "male" ? "from-blue-600 to-blue-700" : "from-pink-500 to-purple-600"
   const accentColor = gender === "male" ? "#2563eb" : "#ec4899"
   const bgAccent = gender === "male" ? "bg-blue-50 dark:bg-blue-950" : "bg-pink-50 dark:bg-purple-950"
 
@@ -43,10 +42,10 @@ export default function UnitSelector({ gender, onSelectUnit, onReset }: UnitSele
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted px-4 py-12 md:py-20">
+    <div className="min-h-screen bg-linear-to-br from-background via-background to-muted px-4 py-12 md:py-20">
       <div className="max-w-5xl mx-auto">
         <div className="mb-16 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-linear-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
             English Proficiency Exam
           </h1>
           <p className="text-xl text-foreground/60 max-w-2xl mx-auto">
@@ -55,7 +54,7 @@ export default function UnitSelector({ gender, onSelectUnit, onReset }: UnitSele
         </div>
 
         <div className="grid gap-6 md:gap-8 mb-12">
-          {units.map((unit, index) => {
+          {units.map((unit) => {
             const unitScore = scores[unit.id]
             return (
               <button key={unit.id} onClick={() => onSelectUnit(unit.id)} className="quiz-card text-left group">
@@ -69,7 +68,7 @@ export default function UnitSelector({ gender, onSelectUnit, onReset }: UnitSele
                         <CardDescription className="text-base md:text-lg">{unit.data.description}</CardDescription>
                       </div>
                       <div
-                        className="w-16 h-16 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg"
+                        className="w-16 h-16 rounded-2xl flex items-center justify-center shrink-0 shadow-lg"
                         style={{
                           background: `linear-gradient(135deg, ${accentColor}20 0%, ${accentColor}40 100%)`,
                         }}
