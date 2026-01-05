@@ -33,6 +33,13 @@ export default function UnitSelector({ gender, onSelectUnit, onReset }: UnitSele
     { id: "unit1", data: quizData.unit1 },
     { id: "unit2", data: quizData.unit2 },
     { id: "unit3", data: quizData.unit3 },
+    { id: "unit4", data: quizData.unit4 },
+    { id: "unit5", data: quizData.unit5 },
+    { id: "unit6", data: quizData.unit6 },
+    { id: "unit7", data: quizData.unit7 },
+    { id: "unit8", data: quizData.unit8 },
+    { id: "unit9", data: quizData.unit9 },
+    { id: "unit10", data: quizData.unit10 },
   ]
 
   return (
