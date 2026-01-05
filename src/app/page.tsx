@@ -96,7 +96,7 @@ export default function Home() {
           onBack={() => setCurrentScreen("units")}
         />
       )}
-      {currentScreen === "results" && quizResults && (
+      {currentScreen === "results" && quizResults && gender && (
         <ResultsScreen gender={gender} results={quizResults} onRetakeQuiz={handleRetakeQuiz} onReset={handleReset} />
       )}
     </div>
