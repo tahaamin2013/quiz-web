@@ -1562,12 +1562,12 @@ export const quizData = {
       question: "Which helping verb and verb form are used in Present Simple tense?",
       options: [
         "am / is / are + V1 ing",
-        "do / does + base form",
+        "do / does + V1",
         "has / have + V3",
         "did + V2"
       ],
       correct: "1",
-      explanation: "Present Simple uses 'do / does' as helping verb and base form of verb."
+      explanation: "Present Simple uses 'do / does' as helping verb and V1 of verb."
     },
 
     {
@@ -1610,7 +1610,7 @@ export const quizData = {
       question: "Which helping verb and verb form are used in Past Simple tense?",
       options: [
         "was / were + ing",
-        "did + base form",
+        "did + V1",
         "had + V3",
         "will + V1"
       ],
@@ -1663,7 +1663,7 @@ export const quizData = {
         "do / does + V1"
       ],
       correct: "0",
-      explanation: "Future Simple uses 'will / shall' with base form (V1)."
+      explanation: "Future Simple uses 'will / shall' with V1 (V1)."
     },
 
     {
@@ -1702,7 +1702,7 @@ export const quizData = {
       explanation: "Future Perfect Continuous uses 'will have been' with V1 + ing."
     },
      {
-      question: "Helping verb: do / does, Verb form: base form",
+      question: "Helping verb: do / does, Verb form: V1",
       options: [
         "Present Simple",
         "Present Continuous",
@@ -1710,7 +1710,7 @@ export const quizData = {
         "Future Simple"
       ],
       correct: "0",
-      explanation: "Present Simple uses 'do / does' with base form of verb."
+      explanation: "Present Simple uses 'do / does' with V1 of verb."
     },
 
     {
@@ -1806,7 +1806,7 @@ export const quizData = {
         "Future Perfect"
       ],
       correct: "0",
-      explanation: "Future Simple uses 'will / shall' with base form."
+      explanation: "Future Simple uses 'will / shall' with V1."
     },
 
     {

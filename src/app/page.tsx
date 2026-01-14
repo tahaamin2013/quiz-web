@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import GenderSelector from "@/components/gender-selector"
 import UnitSelector from "@/components/unit-selector"
 import QuizInterface from "@/components/quiz-interface"
 import ResultsScreen from "@/components/results-screen"
@@ -84,13 +83,9 @@ export default function Home() {
             : "linear-gradient(135deg, #e0e7ff 0%, #f0f4ff 50%, #e5ecff 100%)",
       }}
     >
-      {currentScreen === "gender" && <GenderSelector onSelectGender={handleGenderSelect} />}
-      {currentScreen === "units" && gender && (
-        <UnitSelector gender={gender} onSelectUnit={handleUnitSelect} onReset={handleReset} />
-      )}
-      {currentScreen === "quiz" && gender && selectedUnit && (
+        <UnitSelector onSelectUnit={handleUnitSelect} onReset={handleReset} />
+      {currentScreen === "quiz"  && selectedUnit && (
         <QuizInterface
-          gender={gender}
           unit={selectedUnit}
           onQuizComplete={handleQuizComplete}
           onBack={() => setCurrentScreen("units")}

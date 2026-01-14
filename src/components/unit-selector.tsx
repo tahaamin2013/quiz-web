@@ -7,7 +7,6 @@ import { useEffect, useState } from "react"
 import { quizData } from "@/lib/quiz-data"
 
 interface UnitSelectorProps {
-  gender: "male" | "female"
   onSelectUnit: (unit: string) => void
   onReset: () => void
 }
@@ -18,17 +17,18 @@ const getScoresFromStorage = () => {
   return stored ? JSON.parse(stored) : {}
 }
 
-export default function UnitSelector({ gender, onSelectUnit, onReset }: UnitSelectorProps) {
+export default function UnitSelector({ onSelectUnit, onReset }: UnitSelectorProps) {
   const [scores, setScores] = useState<Record<string, number>>({})
 
   useEffect(() => {
     setScores(getScoresFromStorage())
   }, [])
 
-  const accentColor = gender === "male" ? "#2563eb" : "#ec4899"
-  const bgAccent = gender === "male" ? "bg-blue-50 dark:bg-blue-950" : "bg-pink-50 dark:bg-purple-950"
+  const accentColor = "#2563eb"
+  const bgAccent = "bg-blue-50 dark:bg-blue-950"
 
   const units = [
+    { id: "unit1111", data: quizData.unit1111 },
     { id: "unit1", data: quizData.unit1 },
     { id: "unit2", data: quizData.unit2 },
     { id: "unit3", data: quizData.unit3 },
@@ -39,7 +39,6 @@ export default function UnitSelector({ gender, onSelectUnit, onReset }: UnitSele
     { id: "unit8", data: quizData.unit8 },
     { id: "unit9", data: quizData.unit9 },
     { id: "unit10", data: quizData.unit10 },
-    { id: "unit1111", data: quizData.unit1111 },
   ]
 
   return (
@@ -107,7 +106,7 @@ export default function UnitSelector({ gender, onSelectUnit, onReset }: UnitSele
             className="gap-2 px-6 py-2 text-base border-2 hover:bg-secondary bg-transparent"
           >
             <RotateCcw className="w-4 h-4" />
-            Change Gender
+            Reset
           </Button>
         </div>
       </div>
