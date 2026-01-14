@@ -1,3 +1,18 @@
+const TENSE_OPTIONS = [
+  "Present Simple",
+  "Present Continuous",
+  "Present Perfect",
+  "Present Perfect Continuous",
+  "Past Simple",
+  "Past Continuous",
+  "Past Perfect",
+  "Past Perfect Continuous",
+  "Future Simple",
+  "Future Continuous",
+  "Future Perfect",
+  "Future Perfect Continuous"
+];
+
 export const quizData = {
   unit1: {
     name: "Unit 1: am/is/are - Present Tense of 'to be'",
@@ -1845,6 +1860,118 @@ export const quizData = {
       explanation: "Future Perfect Continuous uses 'will have been' with V1 + ing."
     }  
   ]
-}
+},
+   unit11112: {
+  name: "Identify the Tense",
+  description: "Choose the correct tense from the sentence",
+  questions: [
+    { question: "Do you play football every day?", options: TENSE_OPTIONS, correct: "0" },
+    { question: "Is she watching TV right now?", options: TENSE_OPTIONS, correct: "1" },
+    { question: "Have they finished their homework?", options: TENSE_OPTIONS, correct: "2" },
+    { question: "Did you call him yesterday?", options: TENSE_OPTIONS, correct: "4" },
+    { question: "Will you help me tomorrow?", options: TENSE_OPTIONS, correct: "8" },
+    { question: "Was she cooking when I arrived?", options: TENSE_OPTIONS, correct: "5" },
+    { question: "Has he been studying for two hours?", options: TENSE_OPTIONS, correct: "3" },
+    { question: "Had they left before the rain started?", options: TENSE_OPTIONS, correct: "6" },
+    { question: "Will she be traveling next week?", options: TENSE_OPTIONS, correct: "9" },
+    { question: "Does he work in an office?", options: TENSE_OPTIONS, correct: "0" },
 
+    { question: "Are you learning English these days?", options: TENSE_OPTIONS, correct: "1" },
+    { question: "Have you ever visited Karachi?", options: TENSE_OPTIONS, correct: "2" },
+    { question: "Did she pass the exam?", options: TENSE_OPTIONS, correct: "4" },
+    { question: "Were they playing outside?", options: TENSE_OPTIONS, correct: "5" },
+    { question: "Had he finished the work?", options: TENSE_OPTIONS, correct: "6" },
+    { question: "Will they have completed the project by Monday?", options: TENSE_OPTIONS, correct: "10" },
+    { question: "Has it stopped raining?", options: TENSE_OPTIONS, correct: "2" },
+    { question: "Will he have been living here for five years?", options: TENSE_OPTIONS, correct: "11" },
+    { question: "Do we need more time?", options: TENSE_OPTIONS, correct: "0" },
+    { question: "Is it raining now?", options: TENSE_OPTIONS, correct: "1" },
+
+    { question: "Have you been waiting long?", options: TENSE_OPTIONS, correct: "3" },
+    { question: "Did they buy a new car?", options: TENSE_OPTIONS, correct: "4" },
+    { question: "Was he driving fast?", options: TENSE_OPTIONS, correct: "5" },
+    { question: "Had she already eaten?", options: TENSE_OPTIONS, correct: "6" },
+    { question: "Will we meet again?", options: TENSE_OPTIONS, correct: "8" },
+    { question: "Are they working at the moment?", options: TENSE_OPTIONS, correct: "1" },
+    { question: "Has she called you?", options: TENSE_OPTIONS, correct: "2" },
+    { question: "Did it rain yesterday?", options: TENSE_OPTIONS, correct: "4" },
+    { question: "Were you sleeping at that time?", options: TENSE_OPTIONS, correct: "5" },
+    { question: "Will I be waiting for you?", options: TENSE_OPTIONS, correct: "9" },
+
+    { question: "Have they been working here for years?", options: TENSE_OPTIONS, correct: "3" },
+    { question: "Does she like coffee?", options: TENSE_OPTIONS, correct: "0" },
+    { question: "Will she have finished her work?", options: TENSE_OPTIONS, correct: "10" },
+    { question: "Had he been working all day?", options: TENSE_OPTIONS, correct: "7" },
+    { question: "Is he playing cricket now?", options: TENSE_OPTIONS, correct: "1" },
+    { question: "Did you see that movie?", options: TENSE_OPTIONS, correct: "4" },
+    { question: "Have you completed the task?", options: TENSE_OPTIONS, correct: "2" },
+    { question: "Were they watching TV?", options: TENSE_OPTIONS, correct: "5" },
+    { question: "Will it rain tomorrow?", options: TENSE_OPTIONS, correct: "8" },
+    { question: "Do they live near the school?", options: TENSE_OPTIONS, correct: "0" },
+
+    { question: "Has she been feeling better?", options: TENSE_OPTIONS, correct: "3" },
+    { question: "Had we met before?", options: TENSE_OPTIONS, correct: "6" },
+    { question: "Will you be studying tonight?", options: TENSE_OPTIONS, correct: "9" },
+    { question: "Did he break the glass?", options: TENSE_OPTIONS, correct: "4" },
+    { question: "Is she teaching English now?", options: TENSE_OPTIONS, correct: "1" },
+    { question: "Have they seen this place?", options: TENSE_OPTIONS, correct: "2" },
+    { question: "Were you working late?", options: TENSE_OPTIONS, correct: "5" },
+    { question: "Will they have arrived by noon?", options: TENSE_OPTIONS, correct: "10" },
+    { question: "Does it rain a lot here?", options: TENSE_OPTIONS, correct: "0" },
+    { question: "Had she been crying?", options: TENSE_OPTIONS, correct: "7" },
+
+    { question: "Will you call me later?", options: TENSE_OPTIONS, correct: "8" },
+    { question: "Have you been learning coding?", options: TENSE_OPTIONS, correct: "3" },
+    { question: "Did we miss the bus?", options: TENSE_OPTIONS, correct: "4" },
+    { question: "Is he sleeping right now?", options: TENSE_OPTIONS, correct: "1" },
+    { question: "Had the train left already?", options: TENSE_OPTIONS, correct: "6" },
+    { question: "Will she be waiting for us?", options: TENSE_OPTIONS, correct: "9" },
+    { question: "Do you understand this lesson?", options: TENSE_OPTIONS, correct: "0" },
+    { question: "Have they been arguing?", options: TENSE_OPTIONS, correct: "3" },
+    { question: "Will he have completed the course?", options: TENSE_OPTIONS, correct: "10" },
+    { question: "Will she have been working here for ten years?", options: TENSE_OPTIONS, correct: "11" },
+    { question: "Does she go to school by bus?", options: TENSE_OPTIONS, correct: "0" },
+  { question: "Are they having lunch right now?", options: TENSE_OPTIONS, correct: "1" },
+  { question: "Have you checked your email?", options: TENSE_OPTIONS, correct: "2" },
+  { question: "Has he been working since morning?", options: TENSE_OPTIONS, correct: "3" },
+  { question: "Did she lose her keys?", options: TENSE_OPTIONS, correct: "4" },
+  { question: "Was it snowing last night?", options: TENSE_OPTIONS, correct: "5" },
+  { question: "Had they completed the test?", options: TENSE_OPTIONS, correct: "6" },
+  { question: "Had she been waiting long?", options: TENSE_OPTIONS, correct: "7" },
+  { question: "Will you join us later?", options: TENSE_OPTIONS, correct: "8" },
+  { question: "Will he be driving tonight?", options: TENSE_OPTIONS, correct: "9" },
+
+  { question: "Will they have reached home by now?", options: TENSE_OPTIONS, correct: "10" },
+  { question: "Will she have been studying for hours?", options: TENSE_OPTIONS, correct: "11" },
+  { question: "Do we have enough time?", options: TENSE_OPTIONS, correct: "0" },
+  { question: "Is the baby sleeping now?", options: TENSE_OPTIONS, correct: "1" },
+  { question: "Have they already paid the bill?", options: TENSE_OPTIONS, correct: "2" },
+  { question: "Have you been feeling tired?", options: TENSE_OPTIONS, correct: "3" },
+  { question: "Did he forget your name?", options: TENSE_OPTIONS, correct: "4" },
+  { question: "Were you listening to music?", options: TENSE_OPTIONS, correct: "5" },
+  { question: "Had I seen you before?", options: TENSE_OPTIONS, correct: "6" },
+  { question: "Had it been raining all night?", options: TENSE_OPTIONS, correct: "7" },
+
+  { question: "Will she call you tomorrow?", options: TENSE_OPTIONS, correct: "8" },
+  { question: "Will they be staying here?", options: TENSE_OPTIONS, correct: "9" },
+  { question: "Will he have learned English by then?", options: TENSE_OPTIONS, correct: "10" },
+  { question: "Will you have been working all day?", options: TENSE_OPTIONS, correct: "11" },
+  { question: "Do they understand the rules?", options: TENSE_OPTIONS, correct: "0" },
+  { question: "Is she cleaning the room?", options: TENSE_OPTIONS, correct: "1" },
+  { question: "Have we solved the problem?", options: TENSE_OPTIONS, correct: "2" },
+  { question: "Has it been getting colder?", options: TENSE_OPTIONS, correct: "3" },
+  { question: "Did the teacher explain the lesson?", options: TENSE_OPTIONS, correct: "4" },
+  { question: "Was he shouting at you?", options: TENSE_OPTIONS, correct: "5" },
+
+  { question: "Had she locked the door?", options: TENSE_OPTIONS, correct: "6" },
+  { question: "Had they been arguing before you came?", options: TENSE_OPTIONS, correct: "7" },
+  { question: "Will it be sunny tomorrow?", options: TENSE_OPTIONS, correct: "8" },
+  { question: "Will you be using the computer?", options: TENSE_OPTIONS, correct: "9" },
+  { question: "Will they have cleaned the house?", options: TENSE_OPTIONS, correct: "10" },
+  { question: "Will she have been teaching here for years?", options: TENSE_OPTIONS, correct: "11" }
+
+  
+  ]
+  
+}
 }

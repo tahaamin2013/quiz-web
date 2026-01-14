@@ -152,7 +152,7 @@ export default function QuizInterface({ unit, gender = "male", onQuizComplete, o
                   </h2>
 
                   {/* Options */}
-                  <div className="space-y-4">
+                  <div className="grid  gap-2 md:gap-9 grid-cols-2 md:grid-cols-3">
                     {questions[currentQuestionIndex].options.map((option, idx) => {
                       const optionKey = String(idx)
                       const isSelected = answers[currentQuestionIndex] === optionKey

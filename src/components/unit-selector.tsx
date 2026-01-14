@@ -29,6 +29,7 @@ export default function UnitSelector({ onSelectUnit, onReset }: UnitSelectorProp
 
   const units = [
     { id: "unit1111", data: quizData.unit1111 },
+    { id: "unit11112", data: quizData.unit11112 },
     { id: "unit1", data: quizData.unit1 },
     { id: "unit2", data: quizData.unit2 },
     { id: "unit3", data: quizData.unit3 },
