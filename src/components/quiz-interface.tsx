@@ -60,7 +60,7 @@ export default function QuizInterface({ unit, gender = "male", onQuizComplete, o
         correct: q.correct,
         userAnswer: answers[idx],
         isCorrect: answers[idx] === q.correct,
-        explanation: q.explanation,
+        // explanation: q.explanation,
       })),
       timestamp: new Date().toISOString(),
     }
