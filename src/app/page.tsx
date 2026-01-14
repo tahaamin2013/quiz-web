@@ -83,6 +83,9 @@ export default function Home() {
             : "linear-gradient(135deg, #e0e7ff 0%, #f0f4ff 50%, #e5ecff 100%)",
       }}
     >
+           <a href="/table-of-tenses" className="px-6 py-2 bg-gray-500 text-white rounded mt-4">
+            Table of Tenses
+          </a>
         <UnitSelector onSelectUnit={handleUnitSelect} onReset={handleReset} />
       {currentScreen === "quiz"  && selectedUnit && (
         <QuizInterface
