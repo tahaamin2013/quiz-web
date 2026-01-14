@@ -11,7 +11,7 @@ export default function VerbTensesPage() {
       simple: {
         helping: "do / does",
         note: "(in questions & negatives)",
-        verbForm: "base form / s with he, she, it",
+        verbForm: "V1 / s with he, she, it 💡(Sometimes is/am/are used as main verbs / linking verbs)",
         example: "I play, he plays",
       },
       continuous: {
@@ -37,7 +37,7 @@ export default function VerbTensesPage() {
       simple: {
         helping: "did",
         note: "(in questions & negatives)",
-        verbForm: "V2",
+        verbForm: "V2 💡(Sometimes was/were used as main verbs / linking verbs)",
         example: "I played",
       },
       continuous: {
@@ -126,7 +126,16 @@ export default function VerbTensesPage() {
                   <div className="space-y-2 text-sm">
                     <div>
                       <span className="font-semibold text-blue-700">Helping:</span>
-                      <p className="text-blue-900 font-medium">{row.simple.helping}</p>
+                      <p className="text-blue-900 font-medium flex gap-6">No Helping verb
+                    {row.simple.note && <p className="text-xs text-blue-600 italic">💡 in Positives</p>}
+
+
+                      </p>
+                          <p className="text-blue-900 font-medium flex gap-6">{row.simple.helping } 
+                    {row.simple.note && <p className="text-xs text-blue-600 italic">💡 {row.simple.note}</p>}
+
+
+                      </p>
                     </div>
                     <div>
                       <span className="font-semibold text-blue-700">Form:</span>
@@ -136,7 +145,6 @@ export default function VerbTensesPage() {
                       <p className="text-xs text-blue-800 font-semibold">Example:</p>
                       <p className="text-blue-900 italic">{row.simple.example}</p>
                     </div>
-                    {row.simple.note && <p className="text-xs text-blue-600 italic">💡 {row.simple.note}</p>}
                   </div>
                 </Card>
 
