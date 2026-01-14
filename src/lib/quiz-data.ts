@@ -1554,4 +1554,297 @@ export const quizData = {
       },
     ],
   },
+   unit1111: {
+  name: "Tenses",
+  description: "Master the tense",
+  questions: [
+    {
+      question: "Which helping verb and verb form are used in Present Simple tense?",
+      options: [
+        "am / is / are + V1 ing",
+        "do / does + base form",
+        "has / have + V3",
+        "did + V2"
+      ],
+      correct: "1",
+      explanation: "Present Simple uses 'do / does' as helping verb and base form of verb."
+    },
+
+    {
+      question: "Which helping verb and verb form are used in Present Continuous tense?",
+      options: [
+        "do / does + V1",
+        "has / have + V3",
+        "am / is / are + V1 ing",
+        "was / were + V1 ing"
+      ],
+      correct: "2",
+      explanation: "Present Continuous uses 'am / is / are' with V1 + ing."
+    },
+
+    {
+      question: "Which helping verb and verb form are used in Present Perfect tense?",
+      options: [
+        "has / have + V3",
+        "had + V3",
+        "will have + V3",
+        "am / is / are + ing"
+      ],
+      correct: "0",
+      explanation: "Present Perfect uses 'has / have' with past participle (V3)."
+    },
+
+    {
+      question: "Which helping verb and verb form are used in Present Perfect Continuous tense?",
+      options: [
+        "has been / have been + V1 ing",
+        "had been + V1 ing",
+        "will be + V1 ing",
+        "do / does + V1"
+      ],
+      correct: "0",
+      explanation: "Present Perfect Continuous uses 'has been / have been' with V1 + ing."
+    },
+
+    {
+      question: "Which helping verb and verb form are used in Past Simple tense?",
+      options: [
+        "was / were + ing",
+        "did + base form",
+        "had + V3",
+        "will + V1"
+      ],
+      correct: "1",
+      explanation: "Past Simple uses 'did' as helping verb and V2 in statements."
+    },
+
+    {
+      question: "Which helping verb and verb form are used in Past Continuous tense?",
+      options: [
+        "was / were + V1 ing",
+        "am / is / are + ing",
+        "had been + ing",
+        "did + V2"
+      ],
+      correct: "0",
+      explanation: "Past Continuous uses 'was / were' with V1 + ing."
+    },
+
+    {
+      question: "Which helping verb and verb form are used in Past Perfect tense?",
+      options: [
+        "has / have + V3",
+        "had + V3",
+        "will have + V3",
+        "did + V2"
+      ],
+      correct: "1",
+      explanation: "Past Perfect uses 'had' with V3."
+    },
+
+    {
+      question: "Which helping verb and verb form are used in Past Perfect Continuous tense?",
+      options: [
+        "has been + ing",
+        "had been + V1 ing",
+        "was / were + ing",
+        "will be + ing"
+      ],
+      correct: "1",
+      explanation: "Past Perfect Continuous uses 'had been' with V1 + ing."
+    },
+
+    {
+      question: "Which helping verb and verb form are used in Future Simple tense?",
+      options: [
+        "will / shall + V1",
+        "will be + ing",
+        "will have + V3",
+        "do / does + V1"
+      ],
+      correct: "0",
+      explanation: "Future Simple uses 'will / shall' with base form (V1)."
+    },
+
+    {
+      question: "Which helping verb and verb form are used in Future Continuous tense?",
+      options: [
+        "will be + V1 ing",
+        "will have + V3",
+        "will + V1",
+        "had been + ing"
+      ],
+      correct: "0",
+      explanation: "Future Continuous uses 'will be' with V1 + ing."
+    },
+
+    {
+      question: "Which helping verb and verb form are used in Future Perfect tense?",
+      options: [
+        "will have + V3",
+        "has / have + V3",
+        "had + V3",
+        "will be + ing"
+      ],
+      correct: "0",
+      explanation: "Future Perfect uses 'will have' with V3."
+    },
+
+    {
+      question: "Which helping verb and verb form are used in Future Perfect Continuous tense?",
+      options: [
+        "will have been + V1 ing",
+        "will be + ing",
+        "had been + ing",
+        "has been + ing"
+      ],
+      correct: "0",
+      explanation: "Future Perfect Continuous uses 'will have been' with V1 + ing."
+    },
+     {
+      question: "Helping verb: do / does, Verb form: base form",
+      options: [
+        "Present Simple",
+        "Present Continuous",
+        "Past Simple",
+        "Future Simple"
+      ],
+      correct: "0",
+      explanation: "Present Simple uses 'do / does' with base form of verb."
+    },
+
+    {
+      question: "Helping verb: am / is / are, Verb form: V1 + ing",
+      options: [
+        "Past Continuous",
+        "Present Perfect",
+        "Present Continuous",
+        "Future Continuous"
+      ],
+      correct: "2",
+      explanation: "Present Continuous uses 'am / is / are' with V1 + ing."
+    },
+
+    {
+      question: "Helping verb: has / have, Verb form: V3",
+      options: [
+        "Past Perfect",
+        "Present Perfect",
+        "Future Perfect",
+        "Past Simple"
+      ],
+      correct: "1",
+      explanation: "Present Perfect uses 'has / have' with V3."
+    },
+
+    {
+      question: "Helping verb: has been / have been, Verb form: V1 + ing",
+      options: [
+        "Past Perfect Continuous",
+        "Future Perfect Continuous",
+        "Present Perfect Continuous",
+        "Present Continuous"
+      ],
+      correct: "2",
+      explanation: "Present Perfect Continuous uses 'has been / have been' with V1 + ing."
+    },
+
+    {
+      question: "Helping verb: did, Verb form: V2",
+      options: [
+        "Past Simple",
+        "Present Simple",
+        "Past Perfect",
+        "Future Simple"
+      ],
+      correct: "0",
+      explanation: "Past Simple uses 'did' (in questions/negatives) and V2."
+    },
+
+    {
+      question: "Helping verb: was / were, Verb form: V1 + ing",
+      options: [
+        "Present Continuous",
+        "Past Continuous",
+        "Future Continuous",
+        "Past Perfect Continuous"
+      ],
+      correct: "1",
+      explanation: "Past Continuous uses 'was / were' with V1 + ing."
+    },
+
+    {
+      question: "Helping verb: had, Verb form: V3",
+      options: [
+        "Past Perfect",
+        "Present Perfect",
+        "Future Perfect",
+        "Past Simple"
+      ],
+      correct: "0",
+      explanation: "Past Perfect uses 'had' with V3."
+    },
+
+    {
+      question: "Helping verb: had been, Verb form: V1 + ing",
+      options: [
+        "Past Perfect Continuous",
+        "Present Perfect Continuous",
+        "Future Perfect Continuous",
+        "Past Continuous"
+      ],
+      correct: "0",
+      explanation: "Past Perfect Continuous uses 'had been' with V1 + ing."
+    },
+
+    {
+      question: "Helping verb: will / shall, Verb form: V1",
+      options: [
+        "Future Simple",
+        "Present Simple",
+        "Future Continuous",
+        "Future Perfect"
+      ],
+      correct: "0",
+      explanation: "Future Simple uses 'will / shall' with base form."
+    },
+
+    {
+      question: "Helping verb: will be, Verb form: V1 + ing",
+      options: [
+        "Future Continuous",
+        "Present Continuous",
+        "Past Continuous",
+        "Future Perfect Continuous"
+      ],
+      correct: "0",
+      explanation: "Future Continuous uses 'will be' with V1 + ing."
+    },
+
+    {
+      question: "Helping verb: will have, Verb form: V3",
+      options: [
+        "Future Perfect",
+        "Present Perfect",
+        "Past Perfect",
+        "Future Simple"
+      ],
+      correct: "0",
+      explanation: "Future Perfect uses 'will have' with V3."
+    },
+
+    {
+      question: "Helping verb: will have been, Verb form: V1 + ing",
+      options: [
+        "Future Perfect Continuous",
+        "Present Perfect Continuous",
+        "Past Perfect Continuous",
+        "Future Continuous"
+      ],
+      correct: "0",
+      explanation: "Future Perfect Continuous uses 'will have been' with V1 + ing."
+    }  
+  ]
+}
+
 }

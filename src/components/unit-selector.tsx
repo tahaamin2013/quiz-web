@@ -39,6 +39,7 @@ export default function UnitSelector({ gender, onSelectUnit, onReset }: UnitSele
     { id: "unit8", data: quizData.unit8 },
     { id: "unit9", data: quizData.unit9 },
     { id: "unit10", data: quizData.unit10 },
+    { id: "unit1111", data: quizData.unit1111 },
   ]
 
   return (
