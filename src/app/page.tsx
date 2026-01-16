@@ -86,6 +86,9 @@ export default function Home() {
            <a href="/table-of-tenses" className="px-6 py-2 bg-gray-500 text-white rounded mt-4">
             Table of Tenses
           </a>
+           <a href="/translation" className="px-6 py-2 bg-gray-500 text-white rounded mt-4">
+            Translation
+          </a>
         <UnitSelector onSelectUnit={handleUnitSelect} onReset={handleReset} />
       {currentScreen === "quiz"  && selectedUnit && (
         <QuizInterface
