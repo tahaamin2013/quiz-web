@@ -115,42 +115,41 @@ export default function QuizInterface({ unit, gender = "male", onQuizComplete, o
         </button>
         <div className="min-h-screen px-4 py-8 md:py-12 bg-gradient-to-br from-background via-background to-muted">
           <div className="max-w-4xl mx-auto">
-            <div className="mb-10">
-              <div className="flex items-center justify-between mb-8">
-                <div className="flex-1">
-                  <h1 className="text-3xl md:text-4xl font-bold mb-2">{unitData ? unitData.name : "Unit not found"}</h1>
-                  <p className="text-base text-foreground/60">{unitData?.description}</p>
-                </div>
-                <Button onClick={onBack} variant="outline" className="gap-2 bg-transparent">
-                  <ChevronLeft className="w-4 h-4" />
-                  Back
-                </Button>
-              </div>
-
-              {/* Progress Section */}
-              <div className={`p-6 rounded-2xl ${lightBg} border border-border/50`}>
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center gap-2">
-                    <Clock className="w-5 h-5" style={{ color: primaryColor }} />
-                    <span className="font-semibold">
-                      Question {currentQuestionIndex + 1} of {questions.length}
-                    </span>
-                  </div>
-                  <span className="text-sm text-foreground/60">
-                    {answeredCount}/{questions.length} answered
-                  </span>
-                </div>
-                <Progress value={progressPercent} className="h-3" />
-              </div>
-            </div>
-
+         
             {unitData && (
               <Card className="mb-10 border-2 shadow-lg" style={{ borderColor: `${primaryColor}30` }}>
                 <CardContent className="p-8 md:p-10">
-                  <h2 className="text-2xl md:text-3xl font-bold mb-10 text-pretty leading-relaxed">
+              <div className="flex justify-between w-full">
+    <h2 className="text-2xl md:text-3xl font-bold mb-10 text-pretty leading-relaxed">
                     {questions[currentQuestionIndex].question}
                   </h2>
 
+              {currentQuestionIndex === questions.length - 1 ? (
+                <Button
+                  onClick={handleSubmit}
+                  disabled={answeredCount === 0}
+                  className="gap-2 px-8 font-semibold text-lg"
+                  style={{
+                    backgroundColor: primaryColor,
+                  }}
+                >
+                  <CheckCircle2 className="w-5 h-5" />
+                  Submit Exam
+                </Button>
+              ) : (
+                <Button
+                  onClick={handleNext}
+                  className="gap-2 px-8 font-semibold text-lg"
+                  style={{
+                    backgroundColor: primaryColor,
+                  }}
+                >
+                  Next
+                  <ChevronRight className="w-4 h-4" />
+                </Button>
+              )}
+
+              </div>
                   {/* Options */}
                   <div className="grid  gap-2 md:gap-9 grid-cols-2 md:grid-cols-3">
                     {questions[currentQuestionIndex].options.map((option, idx) => {
@@ -199,33 +198,38 @@ export default function QuizInterface({ unit, gender = "male", onQuizComplete, o
                 <ChevronLeft className="w-4 h-4" />
                 Previous
               </Button>
+              
+            </div>
+               <div className="mb-10">
+              <div className="flex items-center justify-between mb-8">
+                <div className="flex-1">
+                  <h1 className="text-3xl md:text-4xl font-bold mb-2">{unitData ? unitData.name : "Unit not found"}</h1>
+                  <p className="text-base text-foreground/60">{unitData?.description}</p>
+                </div>
+                <Button onClick={onBack} variant="outline" className="gap-2 bg-transparent">
+                  <ChevronLeft className="w-4 h-4" />
+                  Back
+                </Button>
+              </div>
 
-              {currentQuestionIndex === questions.length - 1 ? (
-                <Button
-                  onClick={handleSubmit}
-                  disabled={answeredCount === 0}
-                  className="gap-2 px-8 font-semibold text-lg"
-                  style={{
-                    backgroundColor: primaryColor,
-                  }}
-                >
-                  <CheckCircle2 className="w-5 h-5" />
-                  Submit Exam
-                </Button>
-              ) : (
-                <Button
-                  onClick={handleNext}
-                  className="gap-2 px-8 font-semibold text-lg"
-                  style={{
-                    backgroundColor: primaryColor,
-                  }}
-                >
-                  Next
-                  <ChevronRight className="w-4 h-4" />
-                </Button>
-              )}
+              {/* Progress Section */}
+              <div className={`p-6 rounded-2xl ${lightBg} border border-border/50`}>
+                <div className="flex items-center justify-between mb-4">
+                  <div className="flex items-center gap-2">
+                    <Clock className="w-5 h-5" style={{ color: primaryColor }} />
+                    <span className="font-semibold">
+                      Question {currentQuestionIndex + 1} of {questions.length}
+                    </span>
+                  </div>
+                  <span className="text-sm text-foreground/60">
+                    {answeredCount}/{questions.length} answered
+                  </span>
+                </div>
+                <Progress value={progressPercent} className="h-3" />
+              </div>
             </div>
 
+{/* 
             <div className={`p-8 rounded-2xl ${lightBg} border border-border/50`}>
               <h3 className="font-bold text-lg mb-6">Questions Overview</h3>
               <div className="grid grid-cols-5 md:grid-cols-10 gap-3">
@@ -245,7 +249,7 @@ export default function QuizInterface({ unit, gender = "male", onQuizComplete, o
                   </button>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
