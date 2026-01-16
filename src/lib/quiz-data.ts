@@ -1861,6 +1861,1027 @@ export const quizData = {
     }  
   ]
 },
+
+   unit133: {
+  name: "Identify the Scentence",
+  description: "Choose the correct tense from the sentence",
+  questions: [
+    {
+  question: "Present Simple",
+  options: [
+    "He plays cricket daily.",
+    "He is playing cricket.",
+    "He played cricket.",
+    "He will play cricket."
+  ],
+  correct: "He plays cricket daily."
+},
+{
+  question: "Present Continuous",
+  options: [
+    "She cooks food.",
+    "She cooked food.",
+    "She is cooking food.",
+    "She will cook food."
+  ],
+  correct: "She is cooking food."
+},
+{
+  question: "Past Simple",
+  options: [
+    "They play football.",
+    "They are playing football.",
+    "They played football.",
+    "They will play football."
+  ],
+  correct: "They played football."
+},
+{
+  question: "Future Simple",
+  options: [
+    "I go to school.",
+    "I went to school.",
+    "I am going to school.",
+    "I will go to school."
+  ],
+  correct: "I will go to school."
+},
+{
+  question: "Present Perfect",
+  options: [
+    "She finishes work.",
+    "She finished work.",
+    "She has finished work.",
+    "She is finishing work."
+  ],
+  correct: "She has finished work."
+},
+{
+  question: "Past Continuous",
+  options: [
+    "I sleep.",
+    "I slept.",
+    "I was sleeping.",
+    "I will sleep."
+  ],
+  correct: "I was sleeping."
+},
+{
+  question: "Future Continuous",
+  options: [
+    "He studies now.",
+    "He studied yesterday.",
+    "He will be studying tomorrow.",
+    "He has studied already."
+  ],
+  correct: "He will be studying tomorrow."
+},
+{
+  question: "Past Perfect",
+  options: [
+    "She leaves early.",
+    "She left early.",
+    "She had left early.",
+    "She is leaving early."
+  ],
+  correct: "She had left early."
+},
+{
+  question: "Present Perfect Continuous",
+  options: [
+    "I study here.",
+    "I studied here.",
+    "I have been studying here.",
+    "I will study here."
+  ],
+  correct: "I have been studying here."
+},
+{
+  question: "Future Perfect",
+  options: [
+    "They finish work.",
+    "They finished work.",
+    "They will have finished work.",
+    "They are finishing work."
+  ],
+  correct: "They will have finished work."
+},
+
+{
+  question: "Past Perfect Continuous",
+  options: [
+    "He works here.",
+    "He was working here.",
+    "He had been working here.",
+    "He will work here."
+  ],
+  correct: "He had been working here."
+},
+{
+  question: "Future Perfect Continuous",
+  options: [
+    "She works here.",
+    "She worked here.",
+    "She will have been working here.",
+    "She is working here."
+  ],
+  correct: "She will have been working here."
+},
+{
+  question: "Present Simple",
+  options: [
+    "Birds are flying.",
+    "Birds fly in the sky.",
+    "Birds flew yesterday.",
+    "Birds will fly."
+  ],
+  correct: "Birds fly in the sky."
+},
+{
+  question: "Present Continuous",
+  options: [
+    "We learn English.",
+    "We learned English.",
+    "We are learning English.",
+    "We will learn English."
+  ],
+  correct: "We are learning English."
+},
+{
+  question: "Past Simple",
+  options: [
+    "He buys a car.",
+    "He bought a car.",
+    "He is buying a car.",
+    "He has bought a car."
+  ],
+  correct: "He bought a car."
+},
+{
+  question: "Future Simple",
+  options: [
+    "I eat food.",
+    "I ate food.",
+    "I am eating food.",
+    "I will eat food."
+  ],
+  correct: "I will eat food."
+},
+{
+  question: "Present Perfect",
+  options: [
+    "She loses keys.",
+    "She lost keys.",
+    "She has lost keys.",
+    "She is losing keys."
+  ],
+  correct: "She has lost keys."
+},
+{
+  question: "Past Continuous",
+  options: [
+    "They play outside.",
+    "They were playing outside.",
+    "They played outside.",
+    "They will play outside."
+  ],
+  correct: "They were playing outside."
+},
+{
+  question: "Future Continuous",
+  options: [
+    "I travel tomorrow.",
+    "I traveled tomorrow.",
+    "I will be traveling tomorrow.",
+    "I have traveled tomorrow."
+  ],
+  correct: "I will be traveling tomorrow."
+},
+{
+  question: "Past Perfect",
+  options: [
+    "We eat dinner.",
+    "We ate dinner.",
+    "We had eaten dinner.",
+    "We are eating dinner."
+  ],
+  correct: "We had eaten dinner."
+},
+
+{
+  question: "Present Perfect Continuous",
+  options: [
+    "She is waiting.",
+    "She waited.",
+    "She has been waiting.",
+    "She will wait."
+  ],
+  correct: "She has been waiting."
+},
+{
+  question: "Future Perfect",
+  options: [
+    "I complete work.",
+    "I completed work.",
+    "I will have completed work.",
+    "I am completing work."
+  ],
+  correct: "I will have completed work."
+},
+{
+  question: "Past Perfect Continuous",
+  options: [
+    "They work here.",
+    "They were working here.",
+    "They had been working here.",
+    "They will work here."
+  ],
+  correct: "They had been working here."
+},
+{
+  question: "Future Perfect Continuous",
+  options: [
+    "He studies here.",
+    "He studied here.",
+    "He will have been studying here.",
+    "He is studying here."
+  ],
+  correct: "He will have been studying here."
+},
+{
+  question: "Present Simple",
+  options: [
+    "She is going to school.",
+    "She goes to school.",
+    "She went to school.",
+    "She will go to school."
+  ],
+  correct: "She goes to school."
+},
+{
+  question: "Present Continuous",
+  options: [
+    "I read a book.",
+    "I am reading a book.",
+    "I read a book yesterday.",
+    "I will read a book."
+  ],
+  correct: "I am reading a book."
+},
+{
+  question: "Past Simple",
+  options: [
+    "He eats rice.",
+    "He is eating rice.",
+    "He ate rice.",
+    "He has eaten rice."
+  ],
+  correct: "He ate rice."
+},
+{
+  question: "Future Simple",
+  options: [
+    "They play football.",
+    "They played football.",
+    "They are playing football.",
+    "They will play football."
+  ],
+  correct: "They will play football."
+},
+{
+  question: "Present Perfect",
+  options: [
+    "She writes a letter.",
+    "She wrote a letter.",
+    "She has written a letter.",
+    "She is writing a letter."
+  ],
+  correct: "She has written a letter."
+},
+{
+  question: "Past Continuous",
+  options: [
+    "I cook food.",
+    "I cooked food.",
+    "I was cooking food.",
+    "I will cook food."
+  ],
+  correct: "I was cooking food."
+},
+{
+  question: "Future Continuous",
+  options: [
+    "He works tomorrow.",
+    "He worked tomorrow.",
+    "He will be working tomorrow.",
+    "He has worked tomorrow."
+  ],
+  correct: "He will be working tomorrow."
+},
+{
+  question: "Past Perfect",
+  options: [
+    "She finishes work.",
+    "She finished work.",
+    "She had finished work.",
+    "She is finishing work."
+  ],
+  correct: "She had finished work."
+},
+{
+  question: "Present Perfect Continuous",
+  options: [
+    "I play here.",
+    "I played here.",
+    "I have been playing here.",
+    "I will play here."
+  ],
+  correct: "I have been playing here."
+},
+{
+  question: "Future Perfect",
+  options: [
+    "They complete the task.",
+    "They completed the task.",
+    "They will have completed the task.",
+    "They are completing the task."
+  ],
+  correct: "They will have completed the task."
+},
+{
+  question: "Past Perfect Continuous",
+  options: [
+    "He studies all day.",
+    "He was studying all day.",
+    "He had been studying all day.",
+    "He will study all day."
+  ],
+  correct: "He had been studying all day."
+},
+{
+  question: "Future Perfect Continuous",
+  options: [
+    "She works here.",
+    "She worked here.",
+    "She will have been working here.",
+    "She is working here."
+  ],
+  correct: "She will have been working here."
+},
+
+{
+  question: "Present Simple",
+  options: [
+    "Cats are drinking milk.",
+    "Cats drink milk.",
+    "Cats drank milk.",
+    "Cats will drink milk."
+  ],
+  correct: "Cats drink milk."
+},
+{
+  question: "Present Continuous",
+  options: [
+    "We watch TV.",
+    "We watched TV.",
+    "We are watching TV.",
+    "We will watch TV."
+  ],
+  correct: "We are watching TV."
+},
+{
+  question: "Past Simple",
+  options: [
+    "She cleans the room.",
+    "She cleaned the room.",
+    "She is cleaning the room.",
+    "She has cleaned the room."
+  ],
+  correct: "She cleaned the room."
+},
+{
+  question: "Future Simple",
+  options: [
+    "I finish homework.",
+    "I finished homework.",
+    "I am finishing homework.",
+    "I will finish homework."
+  ],
+  correct: "I will finish homework."
+},
+{
+  question: "Present Perfect",
+  options: [
+    "He breaks the glass.",
+    "He broke the glass.",
+    "He has broken the glass.",
+    "He is breaking the glass."
+  ],
+  correct: "He has broken the glass."
+},
+{
+  question: "Past Continuous",
+  options: [
+    "They sleep early.",
+    "They slept early.",
+    "They were sleeping early.",
+    "They will sleep early."
+  ],
+  correct: "They were sleeping early."
+},
+{
+  question: "Future Continuous",
+  options: [
+    "I study at night.",
+    "I studied at night.",
+    "I will be studying at night.",
+    "I have studied at night."
+  ],
+  correct: "I will be studying at night."
+},
+{
+  question: "Past Perfect",
+  options: [
+    "We start work.",
+    "We started work.",
+    "We had started work.",
+    "We are starting work."
+  ],
+  correct: "We had started work."
+},
+{
+  question: "Present Perfect Continuous",
+  options: [
+    "She sings here.",
+    "She sang here.",
+    "She has been singing here.",
+    "She will sing here."
+  ],
+  correct: "She has been singing here."
+},
+{
+  question: "Future Perfect",
+  options: [
+    "He writes the report.",
+    "He wrote the report.",
+    "He will have written the report.",
+    "He is writing the report."
+  ],
+  correct: "He will have written the report."
+},
+{
+  question: "Past Perfect Continuous",
+  options: [
+    "They travel together.",
+    "They were traveling together.",
+    "They had been traveling together.",
+    "They will travel together."
+  ],
+  correct: "They had been traveling together."
+},
+{
+  question: "Future Perfect Continuous",
+  options: [
+    "I learn English.",
+    "I learned English.",
+    "I will have been learning English.",
+    "I am learning English."
+  ],
+  correct: "I will have been learning English."
+},
+// ===== NEXT 30 QUESTIONS =====
+
+{
+  question: "Present Simple",
+  options: [
+    "He is running now.",
+    "He runs every morning.",
+    "He ran yesterday.",
+    "He will run tomorrow."
+  ],
+  correct: "He runs every morning."
+},
+{
+  question: "Present Continuous",
+  options: [
+    "She sings well.",
+    "She sang well.",
+    "She is singing now.",
+    "She will sing soon."
+  ],
+  correct: "She is singing now."
+},
+{
+  question: "Past Simple",
+  options: [
+    "They are eating food.",
+    "They eat food.",
+    "They ate food.",
+    "They will eat food."
+  ],
+  correct: "They ate food."
+},
+{
+  question: "Future Simple",
+  options: [
+    "I watch TV.",
+    "I watched TV.",
+    "I am watching TV.",
+    "I will watch TV."
+  ],
+  correct: "I will watch TV."
+},
+{
+  question: "Present Perfect",
+  options: [
+    "She cleans the room.",
+    "She cleaned the room.",
+    "She has cleaned the room.",
+    "She is cleaning the room."
+  ],
+  correct: "She has cleaned the room."
+},
+{
+  question: "Past Continuous",
+  options: [
+    "I write a letter.",
+    "I wrote a letter.",
+    "I was writing a letter.",
+    "I will write a letter."
+  ],
+  correct: "I was writing a letter."
+},
+{
+  question: "Future Continuous",
+  options: [
+    "He works late.",
+    "He worked late.",
+    "He will be working late.",
+    "He has worked late."
+  ],
+  correct: "He will be working late."
+},
+{
+  question: "Past Perfect",
+  options: [
+    "She starts school.",
+    "She started school.",
+    "She had started school.",
+    "She is starting school."
+  ],
+  correct: "She had started school."
+},
+{
+  question: "Present Perfect Continuous",
+  options: [
+    "I play football.",
+    "I played football.",
+    "I have been playing football.",
+    "I will play football."
+  ],
+  correct: "I have been playing football."
+},
+{
+  question: "Future Perfect",
+  options: [
+    "They finish the job.",
+    "They finished the job.",
+    "They will have finished the job.",
+    "They are finishing the job."
+  ],
+  correct: "They will have finished the job."
+},
+
+{
+  question: "Past Perfect Continuous",
+  options: [
+    "He studies here.",
+    "He was studying here.",
+    "He had been studying here.",
+    "He will study here."
+  ],
+  correct: "He had been studying here."
+},
+{
+  question: "Future Perfect Continuous",
+  options: [
+    "She teaches math.",
+    "She taught math.",
+    "She will have been teaching math.",
+    "She is teaching math."
+  ],
+  correct: "She will have been teaching math."
+},
+{
+  question: "Present Simple",
+  options: [
+    "Dogs are barking.",
+    "Dogs bark loudly.",
+    "Dogs barked loudly.",
+    "Dogs will bark loudly."
+  ],
+  correct: "Dogs bark loudly."
+},
+{
+  question: "Present Continuous",
+  options: [
+    "We make a plan.",
+    "We made a plan.",
+    "We are making a plan.",
+    "We will make a plan."
+  ],
+  correct: "We are making a plan."
+},
+{
+  question: "Past Simple",
+  options: [
+    "She opens the door.",
+    "She opened the door.",
+    "She is opening the door.",
+    "She has opened the door."
+  ],
+  correct: "She opened the door."
+},
+{
+  question: "Future Simple",
+  options: [
+    "I help you.",
+    "I helped you.",
+    "I am helping you.",
+    "I will help you."
+  ],
+  correct: "I will help you."
+},
+{
+  question: "Present Perfect",
+  options: [
+    "He breaks the cup.",
+    "He broke the cup.",
+    "He has broken the cup.",
+    "He is breaking the cup."
+  ],
+  correct: "He has broken the cup."
+},
+{
+  question: "Past Continuous",
+  options: [
+    "They talk loudly.",
+    "They talked loudly.",
+    "They were talking loudly.",
+    "They will talk loudly."
+  ],
+  correct: "They were talking loudly."
+},
+{
+  question: "Future Continuous",
+  options: [
+    "I read tonight.",
+    "I read last night.",
+    "I will be reading tonight.",
+    "I have read tonight."
+  ],
+  correct: "I will be reading tonight."
+},
+{
+  question: "Past Perfect",
+  options: [
+    "We reach home.",
+    "We reached home.",
+    "We had reached home.",
+    "We are reaching home."
+  ],
+  correct: "We had reached home."
+},
+
+{
+  question: "Present Perfect Continuous",
+  options: [
+    "She dances here.",
+    "She danced here.",
+    "She has been dancing here.",
+    "She will dance here."
+  ],
+  correct: "She has been dancing here."
+},
+{
+  question: "Future Perfect",
+  options: [
+    "He completes the course.",
+    "He completed the course.",
+    "He will have completed the course.",
+    "He is completing the course."
+  ],
+  correct: "He will have completed the course."
+},
+{
+  question: "Past Perfect Continuous",
+  options: [
+    "They wait outside.",
+    "They were waiting outside.",
+    "They had been waiting outside.",
+    "They will wait outside."
+  ],
+  correct: "They had been waiting outside."
+},
+{
+  question: "Future Perfect Continuous",
+  options: [
+    "I live here.",
+    "I lived here.",
+    "I will have been living here.",
+    "I am living here."
+  ],
+  correct: "I will have been living here."
+},
+{
+  question: "Present Simple",
+  options: [
+    "She is smiling.",
+    "She smiles a lot.",
+    "She smiled yesterday.",
+    "She will smile later."
+  ],
+  correct: "She smiles a lot."
+},
+{
+  question: "Present Continuous",
+  options: [
+    "He fixes the bike.",
+    "He fixed the bike.",
+    "He is fixing the bike.",
+    "He will fix the bike."
+  ],
+  correct: "He is fixing the bike."
+},
+{
+  question: "Past Simple",
+  options: [
+    "I answer the call.",
+    "I answered the call.",
+    "I am answering the call.",
+    "I have answered the call."
+  ],
+  correct: "I answered the call."
+},
+{
+  question: "Future Simple",
+  options: [
+    "They join us.",
+    "They joined us.",
+    "They are joining us.",
+    "They will join us."
+  ],
+  correct: "They will join us."
+},
+{
+  question: "Present Perfect",
+  options: [
+    "We see the place.",
+    "We saw the place.",
+    "We have seen the place.",
+    "We are seeing the place."
+  ],
+  correct: "We have seen the place."
+},
+// ===== NEXT 30 QUESTIONS =====
+
+{
+  question: "Present Simple",
+  options: [
+    "She is walking now.",
+    "She walks every evening.",
+    "She walked yesterday.",
+    "She will walk tomorrow."
+  ],
+  correct: "She walks every evening."
+},
+{
+  question: "Present Continuous",
+  options: [
+    "He plays chess.",
+    "He played chess.",
+    "He is playing chess.",
+    "He will play chess."
+  ],
+  correct: "He is playing chess."
+},
+{
+  question: "Past Simple",
+  options: [
+    "They are cleaning the room.",
+    "They clean the room.",
+    "They cleaned the room.",
+    "They will clean the room."
+  ],
+  correct: "They cleaned the room."
+},
+{
+  question: "Future Simple",
+  options: [
+    "I finish my work.",
+    "I finished my work.",
+    "I am finishing my work.",
+    "I will finish my work."
+  ],
+  correct: "I will finish my work."
+},
+{
+  question: "Present Perfect",
+  options: [
+    "She opens the shop.",
+    "She opened the shop.",
+    "She has opened the shop.",
+    "She is opening the shop."
+  ],
+  correct: "She has opened the shop."
+},
+{
+  question: "Past Continuous",
+  options: [
+    "I drive the car.",
+    "I drove the car.",
+    "I was driving the car.",
+    "I will drive the car."
+  ],
+  correct: "I was driving the car."
+},
+{
+  question: "Future Continuous",
+  options: [
+    "He works at night.",
+    "He worked at night.",
+    "He will be working at night.",
+    "He has worked at night."
+  ],
+  correct: "He will be working at night."
+},
+{
+  question: "Past Perfect",
+  options: [
+    "She cooks dinner.",
+    "She cooked dinner.",
+    "She had cooked dinner.",
+    "She is cooking dinner."
+  ],
+  correct: "She had cooked dinner."
+},
+{
+  question: "Present Perfect Continuous",
+  options: [
+    "I read books.",
+    "I read books yesterday.",
+    "I have been reading books.",
+    "I will read books."
+  ],
+  correct: "I have been reading books."
+},
+{
+  question: "Future Perfect",
+  options: [
+    "They complete the exam.",
+    "They completed the exam.",
+    "They will have completed the exam.",
+    "They are completing the exam."
+  ],
+  correct: "They will have completed the exam."
+},
+
+{
+  question: "Past Perfect Continuous",
+  options: [
+    "He trains daily.",
+    "He was training daily.",
+    "He had been training daily.",
+    "He will train daily."
+  ],
+  correct: "He had been training daily."
+},
+{
+  question: "Future Perfect Continuous",
+  options: [
+    "She lives here.",
+    "She lived here.",
+    "She will have been living here.",
+    "She is living here."
+  ],
+  correct: "She will have been living here."
+},
+{
+  question: "Present Simple",
+  options: [
+    "The sun is rising.",
+    "The sun rises in the east.",
+    "The sun rose yesterday.",
+    "The sun will rise later."
+  ],
+  correct: "The sun rises in the east."
+},
+{
+  question: "Present Continuous",
+  options: [
+    "We plan the trip.",
+    "We planned the trip.",
+    "We are planning the trip.",
+    "We will plan the trip."
+  ],
+  correct: "We are planning the trip."
+},
+{
+  question: "Past Simple",
+  options: [
+    "She answers the phone.",
+    "She answered the phone.",
+    "She is answering the phone.",
+    "She has answered the phone."
+  ],
+  correct: "She answered the phone."
+},
+{
+  question: "Future Simple",
+  options: [
+    "I join the class.",
+    "I joined the class.",
+    "I am joining the class.",
+    "I will join the class."
+  ],
+  correct: "I will join the class."
+},
+{
+  question: "Present Perfect",
+  options: [
+    "He fixes the bike.",
+    "He fixed the bike.",
+    "He has fixed the bike.",
+    "He is fixing the bike."
+  ],
+  correct: "He has fixed the bike."
+},
+{
+  question: "Past Continuous",
+  options: [
+    "They watch the match.",
+    "They watched the match.",
+    "They were watching the match.",
+    "They will watch the match."
+  ],
+  correct: "They were watching the match."
+},
+{
+  question: "Future Continuous",
+  options: [
+    "I sleep early.",
+    "I slept early.",
+    "I will be sleeping early.",
+    "I have slept early."
+  ],
+  correct: "I will be sleeping early."
+},
+{
+  question: "Past Perfect",
+  options: [
+    "We start the meeting.",
+    "We started the meeting.",
+    "We had started the meeting.",
+    "We are starting the meeting."
+  ],
+  correct: "We had started the meeting."
+},
+
+{
+  question: "Present Perfect Continuous",
+  options: [
+    "She paints pictures.",
+    "She painted pictures.",
+    "She has been painting pictures.",
+    "She will paint pictures."
+  ],
+  correct: "She has been painting pictures."
+},
+{
+  question: "Future Perfect",
+  options: [
+    "He submits the form.",
+    "He submitted the form.",
+    "He will have submitted the form.",
+    "He is submitting the form."
+  ],
+  correct: "He will have submitted the form."
+},
+{
+  question: "Past Perfect Continuous",
+  options: [
+    "They wait in line.",
+    "They were waiting in line.",
+    "They had been waiting in line.",
+    "They will wait in line."
+  ],
+  correct: "They had been waiting in line."
+},
+
+
+
+  ]
+},
    unit11112: {
   name: "Identify the Tense",
   description: "Choose the correct tense from the sentence",
