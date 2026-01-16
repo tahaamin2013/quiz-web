@@ -76,19 +76,16 @@ export default function Home() {
   return (
     <div
       className="min-h-screen"
-      style={{
-        background:
-          gender === "female"
-            ? "linear-gradient(135deg, #ffeef8 0%, #fff0f5 50%, #ffe4f0 100%)"
-            : "linear-gradient(135deg, #e0e7ff 0%, #f0f4ff 50%, #e5ecff 100%)",
-      }}
+
     >
-           <a href="/table-of-tenses" className="px-6 py-2 bg-gray-500 text-white rounded mt-4">
-            Table of Tenses
-          </a>
-           <a href="/translation" className="px-6 py-2 bg-gray-500 text-white rounded mt-4">
-            Translation
-          </a>
+           
+          
+          <div className=" absolute left-4 z-10 mt-2 w-fit rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex={-1}>
+            <div className="py-1" role="none">
+              <a href="/table-of-tenses" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem">Table of Tenses</a>
+              <a href="/translation" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem">Translation</a>
+            </div>
+          </div>
         <UnitSelector onSelectUnit={handleUnitSelect} onReset={handleReset} />
       {currentScreen === "quiz"  && selectedUnit && (
         <QuizInterface
