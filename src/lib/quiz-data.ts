@@ -18,62 +18,64 @@ export const quizData = {
     name: "Present Simple Tense Active Vice",
     description: "Present Simple Tense Active Vice",
     questions: [
+
+
       {
         "question": "وہ اچھی کتابیں پڑھتا ہے۔",
         "options": [
-          "He reads good books.",
-          "He read good books.",
           "He does not read good books.",
-          "He is reading good books."
+          "He is reading good books.",
+          "He read good books.",
+          "He reads good books."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "نسیمہ ہمیشہ سچ بولتی ہے۔",
         "options": [
+          "Naseema does not speak the truth.",
           "Naseema spoke the truth.",
-          "Naseema is speaking the truth.",
           "Naseema always speaks the truth.",
-          "Naseema does not speak the truth."
+          "Naseema is speaking the truth."
         ],
         "correct": 2
       },
       {
         "question": "وہ وقت پر سکول آتے ہیں۔",
         "options": [
-          "They come to school on time.",
           "They do not come to school on time.",
-          "They came to school on time.",
-          "They are coming to school on time."
+          "They come to school on time.",
+          "They are coming to school on time.",
+          "They came to school on time."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "آپ ہر روز نہاتے ہیں۔",
         "options": [
-          "You took a bath every day.",
           "You are taking a bath every day.",
+          "You do not take a bath every day.",
           "You take a bath every day.",
-          "You do not take a bath every day."
+          "You took a bath every day."
         ],
         "correct": 2
       },
       {
         "question": "میں صبح سویرے اُٹھتا ہوں۔",
         "options": [
-          "I woke up early.",
+          "I do not wake up early.",
           "I am waking up early.",
-          "I wake up early in the morning.",
-          "I do not wake up early."
+          "I woke up early.",
+          "I wake up early in the morning."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "ہم اپنا کام خود کرتے ہیں۔",
         "options": [
-          "We do our work ourselves.",
           "We did our work ourselves.",
           "We are doing our work ourselves.",
+          "We do our work ourselves.",
           "We do not do our work ourselves."
         ],
         "correct": 2
@@ -81,92 +83,92 @@ export const quizData = {
       {
         "question": "بکری دودھ دیتی ہے۔",
         "options": [
+          "A goat gave milk.",
           "A goat gives milk.",
           "A goat is giving milk.",
-          "A goat does not give milk.",
-          "A goat gave milk."
+          "A goat does not give milk."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "طوطے باتیں کرتے ہیں۔",
         "options": [
-          "Parrots do not talk.",
+          "Parrots talked.",
           "Parrots talk.",
           "Parrots are talking.",
-          "Parrots talked."
+          "Parrots do not talk."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "جوتے ساز جوتے بناتے ہیں۔",
         "options": [
-          "Shoemakers made shoes.",
           "Shoemakers do not make shoes.",
           "Shoemakers are making shoes.",
+          "Shoemakers made shoes.",
           "Shoemakers make shoes."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "کریم اپنے دانت صاف کرتا ہے۔",
         "options": [
-          "Kareem cleans his teeth.",
           "Kareem does not clean his teeth.",
+          "Kareem cleaned his teeth.",
           "Kareem is cleaning his teeth.",
-          "Kareem cleaned his teeth."
+          "Kareem cleans his teeth."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "آپ چینی کا کاروبار کرتے ہیں۔",
         "options": [
-          "You did business of sugar.",
-          "You do business of sugar.",
           "You are doing business of sugar.",
+          "You do business of sugar.",
+          "You did business of sugar.",
           "You do not do business of sugar."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "میں نئے کپڑے پہنتی ہوں۔",
         "options": [
+          "I do not wear new clothes.",
           "I wear new clothes.",
           "I am wearing new clothes.",
-          "I wore new clothes.",
-          "I do not wear new clothes."
+          "I wore new clothes."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "لڑکیاں گیت گاتی ہیں۔",
         "options": [
-          "Girls sang songs.",
-          "Girls sing songs.",
+          "Girls do not sing songs.",
           "Girls are singing songs.",
-          "Girls do not sing songs."
+          "Girls sing songs.",
+          "Girls sang songs."
         ],
         "correct": 2
       },
       {
         "question": "محنتی طالب علم انعام پاتے ہیں۔",
         "options": [
-          "Hard-working students get prizes.",
+          "Hard-working students got prizes.",
           "Hard-working students are getting prizes.",
-          "Hard-working students do not get prizes.",
-          "Hard-working students got prizes."
+          "Hard-working students get prizes.",
+          "Hard-working students do not get prizes."
         ],
         "correct": 2
       },
       {
         "question": "نجمہ کپڑے اُجلے دھوتی ہے۔",
         "options": [
-          "Najma is washing clothes.",
           "Najma washed clothes.",
           "Najma washes clothes clean.",
+          "Najma is washing clothes.",
           "Najma does not wash clothes."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "گیدڑ شام کو چیختے ہیں۔",
@@ -176,25 +178,25 @@ export const quizData = {
           "Jackals cried in the evening.",
           "Jackals do not cry in the evening."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "میں اپنے بھائی سے پیار کرتا ہوں۔",
         "options": [
           "I am loving my brother.",
-          "I love my brother.",
           "I loved my brother.",
-          "I do not love my brother."
+          "I do not love my brother.",
+          "I love my brother."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "ہم روز اخبار پڑھتے ہیں۔",
         "options": [
-          "We read the newspaper daily.",
           "We are reading the newspaper daily.",
-          "We do not read the newspaper daily.",
-          "We read the newspaper yesterday."
+          "We read the newspaper yesterday.",
+          "We read the newspaper daily.",
+          "We do not read the newspaper daily."
         ],
         "correct": 2
       },
@@ -202,159 +204,159 @@ export const quizData = {
         "question": "اسلم عید پر نئے جوتے خریدتا ہے۔",
         "options": [
           "Aslam bought new shoes on Eid.",
-          "Aslam buys new shoes on Eid.",
+          "Aslam is buying new shoes on Eid.",
           "Aslam does not buy new shoes on Eid.",
-          "Aslam is buying new shoes on Eid."
+          "Aslam buys new shoes on Eid."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "غریب آدمی مشکل سے گزر بسر کرتا ہے۔",
         "options": [
-          "A poor man is living with difficulty.",
-          "A poor man does not live with difficulty.",
+          "A poor man lived with difficulty.",
           "A poor man lives with difficulty.",
-          "A poor man lived with difficulty."
+          "A poor man is living with difficulty.",
+          "A poor man does not live with difficulty."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "امیر آدمی غریبوں کو حقارت سے دیکھتا ہے۔",
         "options": [
+          "A rich man looks at poor people with hatred.",
           "A rich man is looking at poor people.",
-          "A rich man does not look at poor people.",
           "A rich man looked at poor people.",
-          "A rich man looks at poor people with hatred."
+          "A rich man does not look at poor people."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "مرغیاں سارا سال انڈے دیتی ہیں۔",
         "options": [
-          "Hens do not give eggs all year.",
           "Hens gave eggs all year.",
           "Hens are giving eggs all year.",
+          "Hens do not give eggs all year.",
           "Hens give eggs all year."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "آپ دسویں جماعت کو انگریزی پڑھاتے ہیں۔",
         "options": [
-          "You teach English to class ten.",
+          "You do not teach English to class ten.",
           "You are teaching English to class ten.",
           "You taught English to class ten.",
-          "You do not teach English to class ten."
+          "You teach English to class ten."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "میں تیرنا جانتا ہوں۔",
         "options": [
-          "I knew how to swim.",
-          "I do not know how to swim.",
           "I know how to swim.",
-          "I am knowing how to swim."
+          "I do not know how to swim.",
+          "I am knowing how to swim.",
+          "I knew how to swim."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "یہ لڑکا ہمیشہ شور کرتا ہے۔",
         "options": [
           "This boy always makes noise.",
-          "This boy is always making noise.",
           "This boy made noise.",
-          "This boy does not make noise."
+          "This boy does not make noise.",
+          "This boy is always making noise."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "خدا ان کی مدد کرتا ہے جو اپنی مدد آپ کرتے ہیں۔",
         "options": [
-          "God is helping those people.",
-          "God helped those people.",
           "God does not help anyone.",
-          "God helps those who help themselves."
+          "God helps those who help themselves.",
+          "God is helping those people.",
+          "God helped those people."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "ہم بنک سے روپیہ ہر روز نکلواتے ہیں۔",
         "options": [
-          "We take money from the bank every day.",
-          "We are taking money from the bank.",
           "We took money from the bank.",
-          "We do not take money from the bank."
+          "We are taking money from the bank.",
+          "We do not take money from the bank.",
+          "We take money from the bank every day."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "تم جھوٹے بہانے بناتے ہو۔",
         "options": [
-          "You do not make false excuses.",
+          "You make false excuses.",
           "You made false excuses.",
           "You are making false excuses.",
-          "You make false excuses."
+          "You do not make false excuses."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "ڈوبتے کو تنکے کا سہارا۔",
         "options": [
-          "A drowning man is swimming.",
           "A drowning man catches at a straw.",
           "A man is drowning.",
+          "A drowning man is swimming.",
           "A man needs help."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "سورج مغرب میں غروب ہوتا ہے۔",
         "options": [
-          "The sun sets in the west.",
-          "The sun is setting now.",
+          "The sun set yesterday.",
           "The sun does not set in the west.",
-          "The sun set yesterday."
+          "The sun is setting now.",
+          "The sun sets in the west."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "ہم کبھی کبھی عجائب گھر جاتے ہیں۔",
         "options": [
-          "We sometimes go to the museum.",
           "We never go to the museum.",
+          "We sometimes go to the museum.",
           "We are going to the museum.",
           "We went to the museum."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "بچے چڑیا گھر کی سیر سے لطف اٹھاتے ہیں۔",
         "options": [
-          "Children enjoy visiting the zoo.",
+          "Children are visiting the zoo.",
           "Children visited the zoo.",
           "Children do not enjoy the zoo.",
-          "Children are visiting the zoo."
+          "Children enjoy visiting the zoo."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "میرا دوست مجھے ہمیشہ صحیح مشورہ دیتا ہے۔",
         "options": [
-          "My friend gave me advice.",
-          "My friend always gives me good advice.",
           "My friend does not give me advice.",
-          "My friend is giving me advice."
+          "My friend gave me advice.",
+          "My friend is giving me advice.",
+          "My friend always gives me good advice."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "جو محنت کرتا ہے اس کا پھل پاتا ہے۔",
         "options": [
-          "He who works hard gets the reward.",
-          "He is working hard now.",
+          "He worked hard.",
           "Hard work is difficult.",
-          "He worked hard."
+          "He who works hard gets the reward.",
+          "He is working hard now."
         ],
         "correct": 2
       },
@@ -362,18 +364,18 @@ export const quizData = {
         "question": "آپ ہر سال ہزار روپے ٹیکس ادا کرتے ہیں۔",
         "options": [
           "You pay one thousand rupees tax every year.",
-          "You are paying tax now.",
           "You paid tax last year.",
-          "You do not pay tax."
+          "You do not pay tax.",
+          "You are paying tax now."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "میں بل کی ادائیگی ہر ماہ کی دس تاریخ تک کر دیتا ہوں۔",
         "options": [
-          "I pay the bill by the 10th of every month.",
-          "I am paying the bill.",
           "I paid the bill.",
+          "I am paying the bill.",
+          "I pay the bill by the 10th of every month.",
           "I do not pay bills."
         ],
         "correct": 2
@@ -381,122 +383,122 @@ export const quizData = {
       {
         "question": "یہ قصاب کم تولتا ہے۔",
         "options": [
-          "This butcher sold meat.",
           "This butcher gives less weight.",
-          "This butcher is honest.",
-          "This butcher is weighing meat."
+          "This butcher sold meat.",
+          "This butcher is weighing meat.",
+          "This butcher is honest."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "یہ دوکاندار غٹیا مال بیچتا ہے۔",
         "options": [
-          "This shopkeeper sells fruits.",
           "This shopkeeper sold goods.",
-          "This shopkeeper sells bad quality goods.",
-          "This shopkeeper is selling goods."
+          "This shopkeeper is selling goods.",
+          "This shopkeeper sells fruits.",
+          "This shopkeeper sells bad quality goods."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "لالچی آدمی کالا دھن کماتا ہے۔",
         "options": [
-          "A greedy man saves money.",
+          "A greedy man earns black money.",
+          "A greedy man saved money.",
           "A greedy man is earning money.",
-          "A greedy man earned money.",
-          "A greedy man earns black money."
+          "A greedy man earned money."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "غریب آدمی بڑی مشکل سے گزر بسر کرتا ہے۔",
         "options": [
-          "A poor man enjoys life.",
-          "A poor man is living happily.",
+          "A poor man lived easily.",
           "A poor man lives with great difficulty.",
-          "A poor man lived easily."
+          "A poor man is living happily.",
+          "A poor man enjoys life."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "شکاری ہر پرندے پر نشانہ باندھتا ہے۔",
         "options": [
-          "A hunter is hunting birds.",
+          "A hunter aims at every bird.",
           "A hunter feeds birds.",
-          "A hunter hunted birds.",
-          "A hunter aims at every bird."
+          "A hunter is hunting birds.",
+          "A hunter hunted birds."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "ڈاکٹر مریض کو آرام کا مشورہ دیتا ہے۔",
         "options": [
-          "A doctor ignored the patient.",
-          "A doctor is treating the patient.",
           "A doctor advises the patient to take rest.",
-          "A doctor treated the patient."
+          "A doctor is treating the patient.",
+          "A doctor treated the patient.",
+          "A doctor ignores the patient."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "کسان آج کل گندم کی فصل کاشت کرتا ہے۔",
         "options": [
-          "A farmer grows a wheat crop these days.",
+          "A farmer grew wheat.",
           "A farmer buys wheat.",
-          "A farmer is selling wheat.",
-          "A farmer grew wheat."
+          "A farmer grows a wheat crop these days.",
+          "A farmer is selling wheat."
         ],
         "correct": 2
       },
       {
         "question": "وہ اچھے آدمیوں میں اُٹھتا بیٹھتا ہے۔",
         "options": [
-          "He mixes with good people.",
           "He is sitting alone.",
-          "He avoids people.",
-          "He met bad people."
+          "He mixes with good people.",
+          "He met bad people.",
+          "He avoids people."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "شخص ہر آدمی کو دھوکہ دیتا ہے۔",
         "options": [
           "That person is honest.",
-          "That person cheats everyone.",
+          "That person is helping people.",
           "That person helped people.",
-          "That person is helping people."
+          "That person cheats everyone."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "وہ با قاعدہ ورزش نہیں کرتا ہے۔",
         "options": [
-          "He exercises regularly.",
+          "He is exercising now.",
           "He exercised yesterday.",
           "He does not exercise regularly.",
-          "He is exercising now."
+          "He exercises regularly."
         ],
         "correct": 2
       },
       {
         "question": "وہ ہمیشہ سچ نہیں بولتی ہے۔",
         "options": [
+          "She does not always speak the truth.",
           "She always speaks the truth.",
           "She spoke the truth.",
-          "She does not always speak the truth.",
           "She is speaking the truth."
         ],
-        "correct": 1
+        "correct": 0
       },
       {
         "question": "وہ اپنا کام آپ نہیں کرتے ہیں۔",
         "options": [
-          "They did their work.",
-          "They do their work themselves.",
           "They do not do their work themselves.",
-          "They are doing their work."
+          "They are doing their work.",
+          "They did their work.",
+          "They do their work themselves."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "آپ شام کو سیر کے لیے نہیں جاتے۔",
@@ -506,37 +508,37 @@ export const quizData = {
           "You are going for a walk.",
           "You go for a walk in the evening."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "میں اس سے ملنے کی خواہش نہیں رکھتا۔",
         "options": [
-          "I am meeting him.",
           "I want to meet him.",
+          "I do not want to meet him.",
           "I wanted to meet him.",
-          "I do not want to meet him."
+          "I am meeting him."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "ہم کے بازی کا کھیل پسند نہیں کرتے ہیں۔",
         "options": [
+          "We liked the game of kabaddi.",
           "We are playing kabaddi.",
           "We like the game of kabaddi.",
-          "We liked the game of kabaddi.",
           "We do not like the game of kabaddi."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "بکری گوشت نہیں کھاتی۔",
         "options": [
-          "A goat ate meat.",
           "A goat does not eat meat.",
-          "A goat is eating meat.",
-          "A goat eats meat."
+          "A goat eats meat.",
+          "A goat ate meat.",
+          "A goat is eating meat."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "وہ کسی سے نفرت نہیں کرتا ہے۔",
@@ -546,17 +548,17 @@ export const quizData = {
           "He is hating someone.",
           "He does not hate anyone."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "لڑکی اپنی امی کو نہیں بلاتی ہے۔",
         "options": [
-          "The girl called her mother.",
-          "The girl is calling her mother.",
           "The girl does not call her mother.",
-          "The girl calls her mother."
+          "The girl called her mother.",
+          "The girl calls her mother.",
+          "The girl is calling her mother."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "گھوڑے ریگستان میں نہیں دوڑتے ہیں۔",
@@ -566,87 +568,87 @@ export const quizData = {
           "Horses are running in the desert.",
           "Horses run in the desert."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "ہم اپنی قابلیت کی لاف نہیں مارتے ہیں۔",
         "options": [
-          "We boasted of our ability.",
-          "We are boasting of our ability.",
           "We boast of our ability.",
-          "We do not boast of our ability."
+          "We do not boast of our ability.",
+          "We boasted of our ability.",
+          "We are boasting of our ability."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "ہم یہ کارخانہ نہیں چلاتے ہیں۔",
         "options": [
-          "We do not run this factory.",
-          "We run this factory.",
           "We ran this factory.",
-          "We are running this factory."
+          "We run this factory.",
+          "We are running this factory.",
+          "We do not run this factory."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "تمھارا بھائی گائے کی دیکھ بھال نہیں کرتا ہے۔",
         "options": [
           "Your brother looked after the cow.",
           "Your brother looks after the cow.",
-          "Your brother does not look after the cow.",
-          "Your brother is looking after the cow."
+          "Your brother is looking after the cow.",
+          "Your brother does not look after the cow."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "اچھے لڑکے کسی کو گالی نہیں دیتے ہیں۔",
         "options": [
           "Good boys do not abuse anyone.",
-          "Good boys abuse people.",
           "Good boys abused people.",
-          "Good boys are abusing people."
+          "Good boys are abusing people.",
+          "Good boys abuse people."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "اچھے دوست دھوکا نہیں دیتے ہیں۔",
         "options": [
+          "Good friends are cheating.",
           "Good friends do not cheat.",
           "Good friends cheated.",
-          "Good friends cheat.",
-          "Good friends are cheating."
+          "Good friends cheat."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "وہ گناہ پر نہیں پچھتاتا ہے۔",
         "options": [
+          "He does not regret his sin.",
           "He regretted his sin.",
           "He regrets his sin.",
-          "He is regretting his sin.",
-          "He does not regret his sin."
+          "He is regretting his sin."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "آپ اپنی غلطی کو تسلیم نہیں کرتے ہیں۔",
         "options": [
           "You do not admit your mistake.",
+          "You are admitting your mistake.",
           "You admitted your mistake.",
-          "You admit your mistake.",
-          "You are admitting your mistake."
+          "You admit your mistake."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "غیر دلچسپ کتابیں ہاتھوں ہاتھ نہیں بکتی ہیں۔",
         "options": [
+          "Uninteresting books are selling.",
           "Uninteresting books do not sell quickly.",
-          "Uninteresting books sold quickly.",
           "Uninteresting books sell quickly.",
-          "Uninteresting books are selling."
+          "Uninteresting books sold quickly."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "میں اس اجنبی کو نہیں پہچانتا ہوں۔",
@@ -656,25 +658,25 @@ export const quizData = {
           "I am knowing this stranger.",
           "I do not recognize this stranger."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "ہم آپ کو نہیں جانتے ہیں۔",
         "options": [
-          "We know you.",
           "We are knowing you.",
+          "We know you.",
           "We knew you.",
           "We do not know you."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "سب لڑکے شرارت نہیں کرتے ہیں۔",
         "options": [
-          "All boys did mischief.",
           "All boys do mischief.",
-          "All boys are doing mischief.",
-          "All boys do not do mischief."
+          "All boys did mischief.",
+          "All boys do not do mischief.",
+          "All boys are doing mischief."
         ],
         "correct": 2
       },
@@ -686,24 +688,24 @@ export const quizData = {
           "A wise man is making such a mistake.",
           "A wise man does not make such a mistake."
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "سورج زمین کے گرد چکر نہیں لگاتا ہے۔",
         "options": [
           "The sun does not move around the earth.",
-          "The sun moves around the earth.",
           "The sun is moving around the earth.",
+          "The sun moves around the earth.",
           "The sun moved around the earth."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "ستارے دن میں نہیں چمکتے ہیں۔",
         "options": [
-          "Stars do not shine in the day.",
           "Stars are shining in the day.",
           "Stars shine in the day.",
+          "Stars do not shine in the day.",
           "Stars shone in the day."
         ],
         "correct": 2
@@ -713,117 +715,117 @@ export const quizData = {
         "options": [
           "He is listening to me.",
           "He does not listen to me.",
-          "He listens to me.",
-          "He listened to me."
+          "He listened to me.",
+          "He listens to me."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "چاند آج کل شام کو نمودار نہیں ہوتا ہے۔",
         "options": [
           "The moon appeared in the evening.",
-          "The moon appears in the evening these days.",
           "The moon is appearing in the evening.",
-          "The moon does not appear in the evening these days."
+          "The moon does not appear in the evening these days.",
+          "The moon appears in the evening these days."
         ],
         "correct": 2
       },
       {
         "question": "لکڑی پانی میں نہیں ڈوبتی ہے۔",
         "options": [
-          "Wood sinks in water.",
-          "Wood is sinking in water.",
+          "Wood does not sink in water.",
           "Wood sank in water.",
-          "Wood does not sink in water."
+          "Wood is sinking in water.",
+          "Wood sinks in water."
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "لوہے کا ٹکڑا پانی پر نہیں تیرتا۔",
         "options": [
-          "A piece of iron floats on water.",
-          "A piece of iron floated on water.",
           "A piece of iron is floating on water.",
-          "A piece of iron does not float on water."
+          "A piece of iron floated on water.",
+          "A piece of iron does not float on water.",
+          "A piece of iron floats on water."
         ],
         "correct": 2
       },
       {
         "question": "اکبر کچھ جمع نہیں کرتا ہے۔",
         "options": [
-          "Akbar saves something.",
           "Akbar is saving something.",
           "Akbar does not save anything.",
-          "Akbar saved something."
+          "Akbar saved something.",
+          "Akbar saves something."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "ہم کسی کو خواہ مخواہ تنگ نہیں کرتے ہیں۔",
         "options": [
-          "We trouble people without reason.",
-          "We do not trouble anyone without reason.",
           "We are troubling people.",
-          "We troubled people."
+          "We do not trouble anyone without reason.",
+          "We troubled people.",
+          "We trouble people without reason."
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "بچے آنکھ مچولی کہاں کھیلتے ہیں؟",
         "options": [
-          "Where do children sleep?",
           "Where do children play hide and seek?",
-          "Where do children eat?",
-          "Where do children study?"
+          "Where do children sleep?",
+          "Where do children study?",
+          "Where do children eat?"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "ڈاکیا اس گلی میں کب آتا ہے؟",
         "options": [
-          "When do shops open?",
-          "When does the postman come to this street?",
           "When do the children play?",
+          "When does the postman come to this street?",
+          "When do shops open?",
           "When does the teacher arrive?"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "تم اس کے یہاں قیام پر کیوں اعتراض کرتے ہو؟",
         "options": [
           "Why do you object to staying at his place?",
-          "Why do you go to school?",
           "Why do you eat food?",
+          "Why do you go to school?",
           "Why do you play games?"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "کیا بادل زور سے گر جاتا ہے؟",
         "options": [
-          "Does the sun shine?",
-          "Does it rain heavily?",
           "Does the moon rise?",
+          "Does it rain heavily?",
+          "Does the sun shine?",
           "Does the wind blow?"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "کیا گرمیوں میں اولے پڑتے ہیں؟",
         "options": [
           "Do birds sing in summer?",
           "Do people swim in summer?",
-          "Do flowers bloom in summer?",
-          "Do hailstones fall in summer?"
+          "Do hailstones fall in summer?",
+          "Do flowers bloom in summer?"
         ],
         "correct": 2
       },
       {
         "question": "وہ اپنی آمدن سے زیادہ کیوں خرچ کرتا ہے؟",
         "options": [
-          "Why does he spend more than his income?",
           "Why does he earn money?",
           "Why does he sleep early?",
+          "Why does he spend more than his income?",
           "Why does he play football?"
         ],
         "correct": 2
@@ -831,8 +833,8 @@ export const quizData = {
       {
         "question": "کیا وہ اپنے کیے پر شرم محسوس کرتا ہے؟",
         "options": [
-          "Does he feel happy?",
           "Does he go to school?",
+          "Does he feel happy?",
           "Does he feel ashamed of what he did?",
           "Does he play cricket?"
         ],
@@ -841,100 +843,100 @@ export const quizData = {
       {
         "question": "کیا بشیر رات گئے تک آوارہ گردی کرتا ہے؟",
         "options": [
-          "Does Bashir sleep early?",
-          "Does Bashir study at night?",
+          "Does Bashir play football?",
           "Does Bashir roam around late at night?",
-          "Does Bashir play football?"
+          "Does Bashir study at night?",
+          "Does Bashir sleep early?"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "نسیمہ اپنے ماموں کے ہاں کتنا عرصہ ٹھہرتی ہے؟",
         "options": [
-          "How many friends does Naseema have?",
           "How many books does Naseema read?",
-          "How far is Naseema's house?",
-          "How long does Naseema stay at her uncle's place?"
+          "How long does Naseema stay at her uncle's place?",
+          "How many friends does Naseema have?",
+          "How far is Naseema's house?"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "فوج کہاں پڑاؤ کرتی ہے؟",
         "options": [
-          "Where do the teachers meet?",
-          "Where do people shop?",
           "Where does the army camp?",
-          "Where do the children play?"
+          "Where do the children play?",
+          "Where do the teachers meet?",
+          "Where do people shop?"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "کیا آپ مٹھائیوں پر پھلوں کو ترجیح دیتے ہیں؟",
         "options": [
-          "Do you eat vegetables?",
-          "Do you like bread?",
           "Do you drink milk?",
-          "Do you prefer fruits over sweets?"
+          "Do you like bread?",
+          "Do you prefer fruits over sweets?",
+          "Do you eat vegetables?"
         ],
         "correct": 2
       },
       {
         "question": "کیا لوگ وقت کو اہم سمجھتے ہیں؟",
         "options": [
-          "Do people value time?",
-          "Do people sleep a lot?",
           "Do people walk fast?",
-          "Do people eat slowly?"
+          "Do people eat slowly?",
+          "Do people value time?",
+          "Do people sleep a lot?"
         ],
         "correct": 2
       },
       {
         "question": "یہ طلبہ وقت کیوں ضائع کرتے ہیں؟",
         "options": [
+          "Why do these students play?",
           "Why do these students waste time?",
           "Why do these students eat food?",
-          "Why do these students read books?",
-          "Why do these students play?"
+          "Why do these students read books?"
         ],
-        "correct": 2
+        "correct": 1
       },
       {
         "question": "مرغا کب اذان دیتا ہے؟",
         "options": [
           "When does the cow eat?",
-          "When does the rooster crow?",
           "When does the sun rise?",
-          "When do birds fly?"
+          "When do birds fly?",
+          "When does the rooster crow?"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "کیا آپ کی بیٹی بڑوں کا احترام کرتی ہے؟",
         "options": [
           "Does your daughter play football?",
           "Does your daughter study hard?",
-          "Does your daughter sing songs?",
-          "Does your daughter respect elders?"
+          "Does your daughter respect elders?",
+          "Does your daughter sing songs?"
         ],
         "correct": 2
       },
       {
         "question": "کیا وہ لومڑ کی قیمت مناسب طلب کرتا ہے؟",
         "options": [
-          "Does he sell vegetables?",
-          "Does he eat food?",
           "Does he ask a fair price for the fox?",
-          "Does he buy a fox?"
+          "Does he sell vegetables?",
+          "Does he buy a fox?",
+          "Does he eat food?"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "کپڑے کا تاجر کم ناپ کیوں دیتا ہے؟",
         "options": [
-          "Why does the merchant sell cloth?",
           "Why does the merchant buy clothes?",
+          "Why does the merchant open a shop?",
           "Why does the cloth merchant give less measure?",
-          "Why does the merchant open a shop?"
+          "Why does the merchant sell cloth?"
         ],
         "correct": 2
       },
@@ -943,37 +945,37 @@ export const quizData = {
         "options": [
           "Do all students read books?",
           "Do all students play?",
-          "Do all students eat?",
-          "Do all students collect postal stamps?"
+          "Do all students collect postal stamps?",
+          "Do all students eat?"
         ],
         "correct": 2
       },
       {
         "question": "کیا امیر آدمی دونوں ہاتھوں سے دولت لٹاتا ہے؟",
         "options": [
-          "Does a rich man save money?",
-          "Does a rich man squander wealth with both hands?",
+          "Does a rich man lend money?",
           "Does a rich man earn money?",
-          "Does a rich man lend money?"
+          "Does a rich man save money?",
+          "Does a rich man squander wealth with both hands?"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "تم سائیکل خریدنے پر کیوں اصرار کرتے ہو؟",
         "options": [
           "Why do you sleep early?",
-          "Why do you play football?",
+          "Why do you eat vegetables?",
           "Why do you insist on buying a bicycle?",
-          "Why do you eat vegetables?"
+          "Why do you play football?"
         ],
         "correct": 2
       },
       {
         "question": "کیا یہ لڑکی رات کو دیر سے سوتی ہے؟",
         "options": [
-          "Does this girl sleep late at night?",
           "Does this girl play games?",
           "Does this girl wake up early?",
+          "Does this girl sleep late at night?",
           "Does this girl read books?"
         ],
         "correct": 2
@@ -981,38 +983,38 @@ export const quizData = {
       {
         "question": "پرندے کب چہچہاتے ہیں؟",
         "options": [
-          "When do birds fly?",
-          "When do birds sleep?",
           "When do birds chirp?",
-          "When do birds eat?"
+          "When do birds eat?",
+          "When do birds sleep?",
+          "When do birds fly?"
         ],
-        "correct": 2
+        "correct": 0
       },
       {
         "question": "عرس پر لوگ کیوں گاتے اور ناچتے ہیں؟",
         "options": [
           "Why do people eat at Urs?",
-          "Why do people sing and dance at Urs?",
+          "Why do people play at Urs?",
           "Why do people sleep at Urs?",
-          "Why do people play at Urs?"
+          "Why do people sing and dance at Urs?"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "کیا وہ کسی کی پرواہ نہیں کرتے ہیں؟",
         "options": [
-          "Do they not care about anyone?",
-          "Do they help people?",
           "Do they love everyone?",
-          "Do they greet people?"
+          "Do they greet people?",
+          "Do they not care about anyone?",
+          "Do they help people?"
         ],
         "correct": 2
       },
       {
         "question": "آپ کسی قسم کے خواب دیکھتے ہیں؟",
         "options": [
-          "Do you play?",
           "Do you eat food?",
+          "Do you play?",
           "Do you have any dreams?",
           "Do you study?"
         ],
@@ -1021,19 +1023,19 @@ export const quizData = {
       {
         "question": "تم ترجمے کی مشقیں مجھے کیوں نہیں دکھاتے ہو؟",
         "options": [
-          "Why do you not show me the translation exercises?",
-          "Why do you sleep?",
+          "Why do you eat?",
           "Why do you play?",
-          "Why do you eat?"
+          "Why do you sleep?",
+          "Why do you not show me the translation exercises?"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "کیا وہ اپنی غلطی مانتا ہے؟",
         "options": [
-          "Does he admit his mistake?",
           "Does he ignore his mistake?",
           "Does he repeat his mistake?",
+          "Does he admit his mistake?",
           "Does he hide his mistake?"
         ],
         "correct": 2
@@ -1042,32 +1044,33 @@ export const quizData = {
         "question": "کیا یہ جماعت اپنے کام میں دلچسپی لیتی ہے؟",
         "options": [
           "Does this class play?",
-          "Does this class eat?",
           "Does this class sleep?",
+          "Does this class eat?",
           "Does this class take interest in their work?"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "کیا پاکستان میں بارش صرف موسم گرما میں ہوتی ہے؟",
         "options": [
-          "Does it never rain?",
-          "Does it rain only in summer in Pakistan?",
+          "Does it rain in winter only?",
           "Does it snow in summer?",
-          "Does it rain in winter only?"
+          "Does it never rain?",
+          "Does it rain only in summer in Pakistan?"
         ],
-        "correct": 2
+        "correct": 3
       },
       {
         "question": "پہاڑوں پر کس موسم میں برفباری ہوتی ہے؟",
         "options": [
-          "In which season do flowers bloom?",
           "In which season does it snow on the mountains?",
           "In which season do birds migrate?",
+          "In which season do flowers bloom?",
           "In which season do people swim?"
         ],
-        "correct": 2
+        "correct": 0
       }
+
     ]
   },
   unit1: {
