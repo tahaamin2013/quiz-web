@@ -14,22 +14,909 @@ const TENSE_OPTIONS = [
 ];
 
 export const quizData = {
+  tag: {
+    name: "Present Perfect Tense Active Vice",
+    description: "Present Perfect Tense Active Vice",
+
+    questions: [
+      {
+        "question": "اُس لڑکے نے سبق یاد کر لیا ہے۔",
+        "options": [
+          "That boy has memorized the lesson.",
+          "That boy is memorizing the lesson.",
+          "That boy had memorized the lesson.",
+          "That boy will memorize the lesson."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "اُس لڑکی نے کہانی لکھ لی ہے۔",
+        "options": [
+          "She wrote a story.",
+          "She has written a story.",
+          "She was writing a story.",
+          "She writes a story."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "وہ نظم پڑھا چکے ہیں۔",
+        "options": [
+          "They have recited the poem.",
+          "They recited the poem.",
+          "They had recited the poem.",
+          "They were reciting the poem."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "آپ اپنا کام ختم کر چکے ہیں۔",
+        "options": [
+          "You have finished your work.",
+          "You had finished your work.",
+          "You are finishing your work.",
+          "You finished your work."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "میں ناشتہ کر چکا ہوں۔",
+        "options": [
+          "I have taken breakfast.",
+          "I had taken breakfast.",
+          "I take breakfast.",
+          "I was taking breakfast."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "ہم نے گیت من لیے ہیں۔",
+        "options": [
+          "We have sung the song.",
+          "We sung the song.",
+          "We were singing the song.",
+          "We had sung the song."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "کتے نے خرگوش کو پکڑ لیا ہے۔",
+        "options": [
+          "The dog caught the rabbit.",
+          "The dog has caught the rabbit.",
+          "The dog had caught the rabbit.",
+          "The dog was catching the rabbit."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "چوہوں نے دیواروں میں بل بنا لیے ہیں۔",
+        "options": [
+          "The rats made holes in the walls.",
+          "The rats have made holes in the walls.",
+          "The rats were making holes in the walls.",
+          "The rats make holes in the walls."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "لڑکوں نے گھونسلے سے انڈے چرا لیے ہیں۔",
+        "options": [
+          "The boys stole eggs from the nest.",
+          "The boys have stolen eggs from the nest.",
+          "The boys were stealing eggs from the nest.",
+          "The boys had stolen eggs from the nest."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "موسم برسات شروع ہو چکا ہے۔",
+        "options": [
+          "The rainy season had started.",
+          "The rainy season starts.",
+          "The rainy season has started.",
+          "The rainy season started."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "موسم سرما ختم ہو چکا ہے۔",
+        "options": [
+          "The winter season has ended.",
+          "The winter season ended.",
+          "The winter season was ending.",
+          "The winter season ends."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "پودے بڑھ کر درخت بن چکے ہیں۔",
+        "options": [
+          "The plants have grown into trees.",
+          "The plants grew into trees.",
+          "The plants had grown into trees.",
+          "The plants are growing into trees."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "غریب آدمی امیر ہو چکا ہے۔",
+        "options": [
+          "The poor man became rich.",
+          "The poor man becomes rich.",
+          "The poor man has become rich.",
+          "The poor man was becoming rich."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "امجد انعام حاصل کر چکا ہے۔",
+        "options": [
+          "Amjad obtained the prize.",
+          "Amjad has obtained the prize.",
+          "Amjad had obtained the prize.",
+          "Amjad was obtaining the prize."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "ہم نے دعوت قبول کر لی ہے۔",
+        "options": [
+          "We accepted the invitation.",
+          "We have accepted the invitation.",
+          "We had accepted the invitation.",
+          "We were accepting the invitation."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کلاک چار بجا چکا ہے۔",
+        "options": [
+          "The clock struck four.",
+          "The clock has struck four.",
+          "The clock was striking four.",
+          "The clock strikes four."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "امجد پر چہ حل کر چکے ہیں۔",
+        "options": [
+          "They solved the problem on Amjad.",
+          "They have solved the problem on Amjad.",
+          "They were solving the problem on Amjad.",
+          "They had solved the problem on Amjad."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "مہمان خصوصی انعام تقسیم کر چکا ہے۔",
+        "options": [
+          "The guest distributed the special award.",
+          "The guest has distributed the special award.",
+          "The guest was distributing the special award.",
+          "The guest had distributed the special award."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "پرنسپل نے طلبہ کو اسناد دے دی ہیں۔",
+        "options": [
+          "The principal gave certificates to the students.",
+          "The principal has given certificates to the students.",
+          "The principal was giving certificates to the students.",
+          "The principal gives certificates to the students."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "ٹیمیں بیچ کھیل چکی ہیں۔",
+        "options": [
+          "The teams have played the match.",
+          "The teams played the match.",
+          "The teams were playing the match.",
+          "The teams had played the match."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "عدالت میرے حق میں فیصلہ دے چکی ہے۔",
+        "options": [
+          "The court decided in my favor.",
+          "The court has decided in my favor.",
+          "The court was deciding in my favor.",
+          "The court had decided in my favor."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "بورڈ نے نتیجے کا اعلان کر دیا ہے۔",
+        "options": [
+          "The board announced the result.",
+          "The board has announced the result.",
+          "The board was announcing the result.",
+          "The board had announced the result."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "چور گھر میں نقب لگا چکے ہیں۔",
+        "options": [
+          "The thieves dug a tunnel in the house.",
+          "The thieves have dug a tunnel in the house.",
+          "The thieves were digging a tunnel in the house.",
+          "The thieves had dug a tunnel in the house."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "میں یہ تصویر بیچ چکا ہوں۔",
+        "options": [
+          "I sold this picture.",
+          "I have sold this picture.",
+          "I was selling this picture.",
+          "I had sold this picture."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "نسیمہ نے امتحان پاس کر لیا ہے۔",
+        "options": [
+          "Nasima passed the exam.",
+          "Nasima has passed the exam.",
+          "Nasima was passing the exam.",
+          "Nasima had passed the exam."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "بشیر وظیفہ حاصل کر چکا ہے۔",
+        "options": [
+          "Bashir got the scholarship.",
+          "Bashir has got the scholarship.",
+          "Bashir was getting the scholarship.",
+          "Bashir had got the scholarship."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "تمام پرندے اڑ چکے ہیں۔",
+        "options": [
+          "All the birds flew away.",
+          "All the birds have flown away.",
+          "All the birds were flying away.",
+          "All the birds had flown away."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "ہم بندوق چلا چکے ہیں۔",
+        "options": [
+          "We fired the gun.",
+          "We have fired the gun.",
+          "We were firing the gun.",
+          "We had fired the gun."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "میچ بغیر ہار جیت کے ختم ہو چکا ہے۔",
+        "options": [
+          "The match ended without a win or loss.",
+          "The match has ended without a win or loss.",
+          "The match was ending without a win or loss.",
+          "The match had ended without a win or loss."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "فوج نے قلعے پر قبضہ کر لیا ہے۔",
+        "options": [
+          "The army captured the fort.",
+          "The army has captured the fort.",
+          "The army was capturing the fort.",
+          "The army had captured the fort."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "اس نے کتاب نہیں پھاڑی ہے۔",
+        "options": [
+          "She has torn the book.",
+          "She has not torn the book.",
+          "She tore the book.",
+          "She is tearing the book."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "انھوں نے ہمارا انتظار نہیں کیا ہے۔",
+        "options": [
+          "They have waited for us.",
+          "They are waiting for us.",
+          "They did not wait for us.",
+          "They have not waited for us."
+        ],
+        "correct": 3
+      },
+      {
+        "question": "پرنسپل نے سکول بند نہیں کیا ہے۔",
+        "options": [
+          "The Principal has closed the school.",
+          "The Principal has not closed the school.",
+          "The Principal did not close the school.",
+          "The Principal is closing the school."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "ہم چائے پی نہیں چکے ہیں۔",
+        "options": [
+          "We have taken tea.",
+          "We are taking tea.",
+          "We did not take tea.",
+          "We have not taken tea."
+        ],
+        "correct": 3
+      },
+      {
+        "question": "گاڑی روانہ نہیں ہوئی ہے۔",
+        "options": [
+          "The car has left.",
+          "The car has not left.",
+          "The car did not leave.",
+          "The car is leaving."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "مستری نے کام ادھورا نہیں چھوڑا ہے۔",
+        "options": [
+          "The mason has left the work incomplete.",
+          "The mason has not left the work incomplete.",
+          "The mason did not leave the work incomplete.",
+          "The mason leaves the work incomplete."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "بادشاہ نے تاج نہیں اُتارا ہے۔",
+        "options": [
+          "The king has not taken off the crown.",
+          "The king took off the crown.",
+          "The king has taken off the crown.",
+          "The king is taking off the crown."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "مرغی انڈا نہیں دے چکی ہے۔",
+        "options": [
+          "The hen has laid an egg.",
+          "The hen has not laid an egg.",
+          "The hen did not lay an egg.",
+          "The hen lays an egg."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "مور جنگل میں نہیں ناچا ہے۔",
+        "options": [
+          "The peacock has danced in the forest.",
+          "The peacock did not dance in the forest.",
+          "The peacock has not danced in the forest.",
+          "The peacock is dancing in the forest."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "سورج ڈوب نہیں چکا ہے۔",
+        "options": [
+          "The sun has set.",
+          "The sun is setting.",
+          "The sun did not set.",
+          "The sun has not set."
+        ],
+        "correct": 3
+      },
+      {
+        "question": "مریض نے دوائی نہیں پی ہے۔",
+        "options": [
+          "The patient has taken medicine.",
+          "The patient has not taken medicine.",
+          "The patient did not take medicine.",
+          "The patient is taking medicine."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "مزدوروں نے ہڑتال نہیں کی ہے۔",
+        "options": [
+          "The labourers have gone on strike.",
+          "The labourers have not gone on strike.",
+          "The labourers did not go on strike.",
+          "The labourers are on strike."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "عورتوں نے دلہن کو نہیں سنوارا ہے۔",
+        "options": [
+          "The women have not decorated the bride.",
+          "The women have decorated the bride.",
+          "The women did not decorate the bride.",
+          "The women are decorating the bride."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "دلہے نے نئے کپڑے نہیں پہنے ہیں۔",
+        "options": [
+          "The bridegroom has worn new clothes.",
+          "The bridegroom wears new clothes.",
+          "The bridegroom has not worn new clothes.",
+          "The bridegroom did not wear new clothes."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "چھت نہیں گرمی ہے۔",
+        "options": [
+          "The roof is hot.",
+          "The roof was hot.",
+          "The roof has been hot.",
+          "The roof is not hot."
+        ],
+        "correct": 3
+      },
+      {
+        "question": "انھوں نے گم شدہ بچے کی تلاش نہیں کی ہے۔",
+        "options": [
+          "They have searched for the lost child.",
+          "They have not searched for the lost child.",
+          "They did not search for the lost child.",
+          "They are searching for the lost child."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "آپ نے میری درخواست منظور نہیں کی ہے۔",
+        "options": [
+          "You have not accepted my application.",
+          "You have accepted my application.",
+          "You did not accept my application.",
+          "You accept my application."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "عدالت نے ملزم کی درخواست پر غور نہیں کیا ہے۔",
+        "options": [
+          "The court has considered the accused's application.",
+          "The court has not considered the accused's application.",
+          "The court did not consider the accused's application.",
+          "The court considers the accused's application."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "اس نے اپنی بیوی پر اعتماد نہیں کیا ہے۔",
+        "options": [
+          "He has trusted his wife.",
+          "He has not trusted his wife.",
+          "He did not trust his wife.",
+          "He trusts his wife."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "چوکیدار نے اپنا فرض ادا نہیں کیا ہے۔",
+        "options": [
+          "The watchman has performed his duty.",
+          "The watchman has not performed his duty.",
+          "The watchman did not perform his duty.",
+          "The watchman performs his duty."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "تمام مہمان نہیں آچکے ہیں۔",
+        "options": [
+          "All the guests have arrived.",
+          "All the guests have not arrived.",
+          "All the guests did not arrive.",
+          "All the guests are arriving."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کھلاڑیوں کو سرد مشروب نہیں دیے گئے ہیں۔",
+        "options": [
+          "The players have been given cold drinks.",
+          "The players have not been given cold drinks.",
+          "The players were not given cold drinks.",
+          "The players are given cold drinks."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کامیاب امیدوار کو اسناد نہیں دی گئی ہیں۔",
+        "options": [
+          "The successful candidate has been given certificates.",
+          "The successful candidate has not been given certificates.",
+          "The successful candidate was not given certificates.",
+          "The successful candidate is given certificates."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "اچھے کھلاڑیوں کی حوصلہ افزائی نہیں کی گئی ہے۔",
+        "options": [
+          "Good players have been encouraged.",
+          "Good players have not been encouraged.",
+          "Good players were not encouraged.",
+          "Good players are encouraged."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "ہمارے دوست نے ہم سے مشورہ نہیں کیا ہے۔",
+        "options": [
+          "Our friend has consulted us.",
+          "Our friend has not consulted us.",
+          "Our friend did not consult us.",
+          "Our friend consults us."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "سپاہی نے افسر کا حکم نہیں مانا ہے۔",
+        "options": [
+          "The soldier has obeyed the officer's order.",
+          "The soldier has not obeyed the officer's order.",
+          "The soldier did not obey the officer's order.",
+          "The soldier obeys the officer's order."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "دشمن نے ہتھیار نہیں ڈالے ہیں۔",
+        "options": [
+          "The enemies have surrendered.",
+          "The enemies have not surrendered.",
+          "The enemies did not surrender.",
+          "The enemies surrender."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "ہماری فوج نے پسپائی اختیار نہیں کی ہے۔",
+        "options": [
+          "Our army has retreated.",
+          "Our army has not retreated.",
+          "Our army did not retreat.",
+          "Our army retreats."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "میرے دوستوں نے مجھے چائے نہیں دی ہے۔",
+        "options": [
+          "My friends have given me tea.",
+          "My friends have not given me tea.",
+          "My friends did not give me tea.",
+          "My friends give me tea."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "پولیس نے اسے رنگے ہاتھوں نہیں پکڑا ہے۔",
+        "options": [
+          "The police have caught him red-handed.",
+          "The police have not caught him red-handed.",
+          "The police did not catch him red-handed.",
+          "The police catch him red-handed."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا یہ لڑکا امتحان پاس کر چکا ہے؟",
+        "options": [
+          "Has this boy passed the exam?",
+          "Did this boy pass the exam?",
+          "Is this boy passing the exam?",
+          "This boy has passed the exam."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "کیا شکاری پرندے پکڑ چکا ہے؟",
+        "options": [
+          "Did the hunter catch the birds?",
+          "Has the hunter caught the birds?",
+          "Is the hunter catching the birds?",
+          "The hunter has caught the birds."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "تم نے اس آدمی کو کہاں دیکھا ہے؟",
+        "options": [
+          "Where did you see that man?",
+          "Where have you seen that man?",
+          "Where are you seeing that man?",
+          "Where you have seen that man?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "آپ کے دوست نے کب شادی کی ہے؟",
+        "options": [
+          "When did your friend marry?",
+          "When has your friend married?",
+          "When your friend has married?",
+          "When is your friend marrying?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا اُسکے بیٹے نے آدمی کو مار ڈالا ہے؟",
+        "options": [
+          "Did his son kill the man?",
+          "Has his son killed the man?",
+          "Is his son killing the man?",
+          "His son has killed the man."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "آپ نے ڈوبتے ہوئے بچے کو کس طرح بچایا ہے؟",
+        "options": [
+          "How did you save the drowning child?",
+          "How have you saved the drowning child?",
+          "How are you saving the drowning child?",
+          "How you have saved the drowning child?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا ڈاکٹر صاف بچ کر نکل گئے ہیں؟",
+        "options": [
+          "Did the doctors escape safely?",
+          "Have the doctors escaped safely?",
+          "Are the doctors escaping safely?",
+          "The doctors have escaped safely."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا اس نے اپنی بے عزتی کا بدلہ نہیں لیا ہے؟",
+        "options": [
+          "Did he not avenge his insult?",
+          "Has he not avenged his insult?",
+          "Is he not avenging his insult?",
+          "He has not avenged his insult."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا اکبر نے اپنے فرض سے غفلت نہیں برتی ہے؟",
+        "options": [
+          "Did Akbar not neglect his duty?",
+          "Has Akbar not neglected his duty?",
+          "Is Akbar not neglecting his duty?",
+          "Akbar has not neglected his duty."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "انھوں نے اپنا کام مکمل کیوں نہیں کیا ہے؟",
+        "options": [
+          "Why did they not complete their work?",
+          "Why have they not completed their work?",
+          "Why are they not completing their work?",
+          "Why they have not completed their work?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "تم نے اپنے ساری آمدنی کیوں خرچ کر دی ہے؟",
+        "options": [
+          "Why did you spend all your income?",
+          "Why have you spent all your income?",
+          "Why are you spending all your income?",
+          "Why you have spent all your income?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "اس نے اپنی پہلی تقریر کہاں کی ہے؟",
+        "options": [
+          "Where did he deliver his first speech?",
+          "Where has he delivered his first speech?",
+          "Where is he delivering his first speech?",
+          "Where he has delivered his first speech?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا انھوں نے شادی پر آتشبازی کا مظاہرہ کیا ہے؟",
+        "options": [
+          "Did they display fireworks at the wedding?",
+          "Have they displayed fireworks at the wedding?",
+          "Are they displaying fireworks at the wedding?",
+          "They have displayed fireworks at the wedding."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا تمھارا بھائی پہاڑ کی چوٹی پر پہنچ چکا ہے؟",
+        "options": [
+          "Did your brother reach the mountain top?",
+          "Has your brother reached the mountain top?",
+          "Is your brother reaching the mountain top?",
+          "Your brother has reached the mountain top."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا تم بازی جیت چکے ہو؟",
+        "options": [
+          "Did you win the match?",
+          "Have you won the match?",
+          "Are you winning the match?",
+          "You have won the match."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا تمھارے ساتھی بھاگ چکے ہیں؟",
+        "options": [
+          "Did your companions run away?",
+          "Have your companions run away?",
+          "Are your companions running away?",
+          "Your companions have run away."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "ڈاکوؤں نے امیر آدمی کو کہاں لوٹا ہے؟",
+        "options": [
+          "Where did the dacoits loot the rich man?",
+          "Where have the dacoits looted the rich man?",
+          "Where are the dacoits looting the rich man?",
+          "Where the dacoits have looted the rich man?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "آپ نے میرے لیے ٹکٹ کیوں خریدا ہے؟",
+        "options": [
+          "Why did you buy a ticket for me?",
+          "Why have you bought a ticket for me?",
+          "Why are you buying a ticket for me?",
+          "Why you have bought a ticket for me?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "اس بچے کو کس نے بگاڑا ہے؟",
+        "options": [
+          "Who spoiled this child?",
+          "Who has spoiled this child?",
+          "Who is spoiling this child?",
+          "Who has been spoiling this child?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "لڑکی نے بوتل کیوں توڑ دی ہے؟",
+        "options": [
+          "Why did the girl break the bottle?",
+          "Why has the girl broken the bottle?",
+          "Why is the girl breaking the bottle?",
+          "Why the girl has broken the bottle?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "وہ چھت سے کیسے گرا ہے؟",
+        "options": [
+          "How did he fall from the roof?",
+          "How has he fallen from the roof?",
+          "How is he falling from the roof?",
+          "How he has fallen from the roof?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا اسلم کو کھوئی ہوئی رقم واپس مل گئی ہے؟",
+        "options": [
+          "Did Aslam get the lost money back?",
+          "Has Aslam got the lost money back?",
+          "Is Aslam getting the lost money back?",
+          "Aslam has got the lost money back."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "پولیس مکان میں کیوں داخل ہوئی؟",
+        "options": [
+          "Why did the police enter the house?",
+          "Why has the police entered the house?",
+          "Why is the police entering the house?",
+          "Why the police has entered the house?"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "کیا جھیل میں پانی جم چکا ہے؟",
+        "options": [
+          "Did the water in the lake freeze?",
+          "Has the water in the lake frozen?",
+          "Is the water in the lake freezing?",
+          "The water in the lake has frozen."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "تم نے استعفیٰ کیوں دے دیا ہے؟",
+        "options": [
+          "Why did you resign?",
+          "Why have you resigned?",
+          "Why are you resigning?",
+          "Why you have resigned?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا اس نے بندوق بھر لی ہے؟",
+        "options": [
+          "Did he load the gun?",
+          "Has he loaded the gun?",
+          "Is he loading the gun?",
+          "He has loaded the gun."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "آپ نے روپیہ کہاں رکھا ہے؟",
+        "options": [
+          "Where did you keep the money?",
+          "Where have you kept the money?",
+          "Where are you keeping the money?",
+          "Where you have kept the money?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا اس نے گاؤں ہمیشہ کے لیے چھوڑ دیا ہے؟",
+        "options": [
+          "Did he leave the village forever?",
+          "Has he left the village forever?",
+          "Is he leaving the village forever?",
+          "He has left the village forever."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا ہم نے اپنا دعوی ثابت کر دیا ہے؟",
+        "options": [
+          "Did we prove our claim?",
+          "Have we proved our claim?",
+          "Are we proving our claim?",
+          "We have proved our claim."
+        ],
+        "correct": 1
+      }
+    ]
+  },
   pstav: {
     name: "Present Simple Tense Active Vice",
     description: "Present Simple Tense Active Vice",
     questions: [
 
 
-      {
-        "question": "وہ اچھی کتابیں پڑھتا ہے۔",
-        "options": [
-          "He does not read good books.",
-          "He is reading good books.",
-          "He read good books.",
-          "He reads good books."
-        ],
-        "correct": 3
-      },
       {
         "question": "نسیمہ ہمیشہ سچ بولتی ہے۔",
         "options": [

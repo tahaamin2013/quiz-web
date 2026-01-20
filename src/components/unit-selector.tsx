@@ -30,6 +30,7 @@ export default function UnitSelector({ onSelectUnit, onReset }: UnitSelectorProp
   const units = [
     { id: "pstav", data: quizData.pstav },
     { id: "pct", data: quizData.pct },
+    { id: "tag", data: quizData.tag },
     { id: "unit1111", data: quizData.unit1111 },
     { id: "unit11112", data: quizData.unit11112 },
     { id: "unit133", data: quizData.unit133 },
