@@ -1073,6 +1073,922 @@ export const quizData = {
 
     ]
   },
+  pct: {
+    name: "Present Continuous Tense",
+    description: "Present Continuous Tense",
+    questions: [
+      {
+        "question": "لوگ تفریح کے لیے چھانگا مانگا جا رہے ہیں۔",
+        "options": [
+          "People are collecting money for entertainment.",
+          "People are going for a walk.",
+          "People are asking for a swing for entertainment.",
+          "People are buying a swing."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "لڑکا امتحان کی تیاری اچھی طرح کر رہا ہے۔",
+        "options": [
+          "The boy is preparing for the exam well.",
+          "The boy is taking the exam.",
+          "The boy is failing the exam.",
+          "The boy is checking his exam paper."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "مرغی انڈے دے رہی ہے۔",
+        "options": [
+          "The hen is laying an egg.",
+          "The hen is eating an egg.",
+          "The hen is sitting on an egg.",
+          "The hen is breaking an egg."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "میں پاکستان کا نقشہ بنارہی ہوں۔",
+        "options": [
+          "I am buying a map of Pakistan.",
+          "I am drawing a map of Pakistan.",
+          "I am looking at a map of Pakistan.",
+          "I am coloring a map of Pakistan."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "گوالہ گائے کا دودھ دوھ رہا ہے۔",
+        "options": [
+          "The milkman is milking the cow.",
+          "The milkman is feeding the cow.",
+          "The milkman is selling the cow.",
+          "The milkman is beating the cow."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "بچے مینڈکوں پر پتھر پھینک رہے ہیں۔",
+        "options": [
+          "Children are feeding the frogs.",
+          "Children are catching the frogs.",
+          "Children are throwing stones at the frogs.",
+          "Children are looking at the frogs."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "میرے ساتھی میری ہمت بند ہا رہے ہیں۔",
+        "options": [
+          "My friends are breaking my courage.",
+          "My friends are helping me.",
+          "My friends are praising me.",
+          "My friends are playing with me."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "ماہی گیر مچھلیاں پکڑ رہے ہیں۔",
+        "options": [
+          "The fishermen are eating fish.",
+          "The fishermen are selling fish.",
+          "The fishermen are catching fish.",
+          "The fishermen are cooking fish."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "امجد گھڑی کو چابی دے رہا ہے۔",
+        "options": [
+          "Amjad is breaking the clock.",
+          "Amjad is winding the clock.",
+          "Amjad is buying a clock.",
+          "Amjad is fixing the clock."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "پولیس قاتل کے پیچھے بھاگ رہی ہے۔",
+        "options": [
+          "The police is catching the killer.",
+          "The police is running behind the killer.",
+          "The police is arresting the killer.",
+          "The police is helping the killer."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "ہم ایک نئی کتاب چھاپ رہے ہیں۔",
+        "options": [
+          "We are reading a new book.",
+          "We are writing a new book.",
+          "We are printing a new book.",
+          "We are buying a new book."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "یہ کپڑ استا بک رہا ہے۔",
+        "options": [
+          "He is sewing clothes.",
+          "He is wearing clothes.",
+          "He is tearing clothes.",
+          "He is washing clothes."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "امیر آدمی خیرات دے رہا ہے۔",
+        "options": [
+          "The rich man is counting money.",
+          "The rich man is lending money.",
+          "The rich man is giving alms.",
+          "The rich man is borrowing money."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "فقیر سکے گن رہا ہے۔",
+        "options": [
+          "The beggar is begging for coins.",
+          "The beggar is counting coins.",
+          "The beggar is stealing coins.",
+          "The beggar is throwing coins."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "وہ نلکے کی ٹوٹی کھول رہا ہے۔",
+        "options": [
+          "He is closing the tap.",
+          "He is breaking the tap.",
+          "He is opening the tap.",
+          "He is washing the tap."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "میں اپنی گھڑی تلاش کر رہا ہوں۔",
+        "options": [
+          "I am buying my watch.",
+          "I am looking for my watch.",
+          "I is wearing my watch.",
+          "I am repairing my watch."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "بوندا باندی ہو رہی ہے۔",
+        "options": [
+          "The snow is falling.",
+          "The wind is blowing.",
+          "It is drizzling.",
+          "The sun is shining."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "کنواں چل رہا ہے۔",
+        "options": [
+          "The well is drying.",
+          "The well is filling.",
+          "The well is working.",
+          "The well is falling."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "میں اس وقت آرام کر رہا ہوں۔",
+        "options": [
+          "I am working at the moment.",
+          "I am playing at the moment.",
+          "I am resting at the moment.",
+          "I am sleeping at the moment."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "چولھے سے دھواں اُٹھ رہا ہے۔",
+        "options": [
+          "Smoke is rising from the stove.",
+          "Fire is rising from the stove.",
+          "Food is cooking on the stove.",
+          "Water is boiling on the stove."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "ہم پرانے سکے جمع کر رہے ہیں۔",
+        "options": [
+          "We are collecting old coins.",
+          "We are spending old coins.",
+          "We are selling old coins.",
+          "We are finding old coins."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "مجھے چکر آ رہے ہیں۔",
+        "options": [
+          "I am feeling dizzy.",
+          "I am falling down.",
+          "I am running around.",
+          "I am feeling sleepy."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "آپ اپنے دوست کو الوداع کہہ رہے ہیں۔",
+        "options": [
+          "You are greeting your friend.",
+          "You are meeting your friend.",
+          "You are saying goodbye to your friend.",
+          "You are calling your friend."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "وہ دریا میں غوطہ لگا رہا ہے۔",
+        "options": [
+          "He is swimming in the river.",
+          "He is drowning in the river.",
+          "He is diving in the river.",
+          "He is fishing in the river."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "بچے شور مچا رہے ہیں۔",
+        "options": [
+          "Children are playing quietly.",
+          "Children are making noise.",
+          "Children are sleeping.",
+          "Children are studying."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "اکبر گندم کاٹ رہا ہے۔",
+        "options": [
+          "Akbar is sowing wheat.",
+          "Akbar is cutting wheat.",
+          "Akbar is buying wheat.",
+          "Akbar is selling wheat."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "عورت دودھ ابال رہی ہے۔",
+        "options": [
+          "The woman is churning milk.",
+          "The woman is boiling milk.",
+          "The woman is drinking milk.",
+          "The woman is spilling milk."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "طلبہ سکول کو سجا رہے ہیں۔",
+        "options": [
+          "Students are building the school.",
+          "Students are cleaning the school.",
+          "Students are decorating the school.",
+          "Students are leaving the school."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "وہ مجھے ملنے آرہا ہے۔",
+        "options": [
+          "He is leaving me.",
+          "He is calling me.",
+          "He is coming to meet me.",
+          "He is waiting for me."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "حکومت نئے سکول کھول رہی ہے۔",
+        "options": [
+          "The government is closing new schools.",
+          "The government is opening new schools.",
+          "The government is building new schools.",
+          "The government is visiting new schools."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "پاکستان دن دوگنی رات چوگنی ترقی کر رہا ہے۔",
+        "options": [
+          "Pakistan is developing day and night.",
+          "Pakistan is fighting day and night.",
+          "Pakistan is working day and night.",
+          "Pakistan is sleeping day and night."
+        ],
+        "correct": 0
+      },
+      {
+        "question": "رکشا اس طرف نہیں آرہا ہے۔",
+        "options": [
+          "The rickshaw is coming this way.",
+          "The rickshaw is stopping here.",
+          "The rickshaw is not coming this way.",
+          "The rickshaw is going that way."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "لوگ ہوائی اڈے پر نہیں جا رہے ہیں۔",
+        "options": [
+          "People are going to the airport.",
+          "People are not going to the airport.",
+          "People are coming from the airport.",
+          "People are waiting at the airport."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "بچے شور نہیں کر رہے ہیں۔",
+        "options": [
+          "Children are making noise.",
+          "Children are not making noise.",
+          "Children are shouting.",
+          "Children are crying."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "میں اس کو راز نہیں بتا رہا ہوں۔",
+        "options": [
+          "I am telling him a secret.",
+          "I am keeping a secret from him.",
+          "I am listening to a secret.",
+          "I am guessing a secret."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "ہم یہاں کسی کا انتظار نہیں کر رہے ہیں۔",
+        "options": [
+          "We are waiting for someone here.",
+          "We are not waiting for anyone here.",
+          "We are looking for someone here.",
+          "We are meeting someone here."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "وہ مسکر انہیں رہی ہے۔",
+        "options": [
+          "She is laughing.",
+          "She is crying.",
+          "She is not smiling.",
+          "She is shouting."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "کتے ہڈی پر نہیں لڑ رہے ہیں۔",
+        "options": [
+          "The dogs are fighting over a bone.",
+          "The dogs are eating a bone.",
+          "The dogs are not fighting over a bone.",
+          "The dogs are burying a bone."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "ہم جائیداد تقسیم نہیں کر رہے ہیں۔",
+        "options": [
+          "We are dividing the property.",
+          "We are buying the property.",
+          "We are selling the property.",
+          "We are not dividing the property."
+        ],
+        "correct": 3
+      },
+      {
+        "question": "تم اپنے ساتھی سے تعاون نہیں کر رہے ہو۔",
+        "options": [
+          "You are cheating your companion.",
+          "You are helping your companion.",
+          "You are not cooperating with your companion.",
+          "You are fighting your companion."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "شریف آدمی تمھیں حقارت سے نہیں دیکھ رہا ہے۔",
+        "options": [
+          "A noble man is looking at you with hatred.",
+          "A noble man is looking at you with love.",
+          "A noble man is not looking at you with hatred.",
+          "A noble man is looking at you with respect."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "وہ خطرے کا سامنا دلیری سے نہیں کر رہا ہے۔",
+        "options": [
+          "He is facing the danger bravely.",
+          "He is running away from danger.",
+          "He is not facing the danger bravely.",
+          "He is ignoring the danger."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "ڈرائیور موٹر کار تیز نہیں چلا رہا ہے۔",
+        "options": [
+          "The driver is driving the car fast.",
+          "The driver is stopping the car.",
+          "The driver is not driving the car fast.",
+          "The driver is repairing the car."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "میں بکری کا دودھ نہیں نکال رہی ہوں۔",
+        "options": [
+          "I am milking the goat.",
+          "I am feeding the goat.",
+          "I am not milking the goat.",
+          "I am beating the goat."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "بچے تتلیاں نہیں پکڑ رہے ہیں۔",
+        "options": [
+          "Children are catching butterflies.",
+          "Children are killing butterflies.",
+          "Children are not catching butterflies.",
+          "Children are watching butterflies."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "میں وقت ضائع نہیں کر رہا ہوں۔",
+        "options": [
+          "I am wasting time.",
+          "I am saving time.",
+          "I am not wasting time.",
+          "I am killing time."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "آپ مجھے اپنا پتہ انہیں بتا رہے ہیں۔",
+        "options": [
+          "You are hiding your address from me.",
+          "You are writing your address to me.",
+          "You are not telling me your address.",
+          "You are forgetting your address."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "وہ جلوس کی قیادت نہیں کر رہا ہے۔",
+        "options": [
+          "He is leading the procession.",
+          "He is ending the procession.",
+          "He is not leading the procession.",
+          "He is watching the procession."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "گورنر جلسے کی صدارت نہیں کر رہا ہے۔",
+        "options": [
+          "The Governor is attending the meeting.",
+          "The Governor is cancelling the meeting.",
+          "The Governor is not presiding over the meeting.",
+          "The Governor is speaking at the meeting."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "وہ دیانتداری سے کام نہیں کر رہا ہے۔",
+        "options": [
+          "He is working honestly.",
+          "He is working lazily.",
+          "He is not working honestly.",
+          "He is working quickly."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "تم میری رائے پر نکتہ چینی نہیں کر رہے ہو۔",
+        "options": [
+          "You are agreeing with my opinion.",
+          "You are criticizing my opinion.",
+          "You are not finding fault with my opinion.",
+          "You are ignoring my opinion."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "یہ افسر اپنے فرائض سے غفلت نہیں برت رہا ہے۔",
+        "options": [
+          "This officer is neglecting his duties.",
+          "This officer is performing his duties.",
+          "This officer is not neglecting his duties.",
+          "This officer is ignoring his duties."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "مزدور کام سے جی نہیں چرا رہے ہیں۔",
+        "options": [
+          "The laborers are working hard.",
+          "The laborers are shirking work.",
+          "The laborers are not shirking work.",
+          "The laborers are leaving work."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "ہم پھول نہیں سونگھ رہے ہیں۔",
+        "options": [
+          "We are plucking flowers.",
+          "We are smelling flowers.",
+          "We are not smelling flowers.",
+          "We are watering flowers."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "لڑکیاں جماعت میں اُونگھ نہیں رہی ہیں۔",
+        "options": [
+          "Girls are whispering in the class.",
+          "Girls are not whispering in the class.",
+          "Girls are shouting in the class.",
+          "Girls are studying in the class."
+        ],
+        "correct": 1
+      },
+      {
+        "question": "وہ اپنے گناہ پر شرمندہ نہیں ہو رہا ہے۔",
+        "options": [
+          "He is feeling ashamed of his sin.",
+          "He is forgetting his sin.",
+          "He is not feeling ashamed of his sin.",
+          "He is repeating his sin."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "باورچی کھانا نہیں پکا رہا ہے۔",
+        "options": [
+          "The cook is preparing food.",
+          "The cook is eating food.",
+          "The cook is not cooking food.",
+          "The cook is serving food."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "لڑکے گنے کا رس نہیں پی رہے ہیں۔",
+        "options": [
+          "Boys are drinking sugarcane juice.",
+          "Boys are buying sugarcane.",
+          "Boys are not drinking sugarcane juice.",
+          "Boys are eating sugarcane."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "عورت مدد کے لیے نہیں پکار رہی ہے۔",
+        "options": [
+          "The woman is crying for help.",
+          "The woman is laughing.",
+          "The woman is not calling for help.",
+          "The woman is whispering."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "امجد کپڑے نہیں بدل رہا ہے۔",
+        "options": [
+          "Amjad is wearing clothes.",
+          "Amjad is washing clothes.",
+          "Amjad is not changing clothes.",
+          "Amjad is buying clothes."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "عورت چکی نہیں چلا رہی ہے۔",
+        "options": [
+          "The woman is running the mill.",
+          "The woman is breaking the mill.",
+          "The woman is not running the mill.",
+          "The woman is fixing the mill."
+        ],
+        "correct": 2
+      },
+      {
+        "question": "کیا بچہ سورہا ہے؟",
+        "options": [
+          "Is the child weeping?",
+          "Is the child laughing?",
+          "Is the child sleeping?",
+          "Is the child playing?"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "کیا تم خبریں سن رہے ہو؟",
+        "options": [
+          "Are you reading news?",
+          "Are you listening to news?",
+          "Are you watching news?",
+          "Are you telling news?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا کھلاڑی میچ کھیل رہے ہیں؟",
+        "options": [
+          "Are the players watching the match?",
+          "Are the players winning the match?",
+          "Are the players playing the match?",
+          "Are the players losing the match?"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "کیا سلمہ اپنی خالہ کے گھر جا رہی ہے؟",
+        "options": [
+          "Is Salma coming from her aunt's house?",
+          "Is Salma going to her aunt's house?",
+          "Is Salma cleaning her aunt's house?",
+          "Is Salma leaving her aunt's house?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "لوگ کہاں ناچ رہے ہیں؟",
+        "options": [
+          "Where are people sleeping?",
+          "Where are people eating?",
+          "Where are people dancing?",
+          "Where are people working?"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "طلبہ سکول سے جلدی واپس کیوں آ رہے ہیں؟",
+        "options": [
+          "Why are students coming late from school?",
+          "Why are students going to school?",
+          "Why are students returning early from school?",
+          "Why are students staying at school?"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "ہوائی جہاز یہاں کیوں اُتر رہا ہے؟",
+        "options": [
+          "Why is the plane flying here?",
+          "Why is the plane taking off here?",
+          "Why is the plane landing here?",
+          "Why is the plane waiting here?"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "کیا تمھاری گھڑی روزانہ پانچ منٹ پیچھے رہ رہی ہے؟",
+        "options": [
+          "Is your watch stopping daily?",
+          "Is your watch going fast daily?",
+          "Is your watch losing five minutes daily?",
+          "Is your watch breaking daily?"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "گھنٹی کون بجا رہا ہے؟",
+        "options": [
+          "Who is breaking the bell?",
+          "Who is ringing the bell?",
+          "Who is buying the bell?",
+          "Who is hiding the bell?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "مہمان کب یہاں پہنچ رہے ہیں؟",
+        "options": [
+          "When are guests leaving here?",
+          "When are guests arriving here?",
+          "When are guests eating here?",
+          "When are guests sleeping here?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کتنے آدمی اس معاملے پر غور کر رہے ہیں؟",
+        "options": [
+          "How many men are ignoring this matter?",
+          "How many men are discussing this matter?",
+          "How many men are creating this matter?",
+          "How many men are solving this matter?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا میں آپ کو مخاطب نہیں کر رہا ہوں؟",
+        "options": [
+          "Am I addressing you?",
+          "Am I ignoring you?",
+          "Am I leaving you?",
+          "Am I calling you?"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "نرس کس سے باتیں کر رہی ہے؟",
+        "options": [
+          "Who is the nurse beating?",
+          "Who is the nurse helping?",
+          "Who is the nurse talking to?",
+          "Who is the nurse looking at?"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "ڈاکٹر مریض کو ٹیکہ کیسے لگا رہا ہے؟",
+        "options": [
+          "How is the doctor treating the patient?",
+          "How is the doctor injecting the patient?",
+          "How is the doctor meeting the patient?",
+          "How is the doctor checking the patient?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کتنے وکیل بحث کر رہے ہیں؟",
+        "options": [
+          "How many lawyers are sleeping?",
+          "How many lawyers are arguing?",
+          "How many lawyers are eating?",
+          "How many lawyers are writing?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا چاند نکل رہا ہے؟",
+        "options": [
+          "Is the moon setting?",
+          "Is the moon disappearing?",
+          "Is the moon rising?",
+          "Is the moon shining?"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "کیا برے لڑکے بسوں پر پتھر پھینک رہے ہیں؟",
+        "options": [
+          "Are bad boys throwing stones at buses?",
+          "Are bad boys boarding buses?",
+          "Are bad boys breaking buses?",
+          "Are bad boys driving buses?"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "کیا مزدور مٹی کھودا رہے ہیں؟",
+        "options": [
+          "Are laborers filling the earth?",
+          "Are laborers digging the earth?",
+          "Are laborers walking on the earth?",
+          "Are laborers selling the earth?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "تم اپنا مرکان کیوں بیچ رہے ہو؟",
+        "options": [
+          "Why are you buying your shop?",
+          "Why are you selling your shop?",
+          "Why are you opening your shop?",
+          "Why are you closing your shop?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کیا بشیر نیا موٹر سائیکل خرید رہا ہے؟",
+        "options": [
+          "Is Bashir riding a new motorcycle?",
+          "Is Bashir selling a new motorcycle?",
+          "Is Bashir buying a new motorcycle?",
+          "Is Bashir breaking a new motorcycle?"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "عورتیں کپڑے کہاں دھو رہی ہیں؟",
+        "options": [
+          "Where are women wearing clothes?",
+          "Where are women washing clothes?",
+          "Where are women buying clothes?",
+          "Where are women sewing clothes?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "کتنے آدمی اس کاروبار میں شریک ہو رہے ہیں؟",
+        "options": [
+          "How many men are leaving this business?",
+          "How many men are sharing in this business?",
+          "How many men are hating this business?",
+          "How many men are ignoring this business?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "تم بینک سے کتنا روپیہ نکلوا رہے ہو؟",
+        "options": [
+          "How much money are you depositing in the bank?",
+          "How much money are you stealing from the bank?",
+          "How much money are you withdrawing from the bank?",
+          "How much money are you borrowing from the bank?"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "مجھے رات کے کھانے پر کون دعوت دے رہا ہے؟",
+        "options": [
+          "Who is inviting me to dinner?",
+          "Who is cooking for me?",
+          "Who is eating with me?",
+          "Who is serving me?"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "بچارے پناہ گزین کہاں جا رہے ہیں؟",
+        "options": [
+          "Where are refugees going?",
+          "Where are refugees hiding?",
+          "Where are refugees sleeping?",
+          "Where are refugees coming from?"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "کیا دوکاندار گاہک سے زیادہ پیسے وصول کر رہا ہے؟",
+        "options": [
+          "Is the shopkeeper giving money to the customer?",
+          "Is the shopkeeper taking more money from the customer?",
+          "Is the shopkeeper counting money?",
+          "Is the shopkeeper refusing money?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "تم کس کا پیغام لے کر جا رہے ہو؟",
+        "options": [
+          "Whose message are you ignoring?",
+          "Whose message are you taking?",
+          "Whose message are you writing?",
+          "Whose message are you reading?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "ٹھیکیدار کب سے کام شروع کر رہا ہے؟",
+        "options": [
+          "When is the contractor stopping work?",
+          "When is the contractor starting work?",
+          "Since when is the contractor starting work?",
+          "Why is the contractor working?"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "دروازے کون کھٹکھٹا رہا ہے؟",
+        "options": [
+          "Who is breaking the door?",
+          "Who is knocking at the door?",
+          "Who is opening the door?",
+          "Who is painting the door?"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "تم کون سا رسالہ پڑھ رہے ہو؟",
+        "options": [
+          "Which magazine are you writing?",
+          "Which magazine are you reading?",
+          "Which magazine are you buying?",
+          "Which magazine are you tearing?"
+        ],
+        "correct": 1
+      }
+    ]
+  },
   unit1: {
     name: "Unit 1: am/is/are - Present Tense of 'to be'",
     description: "Master the present tense of the verb 'to be' - am, is, and are",
