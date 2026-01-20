@@ -14,6 +14,537 @@ const TENSE_OPTIONS = [
 ];
 
 export const quizData = {
+  pstav: {
+    name: "Present Simple Tense Active Vice",
+    description: "Present Simple Tense Active Vice",
+    questions: [
+      {
+        "question": "وہ اچھی کتابیں پڑھتا ہے۔",
+        "options": ["He is reading good books.", "He read good books.", "He reads good books.", "He does not read good books."],
+        "correct": 2
+      },
+      {
+        "question": "نسیمہ ہمیشہ سچ بولتی ہے۔",
+        "options": ["Naseema is speaking the truth.", "Naseema spoke the truth.", "Naseema always speaks the truth.", "Naseema does not speak the truth."],
+        "correct": 2
+      },
+      {
+        "question": "وہ وقت پر سکول آتے ہیں۔",
+        "options": ["They are coming to school on time.", "They came to school on time.", "They come to school on time.", "They do not come to school on time."],
+        "correct": 2
+      },
+      {
+        "question": "آپ ہر روز نہاتے ہیں۔",
+        "options": ["You are taking a bath every day.", "You took a bath every day.", "You take a bath every day.", "You do not take a bath every day."],
+        "correct": 2
+      },
+      {
+        "question": "میں صبح سویرے اُٹھتا ہوں۔",
+        "options": ["I am waking up early.", "I woke up early.", "I wake up early in the morning.", "I do not wake up early."],
+        "correct": 2
+      },
+      {
+        "question": "ہم اپنا کام خود کرتے ہیں۔",
+        "options": ["We are doing our work ourselves.", "We did our work ourselves.", "We do our work ourselves.", "We do not do our work ourselves."],
+        "correct": 2
+      },
+      {
+        "question": "بکری دودھ دیتی ہے۔",
+        "options": ["A goat is giving milk.", "A goat gave milk.", "A goat gives milk.", "A goat does not give milk."],
+        "correct": 2
+      },
+      {
+        "question": "طوطے باتیں کرتے ہیں۔",
+        "options": ["Parrots are talking.", "Parrots talked.", "Parrots talk.", "Parrots do not talk."],
+        "correct": 2
+      },
+      {
+        "question": "جوتے ساز جوتے بناتے ہیں۔",
+        "options": ["Shoemakers are making shoes.", "Shoemakers made shoes.", "Shoemakers make shoes.", "Shoemakers do not make shoes."],
+        "correct": 2
+      },
+      {
+        "question": "کریم اپنے دانت صاف کرتا ہے۔",
+        "options": ["Kareem is cleaning his teeth.", "Kareem cleaned his teeth.", "Kareem cleans his teeth.", "Kareem does not clean his teeth."],
+        "correct": 2
+      },
+      {
+        "question": "آپ چینی کا کاروبار کرتے ہیں۔",
+        "options": ["You are doing business of sugar.", "You did business of sugar.", "You do business of sugar.", "You do not do business of sugar."],
+        "correct": 2
+      },
+      {
+        "question": "میں نئے کپڑے پہنتی ہوں۔",
+        "options": ["I am wearing new clothes.", "I wore new clothes.", "I wear new clothes.", "I do not wear new clothes."],
+        "correct": 2
+      },
+      {
+        "question": "لڑکیاں گیت گاتی ہیں۔",
+        "options": ["Girls are singing songs.", "Girls sang songs.", "Girls sing songs.", "Girls do not sing songs."],
+        "correct": 2
+      },
+      {
+        "question": "محنتی طالب علم انعام پاتے ہیں۔",
+        "options": ["Hard-working students are getting prizes.", "Hard-working students got prizes.", "Hard-working students get prizes.", "Hard-working students do not get prizes."],
+        "correct": 2
+      },
+      {
+        "question": "نجمہ کپڑے اُجلے دھوتی ہے۔",
+        "options": ["Najma is washing clothes.", "Najma washed clothes.", "Najma washes clothes clean.", "Najma does not wash clothes."],
+        "correct": 2
+      },
+      {
+        "question": "گیدڑ شام کو چیختے ہیں۔",
+        "options": ["Jackals are crying in the evening.", "Jackals cried in the evening.", "Jackals cry in the evening.", "Jackals do not cry in the evening."],
+        "correct": 2
+      },
+      {
+        "question": "میں اپنے بھائی سے پیار کرتا ہوں۔",
+        "options": ["I am loving my brother.", "I loved my brother.", "I love my brother.", "I do not love my brother."],
+        "correct": 2
+      },
+      {
+        "question": "ہم روز اخبار پڑھتے ہیں۔",
+        "options": ["We are reading the newspaper daily.", "We read the newspaper yesterday.", "We read the newspaper daily.", "We do not read the newspaper daily."],
+        "correct": 2
+      },
+      {
+        "question": "اسلم عید پر نئے جوتے خریدتا ہے۔",
+        "options": ["Aslam is buying new shoes on Eid.", "Aslam bought new shoes on Eid.", "Aslam buys new shoes on Eid.", "Aslam does not buy new shoes on Eid."],
+        "correct": 2
+      },
+      {
+        "question": "غریب آدمی مشکل سے گزر بسر کرتا ہے۔",
+        "options": ["A poor man is living with difficulty.", "A poor man lived with difficulty.", "A poor man lives with difficulty.", "A poor man does not live with difficulty."],
+        "correct": 2
+      },
+      {
+        "question": "امیر آدمی غریبوں کو حقارت سے دیکھتا ہے۔",
+        "options": ["A rich man is looking at poor people.", "A rich man looked at poor people.", "A rich man looks at poor people with hatred.", "A rich man does not look at poor people."],
+        "correct": 2
+      },
+      {
+        "question": "مرغیاں سارا سال انڈے دیتی ہیں۔",
+        "options": ["Hens are giving eggs all year.", "Hens gave eggs all year.", "Hens give eggs all year.", "Hens do not give eggs all year."],
+        "correct": 2
+      },
+      {
+        "question": "آپ دسویں جماعت کو انگریزی پڑھاتے ہیں۔",
+        "options": ["You are teaching English to class ten.", "You taught English to class ten.", "You teach English to class ten.", "You do not teach English to class ten."],
+        "correct": 2
+      },
+      {
+        "question": "میں تیرنا جانتا ہوں۔",
+        "options": ["I am knowing how to swim.", "I knew how to swim.", "I know how to swim.", "I do not know how to swim."],
+        "correct": 2
+      },
+      {
+        "question": "یہ لڑکا ہمیشہ شور کرتا ہے۔",
+        "options": ["This boy is always making noise.", "This boy made noise.", "This boy always makes noise.", "This boy does not make noise."],
+        "correct": 2
+      },
+      {
+        "question": "خدا ان کی مدد کرتا ہے جو اپنی مدد آپ کرتے ہیں۔",
+        "options": ["God is helping those people.", "God helped those people.", "God helps those who help themselves.", "God does not help anyone."],
+        "correct": 2
+      },
+      {
+        "question": "ہم بنک سے روپیہ ہر روز نکلواتے ہیں۔",
+        "options": ["We are taking money from the bank.", "We took money from the bank.", "We take money from the bank every day.", "We do not take money from the bank."],
+        "correct": 2
+      },
+      {
+        "question": "تم جھوٹے بہانے بناتے ہو۔",
+        "options": ["You are making false excuses.", "You made false excuses.", "You make false excuses.", "You do not make false excuses."],
+        "correct": 2
+      },
+      {
+        "question": "ڈوبتے کو تنکے کا سہارا۔",
+        "options": ["A drowning man is swimming.", "A man is drowning.", "A drowning man catches at a straw.", "A man needs help."],
+        "correct": 2
+      },
+      {
+        "question": "سورج مغرب میں غروب ہوتا ہے۔",
+        "options": ["The sun is setting now.", "The sun set yesterday.", "The sun sets in the west.", "The sun does not set in the west."],
+        "correct": 2
+      },
+      {
+        "question": "ہم کبھی کبھی عجائب گھر جاتے ہیں۔",
+        "options": ["We are going to the museum.", "We went to the museum.", "We sometimes go to the museum.", "We never go to the museum."],
+        "correct": 2
+      },
+      {
+        "question": "بچے چڑیا گھر کی سیر سے لطف اٹھاتے ہیں۔",
+        "options": ["Children are visiting the zoo.", "Children visited the zoo.", "Children enjoy visiting the zoo.", "Children do not enjoy the zoo."],
+        "correct": 2
+      },
+      {
+        "question": "میرا دوست مجھے ہمیشہ صحیح مشورہ دیتا ہے۔",
+        "options": ["My friend is giving me advice.", "My friend gave me advice.", "My friend always gives me good advice.", "My friend does not give me advice."],
+        "correct": 2
+      },
+      {
+        "question": "جو محنت کرتا ہے اس کا پھل پاتا ہے۔",
+        "options": ["He is working hard now.", "He worked hard.", "He who works hard gets the reward.", "Hard work is difficult."],
+        "correct": 2
+      },
+      {
+        "question": "آپ ہر سال ہزار روپے ٹیکس ادا کرتے ہیں۔",
+        "options": ["You are paying tax now.", "You paid tax last year.", "You pay one thousand rupees tax every year.", "You do not pay tax."],
+        "correct": 2
+      },
+      {
+        "question": "میں بل کی ادائیگی ہر ماہ کی دس تاریخ تک کر دیتا ہوں۔",
+        "options": ["I am paying the bill.", "I paid the bill.", "I pay the bill by the 10th of every month.", "I do not pay bills."],
+        "correct": 2
+      },
+      {
+        "question": "یہ قصاب کم تولتا ہے۔",
+        "options": ["This butcher is weighing meat.", "This butcher sold meat.", "This butcher gives less weight.", "This butcher is honest."],
+        "correct": 2
+      },
+      {
+        "question": "یہ دوکاندار غٹیا مال بیچتا ہے۔",
+        "options": ["This shopkeeper is selling goods.", "This shopkeeper sold goods.", "This shopkeeper sells bad quality goods.", "This shopkeeper sells fruits."],
+        "correct": 2
+      },
+      {
+        "question": "لالچی آدمی کالا دھن کماتا ہے۔",
+        "options": ["A greedy man is earning money.", "A greedy man earned money.", "A greedy man earns black money.", "A greedy man saves money."],
+        "correct": 2
+      },
+      {
+        "question": "غریب آدمی بڑی مشکل سے گزر بسر کرتا ہے۔",
+        "options": ["A poor man is living happily.", "A poor man lived easily.", "A poor man lives with great difficulty.", "A poor man enjoys life."],
+        "correct": 2
+      },
+      {
+        "question": "شکاری ہر پرندے پر نشانہ باندھتا ہے۔",
+        "options": ["A hunter is hunting birds.", "A hunter hunted birds.", "A hunter aims at every bird.", "A hunter feeds birds."],
+        "correct": 2
+      },
+      {
+        "question": "ڈاکٹر مریض کو آرام کا مشورہ دیتا ہے۔",
+        "options": ["A doctor is treating the patient.", "A doctor treated the patient.", "A doctor advises the patient to take rest.", "A doctor ignores the patient."],
+        "correct": 2
+      },
+      {
+        "question": "کسان آج کل گندم کی فصل کاشت کرتا ہے۔",
+        "options": ["A farmer is selling wheat.", "A farmer grew wheat.", "A farmer grows a wheat crop these days.", "A farmer buys wheat."],
+        "correct": 2
+      },
+      {
+        "question": "وہ اچھے آدمیوں میں اُٹھتا بیٹھتا ہے۔",
+        "options": ["He is sitting alone.", "He met bad people.", "He mixes with good people.", "He avoids people."],
+        "correct": 2
+      },
+      {
+        "question": "شخص ہر آدمی کو دھوکہ دیتا ہے۔",
+        "options": ["That person is helping people.", "That person helped people.", "That person cheats everyone.", "That person is honest."],
+        "correct": 2
+      },
+      {
+        "question": "وہ با قاعدہ ورزش نہیں کرتا ہے۔",
+        "options": ["He exercises regularly.", "He is exercising now.", "He does not exercise regularly.", "He exercised yesterday."],
+        "correct": 2
+      },
+      {
+        "question": "وہ ہمیشہ سچ نہیں بولتی ہے۔",
+        "options": ["She always speaks the truth.", "She does not always speak the truth.", "She is speaking the truth.", "She spoke the truth."],
+        "correct": 1
+      },
+      {
+        "question": "وہ اپنا کام آپ نہیں کرتے ہیں۔",
+        "options": ["They do their work themselves.", "They are doing their work.", "They do not do their work themselves.", "They did their work."],
+        "correct": 2
+      },
+      {
+        "question": "آپ شام کو سیر کے لیے نہیں جاتے۔",
+        "options": ["You go for a walk in the evening.", "You are going for a walk.", "You do not go for a walk in the evening.", "You went for a walk."],
+        "correct": 2
+      },
+      {
+        "question": "میں اس سے ملنے کی خواہش نہیں رکھتا۔",
+        "options": ["I want to meet him.", "I am meeting him.", "I do not want to meet him.", "I wanted to meet him."],
+        "correct": 2
+      },
+      {
+        "question": "ہم کے بازی کا کھیل پسند نہیں کرتے ہیں۔",
+        "options": ["We like the game of kabaddi.", "We are playing kabaddi.", "We do not like the game of kabaddi.", "We liked the game of kabaddi."],
+        "correct": 2
+      },
+      {
+        "question": "بکری گوشت نہیں کھاتی۔",
+        "options": ["A goat eats meat.", "A goat is eating meat.", "A goat does not eat meat.", "A goat ate meat."],
+        "correct": 2
+      },
+      {
+        "question": "وہ کسی سے نفرت نہیں کرتا ہے۔",
+        "options": ["He hates everyone.", "He is hating someone.", "He does not hate anyone.", "He hated someone."],
+        "correct": 2
+      },
+      {
+        "question": "لڑکی اپنی امی کو نہیں بلاتی ہے۔",
+        "options": ["The girl calls her mother.", "The girl is calling her mother.", "The girl does not call her mother.", "The girl called her mother."],
+        "correct": 2
+      },
+      {
+        "question": "گھوڑے ریگستان میں نہیں دوڑتے ہیں۔",
+        "options": ["Horses run in the desert.", "Horses are running in the desert.", "Horses do not run in the desert.", "Horses ran in the desert."],
+        "correct": 2
+      },
+      {
+        "question": "ہم اپنی قابلیت کی لاف نہیں مارتے ہیں۔",
+        "options": ["We boast of our ability.", "We are boasting of our ability.", "We do not boast of our ability.", "We boasted of our ability."],
+        "correct": 2
+      },
+      {
+        "question": "ہم یہ کارخانہ نہیں چلاتے ہیں۔",
+        "options": ["We run this factory.", "We are running this factory.", "We do not run this factory.", "We ran this factory."],
+        "correct": 2
+      },
+      {
+        "question": "تمھارا بھائی گائے کی دیکھ بھال نہیں کرتا ہے۔",
+        "options": ["Your brother looks after the cow.", "Your brother is looking after the cow.", "Your brother does not look after the cow.", "Your brother looked after the cow."],
+        "correct": 2
+      },
+      {
+        "question": "اچھے لڑکے کسی کو گالی نہیں دیتے ہیں۔",
+        "options": ["Good boys abuse people.", "Good boys are abusing people.", "Good boys do not abuse anyone.", "Good boys abused people."],
+        "correct": 2
+      },
+      {
+        "question": "اچھے دوست دھوکا نہیں دیتے ہیں۔",
+        "options": ["Good friends cheat.", "Good friends are cheating.", "Good friends do not cheat.", "Good friends cheated."],
+        "correct": 2
+      },
+      {
+        "question": "وہ گناہ پر نہیں پچھتاتا ہے۔",
+        "options": ["He regrets his sin.", "He is regretting his sin.", "He does not regret his sin.", "He regretted his sin."],
+        "correct": 2
+      },
+      {
+        "question": "آپ اپنی غلطی کو تسلیم نہیں کرتے ہیں۔",
+        "options": ["You admit your mistake.", "You are admitting your mistake.", "You do not admit your mistake.", "You admitted your mistake."],
+        "correct": 2
+      },
+      {
+        "question": "غیر دلچسپ کتابیں ہاتھوں ہاتھ نہیں بکتی ہیں۔",
+        "options": ["Uninteresting books sell quickly.", "Uninteresting books are selling.", "Uninteresting books do not sell quickly.", "Uninteresting books sold quickly."],
+        "correct": 2
+      },
+      {
+        "question": "میں اس اجنبی کو نہیں پہچانتا ہوں۔",
+        "options": ["I know this stranger.", "I am knowing this stranger.", "I do not recognize this stranger.", "I recognized this stranger."],
+        "correct": 2
+      },
+      {
+        "question": "ہم آپ کو نہیں جانتے ہیں۔",
+        "options": ["We know you.", "We are knowing you.", "We do not know you.", "We knew you."],
+        "correct": 2
+      },
+      {
+        "question": "سب لڑکے شرارت نہیں کرتے ہیں۔",
+        "options": ["All boys do mischief.", "All boys are doing mischief.", "All boys do not do mischief.", "All boys did mischief."],
+        "correct": 2
+      },
+      {
+        "question": "دانا آدمی ایسی غلطی نہیں کرتا ہے۔",
+        "options": ["A wise man makes such a mistake.", "A wise man is making such a mistake.", "A wise man does not make such a mistake.", "A wise man made such a mistake."],
+        "correct": 2
+      },
+      {
+        "question": "سورج زمین کے گرد چکر نہیں لگاتا ہے۔",
+        "options": ["The sun moves around the earth.", "The sun is moving around the earth.", "The sun does not move around the earth.", "The sun moved around the earth."],
+        "correct": 2
+      },
+      {
+        "question": "ستارے دن میں نہیں چمکتے ہیں۔",
+        "options": ["Stars shine in the day.", "Stars are shining in the day.", "Stars do not shine in the day.", "Stars shone in the day."],
+        "correct": 2
+      },
+      {
+        "question": "وہ میری بات نہیں سنتا ہے۔",
+        "options": ["He listens to me.", "He is listening to me.", "He does not listen to me.", "He listened to me."],
+        "correct": 2
+      },
+      {
+        "question": "چاند آج کل شام کو نمودار نہیں ہوتا ہے۔",
+        "options": ["The moon appears in the evening these days.", "The moon is appearing in the evening.", "The moon does not appear in the evening these days.", "The moon appeared in the evening."],
+        "correct": 2
+      },
+      {
+        "question": "لکڑی پانی میں نہیں ڈوبتی ہے۔",
+        "options": ["Wood sinks in water.", "Wood is sinking in water.", "Wood does not sink in water.", "Wood sank in water."],
+        "correct": 2
+      },
+      {
+        "question": "لوہے کا ٹکڑا پانی پر نہیں تیرتا۔",
+        "options": ["A piece of iron floats on water.", "A piece of iron is floating on water.", "A piece of iron does not float on water.", "A piece of iron floated on water."],
+        "correct": 2
+      },
+      {
+        "question": "اکبر کچھ جمع نہیں کرتا ہے۔",
+        "options": ["Akbar saves something.", "Akbar is saving something.", "Akbar does not save anything.", "Akbar saved something."],
+        "correct": 2
+      },
+      {
+        "question": "ہم کسی کو خواہ مخواہ تنگ نہیں کرتے ہیں۔",
+        "options": ["We trouble people without reason.", "We are troubling people.", "We do not trouble anyone without reason.", "We troubled people."],
+        "correct": 2
+      },
+      {
+        "question": "بچے آنکھ مچولی کہاں کھیلتے ہیں؟",
+        "options": ["Where do children sleep?", "Where do children eat?", "Where do children play hide and seek?", "Where do children study?"],
+        "correct": 2
+      },
+      {
+        "question": "ڈاکیا اس گلی میں کب آتا ہے؟",
+        "options": ["When does the teacher arrive?", "When do the children play?", "When does the postman come to this street?", "When do shops open?"],
+        "correct": 2
+      },
+      {
+        "question": "تم اس کے یہاں قیام پر کیوں اعتراض کرتے ہو؟",
+        "options": ["Why do you go to school?", "Why do you eat food?", "Why do you object to staying at his place?", "Why do you play games?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا بادل زور سے گر جاتا ہے؟",
+        "options": ["Does the sun shine?", "Does the wind blow?", "Does it rain heavily?", "Does the moon rise?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا گرمیوں میں اولے پڑتے ہیں؟",
+        "options": ["Do flowers bloom in summer?", "Do birds sing in summer?", "Do hailstones fall in summer?", "Do people swim in summer?"],
+        "correct": 2
+      },
+      {
+        "question": "وہ اپنی آمدن سے زیادہ کیوں خرچ کرتا ہے؟",
+        "options": ["Why does he earn money?", "Why does he sleep early?", "Why does he spend more than his income?", "Why does he play football?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا وہ اپنے کیے پر شرم محسوس کرتا ہے؟",
+        "options": ["Does he feel happy?", "Does he go to school?", "Does he feel ashamed of what he did?", "Does he play cricket?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا بشیر رات گئے تک آوارہ گردی کرتا ہے؟",
+        "options": ["Does Bashir sleep early?", "Does Bashir study at night?", "Does Bashir roam around late at night?", "Does Bashir play football?"],
+        "correct": 2
+      },
+      {
+        "question": "نسیمہ اپنے ماموں کے ہاں کتنا عرصہ ٹھہرتی ہے؟",
+        "options": ["How many books does Naseema read?", "How many friends does Naseema have?", "How long does Naseema stay at her uncle's place?", "How far is Naseema's house?"],
+        "correct": 2
+      },
+      {
+        "question": "فوج کہاں پڑاؤ کرتی ہے؟",
+        "options": ["Where do the children play?", "Where do the teachers meet?", "Where does the army camp?", "Where do people shop?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا آپ مٹھائیوں پر پھلوں کو ترجیح دیتے ہیں؟",
+        "options": ["Do you eat vegetables?", "Do you drink milk?", "Do you prefer fruits over sweets?", "Do you like bread?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا لوگ وقت کو اہم سمجھتے ہیں؟",
+        "options": ["Do people sleep a lot?", "Do people eat slowly?", "Do people value time?", "Do people walk fast?"],
+        "correct": 2
+      },
+      {
+        "question": "یہ طلبہ وقت کیوں ضائع کرتے ہیں؟",
+        "options": ["Why do these students read books?", "Why do these students eat food?", "Why do these students waste time?", "Why do these students play?"],
+        "correct": 2
+      },
+      {
+        "question": "مرغا کب اذان دیتا ہے؟",
+        "options": ["When does the cow eat?", "When does the sun rise?", "When does the rooster crow?", "When do birds fly?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا آپ کی بیٹی بڑوں کا احترام کرتی ہے؟",
+        "options": ["Does your daughter study hard?", "Does your daughter play football?", "Does your daughter respect elders?", "Does your daughter sing songs?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا وہ لومڑ کی قیمت مناسب طلب کرتا ہے؟",
+        "options": ["Does he buy a fox?", "Does he sell vegetables?", "Does he ask a fair price for the fox?", "Does he eat food?"],
+        "correct": 2
+      },
+      {
+        "question": "کپڑے کا تاجر کم ناپ کیوں دیتا ہے؟",
+        "options": ["Why does the merchant sell cloth?", "Why does the merchant buy clothes?", "Why does the cloth merchant give less measure?", "Why does the merchant open a shop?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا تمام طلبہ ڈاک کے ٹکٹ جمع کرتے ہیں؟",
+        "options": ["Do all students read books?", "Do all students play?", "Do all students collect postal stamps?", "Do all students eat?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا امیر آدمی دونوں ہاتھوں سے دولت لٹاتا ہے؟",
+        "options": ["Does a rich man save money?", "Does a rich man earn money?", "Does a rich man squander wealth with both hands?", "Does a rich man lend money?"],
+        "correct": 2
+      },
+      {
+        "question": "تم سائیکل خریدنے پر کیوں اصرار کرتے ہو؟",
+        "options": ["Why do you play football?", "Why do you eat vegetables?", "Why do you insist on buying a bicycle?", "Why do you sleep early?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا یہ لڑکی رات کو دیر سے سوتی ہے؟",
+        "options": ["Does this girl wake up early?", "Does this girl read books?", "Does this girl sleep late at night?", "Does this girl play games?"],
+        "correct": 2
+      },
+      {
+        "question": "پرندے کب چہچہاتے ہیں؟",
+        "options": ["When do birds fly?", "When do birds sleep?", "When do birds chirp?", "When do birds eat?"],
+        "correct": 2
+      },
+      {
+        "question": "عرس پر لوگ کیوں گاتے اور ناچتے ہیں؟",
+        "options": ["Why do people eat at Urs?", "Why do people sleep at Urs?", "Why do people sing and dance at Urs?", "Why do people play at Urs?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا وہ کسی کی پرواہ نہیں کرتے ہیں؟",
+        "options": ["Do they love everyone?", "Do they help people?", "Do they not care about anyone?", "Do they greet people?"],
+        "correct": 2
+      },
+      {
+        "question": "آپ کسی قسم کے خواب دیکھتے ہیں؟",
+        "options": ["Do you study?", "Do you play?", "Do you have any dreams?", "Do you eat food?"],
+        "correct": 2
+      },
+      {
+        "question": "تم ترجمے کی مشقیں مجھے کیوں نہیں دکھاتے ہو؟",
+        "options": ["Why do you eat?", "Why do you play?", "Why do you not show me the translation exercises?", "Why do you sleep?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا وہ اپنی غلطی مانتا ہے؟",
+        "options": ["Does he hide his mistake?", "Does he repeat his mistake?", "Does he admit his mistake?", "Does he ignore his mistake?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا یہ جماعت اپنے کام میں دلچسپی لیتی ہے؟",
+        "options": ["Does this class sleep?", "Does this class play?", "Does this class take interest in their work?", "Does this class eat?"],
+        "correct": 2
+      },
+      {
+        "question": "کیا پاکستان میں بارش صرف موسم گرما میں ہوتی ہے؟",
+        "options": ["Does it snow in summer?", "Does it rain in winter only?", "Does it rain only in summer in Pakistan?", "Does it never rain?"],
+        "correct": 2
+      },
+      {
+        "question": "پہاڑوں پر کس موسم میں برفباری ہوتی ہے؟",
+        "options": ["In which season do flowers bloom?", "In which season do birds migrate?", "In which season does it snow on the mountains?", "In which season do people swim?"],
+        "correct": 2
+      }
+    ]
+  },
   unit1: {
     name: "Unit 1: am/is/are - Present Tense of 'to be'",
     description: "Master the present tense of the verb 'to be' - am, is, and are",
@@ -1569,1430 +2100,1430 @@ export const quizData = {
       },
     ],
   },
-   unit1111: {
-  name: "Tenses",
-  description: "Master the tense",
-  questions: [
-    {
-      question: "Which helping verb and verb form are used in Present Simple tense?",
-      options: [
-        "am / is / are + V1 ing",
-        "do / does + V1",
-        "has / have + V3",
-        "did + V2"
-      ],
-      correct: "1",
-      explanation: "Present Simple uses 'do / does' as helping verb and V1 of verb."
-    },
+  unit1111: {
+    name: "Tenses",
+    description: "Master the tense",
+    questions: [
+      {
+        question: "Which helping verb and verb form are used in Present Simple tense?",
+        options: [
+          "am / is / are + V1 ing",
+          "do / does + V1",
+          "has / have + V3",
+          "did + V2"
+        ],
+        correct: "1",
+        explanation: "Present Simple uses 'do / does' as helping verb and V1 of verb."
+      },
 
-    {
-      question: "Which helping verb and verb form are used in Present Continuous tense?",
-      options: [
-        "do / does + V1",
-        "has / have + V3",
-        "am / is / are + V1 ing",
-        "was / were + V1 ing"
-      ],
-      correct: "2",
-      explanation: "Present Continuous uses 'am / is / are' with V1 + ing."
-    },
+      {
+        question: "Which helping verb and verb form are used in Present Continuous tense?",
+        options: [
+          "do / does + V1",
+          "has / have + V3",
+          "am / is / are + V1 ing",
+          "was / were + V1 ing"
+        ],
+        correct: "2",
+        explanation: "Present Continuous uses 'am / is / are' with V1 + ing."
+      },
 
-    {
-      question: "Which helping verb and verb form are used in Present Perfect tense?",
-      options: [
-        "has / have + V3",
-        "had + V3",
-        "will have + V3",
-        "am / is / are + ing"
-      ],
-      correct: "0",
-      explanation: "Present Perfect uses 'has / have' with past participle (V3)."
-    },
+      {
+        question: "Which helping verb and verb form are used in Present Perfect tense?",
+        options: [
+          "has / have + V3",
+          "had + V3",
+          "will have + V3",
+          "am / is / are + ing"
+        ],
+        correct: "0",
+        explanation: "Present Perfect uses 'has / have' with past participle (V3)."
+      },
 
-    {
-      question: "Which helping verb and verb form are used in Present Perfect Continuous tense?",
-      options: [
-        "has been / have been + V1 ing",
-        "had been + V1 ing",
-        "will be + V1 ing",
-        "do / does + V1"
-      ],
-      correct: "0",
-      explanation: "Present Perfect Continuous uses 'has been / have been' with V1 + ing."
-    },
+      {
+        question: "Which helping verb and verb form are used in Present Perfect Continuous tense?",
+        options: [
+          "has been / have been + V1 ing",
+          "had been + V1 ing",
+          "will be + V1 ing",
+          "do / does + V1"
+        ],
+        correct: "0",
+        explanation: "Present Perfect Continuous uses 'has been / have been' with V1 + ing."
+      },
 
-    {
-      question: "Which helping verb and verb form are used in Past Simple tense?",
-      options: [
-        "was / were + ing",
-        "did + V1",
-        "had + V3",
-        "will + V1"
-      ],
-      correct: "1",
-      explanation: "Past Simple uses 'did' as helping verb and V2 in statements."
-    },
+      {
+        question: "Which helping verb and verb form are used in Past Simple tense?",
+        options: [
+          "was / were + ing",
+          "did + V1",
+          "had + V3",
+          "will + V1"
+        ],
+        correct: "1",
+        explanation: "Past Simple uses 'did' as helping verb and V2 in statements."
+      },
 
-    {
-      question: "Which helping verb and verb form are used in Past Continuous tense?",
-      options: [
-        "was / were + V1 ing",
-        "am / is / are + ing",
-        "had been + ing",
-        "did + V2"
-      ],
-      correct: "0",
-      explanation: "Past Continuous uses 'was / were' with V1 + ing."
-    },
+      {
+        question: "Which helping verb and verb form are used in Past Continuous tense?",
+        options: [
+          "was / were + V1 ing",
+          "am / is / are + ing",
+          "had been + ing",
+          "did + V2"
+        ],
+        correct: "0",
+        explanation: "Past Continuous uses 'was / were' with V1 + ing."
+      },
 
-    {
-      question: "Which helping verb and verb form are used in Past Perfect tense?",
-      options: [
-        "has / have + V3",
-        "had + V3",
-        "will have + V3",
-        "did + V2"
-      ],
-      correct: "1",
-      explanation: "Past Perfect uses 'had' with V3."
-    },
+      {
+        question: "Which helping verb and verb form are used in Past Perfect tense?",
+        options: [
+          "has / have + V3",
+          "had + V3",
+          "will have + V3",
+          "did + V2"
+        ],
+        correct: "1",
+        explanation: "Past Perfect uses 'had' with V3."
+      },
 
-    {
-      question: "Which helping verb and verb form are used in Past Perfect Continuous tense?",
-      options: [
-        "has been + ing",
-        "had been + V1 ing",
-        "was / were + ing",
-        "will be + ing"
-      ],
-      correct: "1",
-      explanation: "Past Perfect Continuous uses 'had been' with V1 + ing."
-    },
+      {
+        question: "Which helping verb and verb form are used in Past Perfect Continuous tense?",
+        options: [
+          "has been + ing",
+          "had been + V1 ing",
+          "was / were + ing",
+          "will be + ing"
+        ],
+        correct: "1",
+        explanation: "Past Perfect Continuous uses 'had been' with V1 + ing."
+      },
 
-    {
-      question: "Which helping verb and verb form are used in Future Simple tense?",
-      options: [
-        "will / shall + V1",
-        "will be + ing",
-        "will have + V3",
-        "do / does + V1"
-      ],
-      correct: "0",
-      explanation: "Future Simple uses 'will / shall' with V1 (V1)."
-    },
+      {
+        question: "Which helping verb and verb form are used in Future Simple tense?",
+        options: [
+          "will / shall + V1",
+          "will be + ing",
+          "will have + V3",
+          "do / does + V1"
+        ],
+        correct: "0",
+        explanation: "Future Simple uses 'will / shall' with V1 (V1)."
+      },
 
-    {
-      question: "Which helping verb and verb form are used in Future Continuous tense?",
-      options: [
-        "will be + V1 ing",
-        "will have + V3",
-        "will + V1",
-        "had been + ing"
-      ],
-      correct: "0",
-      explanation: "Future Continuous uses 'will be' with V1 + ing."
-    },
+      {
+        question: "Which helping verb and verb form are used in Future Continuous tense?",
+        options: [
+          "will be + V1 ing",
+          "will have + V3",
+          "will + V1",
+          "had been + ing"
+        ],
+        correct: "0",
+        explanation: "Future Continuous uses 'will be' with V1 + ing."
+      },
 
-    {
-      question: "Which helping verb and verb form are used in Future Perfect tense?",
-      options: [
-        "will have + V3",
-        "has / have + V3",
-        "had + V3",
-        "will be + ing"
-      ],
-      correct: "0",
-      explanation: "Future Perfect uses 'will have' with V3."
-    },
+      {
+        question: "Which helping verb and verb form are used in Future Perfect tense?",
+        options: [
+          "will have + V3",
+          "has / have + V3",
+          "had + V3",
+          "will be + ing"
+        ],
+        correct: "0",
+        explanation: "Future Perfect uses 'will have' with V3."
+      },
 
-    {
-      question: "Which helping verb and verb form are used in Future Perfect Continuous tense?",
-      options: [
-        "will have been + V1 ing",
-        "will be + ing",
-        "had been + ing",
-        "has been + ing"
-      ],
-      correct: "0",
-      explanation: "Future Perfect Continuous uses 'will have been' with V1 + ing."
-    },
-     {
-      question: "Helping verb: do / does, Verb form: V1",
-      options: [
-        "Present Simple",
-        "Present Continuous",
-        "Past Simple",
-        "Future Simple"
-      ],
-      correct: "0",
-      explanation: "Present Simple uses 'do / does' with V1 of verb."
-    },
+      {
+        question: "Which helping verb and verb form are used in Future Perfect Continuous tense?",
+        options: [
+          "will have been + V1 ing",
+          "will be + ing",
+          "had been + ing",
+          "has been + ing"
+        ],
+        correct: "0",
+        explanation: "Future Perfect Continuous uses 'will have been' with V1 + ing."
+      },
+      {
+        question: "Helping verb: do / does, Verb form: V1",
+        options: [
+          "Present Simple",
+          "Present Continuous",
+          "Past Simple",
+          "Future Simple"
+        ],
+        correct: "0",
+        explanation: "Present Simple uses 'do / does' with V1 of verb."
+      },
 
-    {
-      question: "Helping verb: am / is / are, Verb form: V1 + ing",
-      options: [
-        "Past Continuous",
-        "Present Perfect",
-        "Present Continuous",
-        "Future Continuous"
-      ],
-      correct: "2",
-      explanation: "Present Continuous uses 'am / is / are' with V1 + ing."
-    },
+      {
+        question: "Helping verb: am / is / are, Verb form: V1 + ing",
+        options: [
+          "Past Continuous",
+          "Present Perfect",
+          "Present Continuous",
+          "Future Continuous"
+        ],
+        correct: "2",
+        explanation: "Present Continuous uses 'am / is / are' with V1 + ing."
+      },
 
-    {
-      question: "Helping verb: has / have, Verb form: V3",
-      options: [
-        "Past Perfect",
-        "Present Perfect",
-        "Future Perfect",
-        "Past Simple"
-      ],
-      correct: "1",
-      explanation: "Present Perfect uses 'has / have' with V3."
-    },
+      {
+        question: "Helping verb: has / have, Verb form: V3",
+        options: [
+          "Past Perfect",
+          "Present Perfect",
+          "Future Perfect",
+          "Past Simple"
+        ],
+        correct: "1",
+        explanation: "Present Perfect uses 'has / have' with V3."
+      },
 
-    {
-      question: "Helping verb: has been / have been, Verb form: V1 + ing",
-      options: [
-        "Past Perfect Continuous",
-        "Future Perfect Continuous",
-        "Present Perfect Continuous",
-        "Present Continuous"
-      ],
-      correct: "2",
-      explanation: "Present Perfect Continuous uses 'has been / have been' with V1 + ing."
-    },
+      {
+        question: "Helping verb: has been / have been, Verb form: V1 + ing",
+        options: [
+          "Past Perfect Continuous",
+          "Future Perfect Continuous",
+          "Present Perfect Continuous",
+          "Present Continuous"
+        ],
+        correct: "2",
+        explanation: "Present Perfect Continuous uses 'has been / have been' with V1 + ing."
+      },
 
-    {
-      question: "Helping verb: did, Verb form: V2",
-      options: [
-        "Past Simple",
-        "Present Simple",
-        "Past Perfect",
-        "Future Simple"
-      ],
-      correct: "0",
-      explanation: "Past Simple uses 'did' (in questions/negatives) and V2."
-    },
+      {
+        question: "Helping verb: did, Verb form: V2",
+        options: [
+          "Past Simple",
+          "Present Simple",
+          "Past Perfect",
+          "Future Simple"
+        ],
+        correct: "0",
+        explanation: "Past Simple uses 'did' (in questions/negatives) and V2."
+      },
 
-    {
-      question: "Helping verb: was / were, Verb form: V1 + ing",
-      options: [
-        "Present Continuous",
-        "Past Continuous",
-        "Future Continuous",
-        "Past Perfect Continuous"
-      ],
-      correct: "1",
-      explanation: "Past Continuous uses 'was / were' with V1 + ing."
-    },
+      {
+        question: "Helping verb: was / were, Verb form: V1 + ing",
+        options: [
+          "Present Continuous",
+          "Past Continuous",
+          "Future Continuous",
+          "Past Perfect Continuous"
+        ],
+        correct: "1",
+        explanation: "Past Continuous uses 'was / were' with V1 + ing."
+      },
 
-    {
-      question: "Helping verb: had, Verb form: V3",
-      options: [
-        "Past Perfect",
-        "Present Perfect",
-        "Future Perfect",
-        "Past Simple"
-      ],
-      correct: "0",
-      explanation: "Past Perfect uses 'had' with V3."
-    },
+      {
+        question: "Helping verb: had, Verb form: V3",
+        options: [
+          "Past Perfect",
+          "Present Perfect",
+          "Future Perfect",
+          "Past Simple"
+        ],
+        correct: "0",
+        explanation: "Past Perfect uses 'had' with V3."
+      },
 
-    {
-      question: "Helping verb: had been, Verb form: V1 + ing",
-      options: [
-        "Past Perfect Continuous",
-        "Present Perfect Continuous",
-        "Future Perfect Continuous",
-        "Past Continuous"
-      ],
-      correct: "0",
-      explanation: "Past Perfect Continuous uses 'had been' with V1 + ing."
-    },
+      {
+        question: "Helping verb: had been, Verb form: V1 + ing",
+        options: [
+          "Past Perfect Continuous",
+          "Present Perfect Continuous",
+          "Future Perfect Continuous",
+          "Past Continuous"
+        ],
+        correct: "0",
+        explanation: "Past Perfect Continuous uses 'had been' with V1 + ing."
+      },
 
-    {
-      question: "Helping verb: will / shall, Verb form: V1",
-      options: [
-        "Future Simple",
-        "Present Simple",
-        "Future Continuous",
-        "Future Perfect"
-      ],
-      correct: "0",
-      explanation: "Future Simple uses 'will / shall' with V1."
-    },
+      {
+        question: "Helping verb: will / shall, Verb form: V1",
+        options: [
+          "Future Simple",
+          "Present Simple",
+          "Future Continuous",
+          "Future Perfect"
+        ],
+        correct: "0",
+        explanation: "Future Simple uses 'will / shall' with V1."
+      },
 
-    {
-      question: "Helping verb: will be, Verb form: V1 + ing",
-      options: [
-        "Future Continuous",
-        "Present Continuous",
-        "Past Continuous",
-        "Future Perfect Continuous"
-      ],
-      correct: "0",
-      explanation: "Future Continuous uses 'will be' with V1 + ing."
-    },
+      {
+        question: "Helping verb: will be, Verb form: V1 + ing",
+        options: [
+          "Future Continuous",
+          "Present Continuous",
+          "Past Continuous",
+          "Future Perfect Continuous"
+        ],
+        correct: "0",
+        explanation: "Future Continuous uses 'will be' with V1 + ing."
+      },
 
-    {
-      question: "Helping verb: will have, Verb form: V3",
-      options: [
-        "Future Perfect",
-        "Present Perfect",
-        "Past Perfect",
-        "Future Simple"
-      ],
-      correct: "0",
-      explanation: "Future Perfect uses 'will have' with V3."
-    },
+      {
+        question: "Helping verb: will have, Verb form: V3",
+        options: [
+          "Future Perfect",
+          "Present Perfect",
+          "Past Perfect",
+          "Future Simple"
+        ],
+        correct: "0",
+        explanation: "Future Perfect uses 'will have' with V3."
+      },
 
-    {
-      question: "Helping verb: will have been, Verb form: V1 + ing",
-      options: [
-        "Future Perfect Continuous",
-        "Present Perfect Continuous",
-        "Past Perfect Continuous",
-        "Future Continuous"
-      ],
-      correct: "0",
-      explanation: "Future Perfect Continuous uses 'will have been' with V1 + ing."
-    }  
-  ]
-},
+      {
+        question: "Helping verb: will have been, Verb form: V1 + ing",
+        options: [
+          "Future Perfect Continuous",
+          "Present Perfect Continuous",
+          "Past Perfect Continuous",
+          "Future Continuous"
+        ],
+        correct: "0",
+        explanation: "Future Perfect Continuous uses 'will have been' with V1 + ing."
+      }
+    ]
+  },
 
-   unit133: {
-  name: "Identify the Scentence",
-  description: "Choose the correct tense from the sentence",
-  questions: [
-    {
-  question: "Present Simple",
-  options: [
-    "He plays cricket daily.",
-    "He is playing cricket.",
-    "He played cricket.",
-    "He will play cricket."
-  ],
-  correct: "He plays cricket daily."
-},
-{
-  question: "Present Continuous",
-  options: [
-    "She cooks food.",
-    "She cooked food.",
-    "She is cooking food.",
-    "She will cook food."
-  ],
-  correct: "She is cooking food."
-},
-{
-  question: "Past Simple",
-  options: [
-    "They play football.",
-    "They are playing football.",
-    "They played football.",
-    "They will play football."
-  ],
-  correct: "They played football."
-},
-{
-  question: "Future Simple",
-  options: [
-    "I go to school.",
-    "I went to school.",
-    "I am going to school.",
-    "I will go to school."
-  ],
-  correct: "I will go to school."
-},
-{
-  question: "Present Perfect",
-  options: [
-    "She finishes work.",
-    "She finished work.",
-    "She has finished work.",
-    "She is finishing work."
-  ],
-  correct: "She has finished work."
-},
-{
-  question: "Past Continuous",
-  options: [
-    "I sleep.",
-    "I slept.",
-    "I was sleeping.",
-    "I will sleep."
-  ],
-  correct: "I was sleeping."
-},
-{
-  question: "Future Continuous",
-  options: [
-    "He studies now.",
-    "He studied yesterday.",
-    "He will be studying tomorrow.",
-    "He has studied already."
-  ],
-  correct: "He will be studying tomorrow."
-},
-{
-  question: "Past Perfect",
-  options: [
-    "She leaves early.",
-    "She left early.",
-    "She had left early.",
-    "She is leaving early."
-  ],
-  correct: "She had left early."
-},
-{
-  question: "Present Perfect Continuous",
-  options: [
-    "I study here.",
-    "I studied here.",
-    "I have been studying here.",
-    "I will study here."
-  ],
-  correct: "I have been studying here."
-},
-{
-  question: "Future Perfect",
-  options: [
-    "They finish work.",
-    "They finished work.",
-    "They will have finished work.",
-    "They are finishing work."
-  ],
-  correct: "They will have finished work."
-},
+  unit133: {
+    name: "Identify the Scentence",
+    description: "Choose the correct tense from the sentence",
+    questions: [
+      {
+        question: "Present Simple",
+        options: [
+          "He plays cricket daily.",
+          "He is playing cricket.",
+          "He played cricket.",
+          "He will play cricket."
+        ],
+        correct: "He plays cricket daily."
+      },
+      {
+        question: "Present Continuous",
+        options: [
+          "She cooks food.",
+          "She cooked food.",
+          "She is cooking food.",
+          "She will cook food."
+        ],
+        correct: "She is cooking food."
+      },
+      {
+        question: "Past Simple",
+        options: [
+          "They play football.",
+          "They are playing football.",
+          "They played football.",
+          "They will play football."
+        ],
+        correct: "They played football."
+      },
+      {
+        question: "Future Simple",
+        options: [
+          "I go to school.",
+          "I went to school.",
+          "I am going to school.",
+          "I will go to school."
+        ],
+        correct: "I will go to school."
+      },
+      {
+        question: "Present Perfect",
+        options: [
+          "She finishes work.",
+          "She finished work.",
+          "She has finished work.",
+          "She is finishing work."
+        ],
+        correct: "She has finished work."
+      },
+      {
+        question: "Past Continuous",
+        options: [
+          "I sleep.",
+          "I slept.",
+          "I was sleeping.",
+          "I will sleep."
+        ],
+        correct: "I was sleeping."
+      },
+      {
+        question: "Future Continuous",
+        options: [
+          "He studies now.",
+          "He studied yesterday.",
+          "He will be studying tomorrow.",
+          "He has studied already."
+        ],
+        correct: "He will be studying tomorrow."
+      },
+      {
+        question: "Past Perfect",
+        options: [
+          "She leaves early.",
+          "She left early.",
+          "She had left early.",
+          "She is leaving early."
+        ],
+        correct: "She had left early."
+      },
+      {
+        question: "Present Perfect Continuous",
+        options: [
+          "I study here.",
+          "I studied here.",
+          "I have been studying here.",
+          "I will study here."
+        ],
+        correct: "I have been studying here."
+      },
+      {
+        question: "Future Perfect",
+        options: [
+          "They finish work.",
+          "They finished work.",
+          "They will have finished work.",
+          "They are finishing work."
+        ],
+        correct: "They will have finished work."
+      },
 
-{
-  question: "Past Perfect Continuous",
-  options: [
-    "He works here.",
-    "He was working here.",
-    "He had been working here.",
-    "He will work here."
-  ],
-  correct: "He had been working here."
-},
-{
-  question: "Future Perfect Continuous",
-  options: [
-    "She works here.",
-    "She worked here.",
-    "She will have been working here.",
-    "She is working here."
-  ],
-  correct: "She will have been working here."
-},
-{
-  question: "Present Simple",
-  options: [
-    "Birds are flying.",
-    "Birds fly in the sky.",
-    "Birds flew yesterday.",
-    "Birds will fly."
-  ],
-  correct: "Birds fly in the sky."
-},
-{
-  question: "Present Continuous",
-  options: [
-    "We learn English.",
-    "We learned English.",
-    "We are learning English.",
-    "We will learn English."
-  ],
-  correct: "We are learning English."
-},
-{
-  question: "Past Simple",
-  options: [
-    "He buys a car.",
-    "He bought a car.",
-    "He is buying a car.",
-    "He has bought a car."
-  ],
-  correct: "He bought a car."
-},
-{
-  question: "Future Simple",
-  options: [
-    "I eat food.",
-    "I ate food.",
-    "I am eating food.",
-    "I will eat food."
-  ],
-  correct: "I will eat food."
-},
-{
-  question: "Present Perfect",
-  options: [
-    "She loses keys.",
-    "She lost keys.",
-    "She has lost keys.",
-    "She is losing keys."
-  ],
-  correct: "She has lost keys."
-},
-{
-  question: "Past Continuous",
-  options: [
-    "They play outside.",
-    "They were playing outside.",
-    "They played outside.",
-    "They will play outside."
-  ],
-  correct: "They were playing outside."
-},
-{
-  question: "Future Continuous",
-  options: [
-    "I travel tomorrow.",
-    "I traveled tomorrow.",
-    "I will be traveling tomorrow.",
-    "I have traveled tomorrow."
-  ],
-  correct: "I will be traveling tomorrow."
-},
-{
-  question: "Past Perfect",
-  options: [
-    "We eat dinner.",
-    "We ate dinner.",
-    "We had eaten dinner.",
-    "We are eating dinner."
-  ],
-  correct: "We had eaten dinner."
-},
+      {
+        question: "Past Perfect Continuous",
+        options: [
+          "He works here.",
+          "He was working here.",
+          "He had been working here.",
+          "He will work here."
+        ],
+        correct: "He had been working here."
+      },
+      {
+        question: "Future Perfect Continuous",
+        options: [
+          "She works here.",
+          "She worked here.",
+          "She will have been working here.",
+          "She is working here."
+        ],
+        correct: "She will have been working here."
+      },
+      {
+        question: "Present Simple",
+        options: [
+          "Birds are flying.",
+          "Birds fly in the sky.",
+          "Birds flew yesterday.",
+          "Birds will fly."
+        ],
+        correct: "Birds fly in the sky."
+      },
+      {
+        question: "Present Continuous",
+        options: [
+          "We learn English.",
+          "We learned English.",
+          "We are learning English.",
+          "We will learn English."
+        ],
+        correct: "We are learning English."
+      },
+      {
+        question: "Past Simple",
+        options: [
+          "He buys a car.",
+          "He bought a car.",
+          "He is buying a car.",
+          "He has bought a car."
+        ],
+        correct: "He bought a car."
+      },
+      {
+        question: "Future Simple",
+        options: [
+          "I eat food.",
+          "I ate food.",
+          "I am eating food.",
+          "I will eat food."
+        ],
+        correct: "I will eat food."
+      },
+      {
+        question: "Present Perfect",
+        options: [
+          "She loses keys.",
+          "She lost keys.",
+          "She has lost keys.",
+          "She is losing keys."
+        ],
+        correct: "She has lost keys."
+      },
+      {
+        question: "Past Continuous",
+        options: [
+          "They play outside.",
+          "They were playing outside.",
+          "They played outside.",
+          "They will play outside."
+        ],
+        correct: "They were playing outside."
+      },
+      {
+        question: "Future Continuous",
+        options: [
+          "I travel tomorrow.",
+          "I traveled tomorrow.",
+          "I will be traveling tomorrow.",
+          "I have traveled tomorrow."
+        ],
+        correct: "I will be traveling tomorrow."
+      },
+      {
+        question: "Past Perfect",
+        options: [
+          "We eat dinner.",
+          "We ate dinner.",
+          "We had eaten dinner.",
+          "We are eating dinner."
+        ],
+        correct: "We had eaten dinner."
+      },
 
-{
-  question: "Present Perfect Continuous",
-  options: [
-    "She is waiting.",
-    "She waited.",
-    "She has been waiting.",
-    "She will wait."
-  ],
-  correct: "She has been waiting."
-},
-{
-  question: "Future Perfect",
-  options: [
-    "I complete work.",
-    "I completed work.",
-    "I will have completed work.",
-    "I am completing work."
-  ],
-  correct: "I will have completed work."
-},
-{
-  question: "Past Perfect Continuous",
-  options: [
-    "They work here.",
-    "They were working here.",
-    "They had been working here.",
-    "They will work here."
-  ],
-  correct: "They had been working here."
-},
-{
-  question: "Future Perfect Continuous",
-  options: [
-    "He studies here.",
-    "He studied here.",
-    "He will have been studying here.",
-    "He is studying here."
-  ],
-  correct: "He will have been studying here."
-},
-{
-  question: "Present Simple",
-  options: [
-    "She is going to school.",
-    "She goes to school.",
-    "She went to school.",
-    "She will go to school."
-  ],
-  correct: "She goes to school."
-},
-{
-  question: "Present Continuous",
-  options: [
-    "I read a book.",
-    "I am reading a book.",
-    "I read a book yesterday.",
-    "I will read a book."
-  ],
-  correct: "I am reading a book."
-},
-{
-  question: "Past Simple",
-  options: [
-    "He eats rice.",
-    "He is eating rice.",
-    "He ate rice.",
-    "He has eaten rice."
-  ],
-  correct: "He ate rice."
-},
-{
-  question: "Future Simple",
-  options: [
-    "They play football.",
-    "They played football.",
-    "They are playing football.",
-    "They will play football."
-  ],
-  correct: "They will play football."
-},
-{
-  question: "Present Perfect",
-  options: [
-    "She writes a letter.",
-    "She wrote a letter.",
-    "She has written a letter.",
-    "She is writing a letter."
-  ],
-  correct: "She has written a letter."
-},
-{
-  question: "Past Continuous",
-  options: [
-    "I cook food.",
-    "I cooked food.",
-    "I was cooking food.",
-    "I will cook food."
-  ],
-  correct: "I was cooking food."
-},
-{
-  question: "Future Continuous",
-  options: [
-    "He works tomorrow.",
-    "He worked tomorrow.",
-    "He will be working tomorrow.",
-    "He has worked tomorrow."
-  ],
-  correct: "He will be working tomorrow."
-},
-{
-  question: "Past Perfect",
-  options: [
-    "She finishes work.",
-    "She finished work.",
-    "She had finished work.",
-    "She is finishing work."
-  ],
-  correct: "She had finished work."
-},
-{
-  question: "Present Perfect Continuous",
-  options: [
-    "I play here.",
-    "I played here.",
-    "I have been playing here.",
-    "I will play here."
-  ],
-  correct: "I have been playing here."
-},
-{
-  question: "Future Perfect",
-  options: [
-    "They complete the task.",
-    "They completed the task.",
-    "They will have completed the task.",
-    "They are completing the task."
-  ],
-  correct: "They will have completed the task."
-},
-{
-  question: "Past Perfect Continuous",
-  options: [
-    "He studies all day.",
-    "He was studying all day.",
-    "He had been studying all day.",
-    "He will study all day."
-  ],
-  correct: "He had been studying all day."
-},
-{
-  question: "Future Perfect Continuous",
-  options: [
-    "She works here.",
-    "She worked here.",
-    "She will have been working here.",
-    "She is working here."
-  ],
-  correct: "She will have been working here."
-},
+      {
+        question: "Present Perfect Continuous",
+        options: [
+          "She is waiting.",
+          "She waited.",
+          "She has been waiting.",
+          "She will wait."
+        ],
+        correct: "She has been waiting."
+      },
+      {
+        question: "Future Perfect",
+        options: [
+          "I complete work.",
+          "I completed work.",
+          "I will have completed work.",
+          "I am completing work."
+        ],
+        correct: "I will have completed work."
+      },
+      {
+        question: "Past Perfect Continuous",
+        options: [
+          "They work here.",
+          "They were working here.",
+          "They had been working here.",
+          "They will work here."
+        ],
+        correct: "They had been working here."
+      },
+      {
+        question: "Future Perfect Continuous",
+        options: [
+          "He studies here.",
+          "He studied here.",
+          "He will have been studying here.",
+          "He is studying here."
+        ],
+        correct: "He will have been studying here."
+      },
+      {
+        question: "Present Simple",
+        options: [
+          "She is going to school.",
+          "She goes to school.",
+          "She went to school.",
+          "She will go to school."
+        ],
+        correct: "She goes to school."
+      },
+      {
+        question: "Present Continuous",
+        options: [
+          "I read a book.",
+          "I am reading a book.",
+          "I read a book yesterday.",
+          "I will read a book."
+        ],
+        correct: "I am reading a book."
+      },
+      {
+        question: "Past Simple",
+        options: [
+          "He eats rice.",
+          "He is eating rice.",
+          "He ate rice.",
+          "He has eaten rice."
+        ],
+        correct: "He ate rice."
+      },
+      {
+        question: "Future Simple",
+        options: [
+          "They play football.",
+          "They played football.",
+          "They are playing football.",
+          "They will play football."
+        ],
+        correct: "They will play football."
+      },
+      {
+        question: "Present Perfect",
+        options: [
+          "She writes a letter.",
+          "She wrote a letter.",
+          "She has written a letter.",
+          "She is writing a letter."
+        ],
+        correct: "She has written a letter."
+      },
+      {
+        question: "Past Continuous",
+        options: [
+          "I cook food.",
+          "I cooked food.",
+          "I was cooking food.",
+          "I will cook food."
+        ],
+        correct: "I was cooking food."
+      },
+      {
+        question: "Future Continuous",
+        options: [
+          "He works tomorrow.",
+          "He worked tomorrow.",
+          "He will be working tomorrow.",
+          "He has worked tomorrow."
+        ],
+        correct: "He will be working tomorrow."
+      },
+      {
+        question: "Past Perfect",
+        options: [
+          "She finishes work.",
+          "She finished work.",
+          "She had finished work.",
+          "She is finishing work."
+        ],
+        correct: "She had finished work."
+      },
+      {
+        question: "Present Perfect Continuous",
+        options: [
+          "I play here.",
+          "I played here.",
+          "I have been playing here.",
+          "I will play here."
+        ],
+        correct: "I have been playing here."
+      },
+      {
+        question: "Future Perfect",
+        options: [
+          "They complete the task.",
+          "They completed the task.",
+          "They will have completed the task.",
+          "They are completing the task."
+        ],
+        correct: "They will have completed the task."
+      },
+      {
+        question: "Past Perfect Continuous",
+        options: [
+          "He studies all day.",
+          "He was studying all day.",
+          "He had been studying all day.",
+          "He will study all day."
+        ],
+        correct: "He had been studying all day."
+      },
+      {
+        question: "Future Perfect Continuous",
+        options: [
+          "She works here.",
+          "She worked here.",
+          "She will have been working here.",
+          "She is working here."
+        ],
+        correct: "She will have been working here."
+      },
 
-{
-  question: "Present Simple",
-  options: [
-    "Cats are drinking milk.",
-    "Cats drink milk.",
-    "Cats drank milk.",
-    "Cats will drink milk."
-  ],
-  correct: "Cats drink milk."
-},
-{
-  question: "Present Continuous",
-  options: [
-    "We watch TV.",
-    "We watched TV.",
-    "We are watching TV.",
-    "We will watch TV."
-  ],
-  correct: "We are watching TV."
-},
-{
-  question: "Past Simple",
-  options: [
-    "She cleans the room.",
-    "She cleaned the room.",
-    "She is cleaning the room.",
-    "She has cleaned the room."
-  ],
-  correct: "She cleaned the room."
-},
-{
-  question: "Future Simple",
-  options: [
-    "I finish homework.",
-    "I finished homework.",
-    "I am finishing homework.",
-    "I will finish homework."
-  ],
-  correct: "I will finish homework."
-},
-{
-  question: "Present Perfect",
-  options: [
-    "He breaks the glass.",
-    "He broke the glass.",
-    "He has broken the glass.",
-    "He is breaking the glass."
-  ],
-  correct: "He has broken the glass."
-},
-{
-  question: "Past Continuous",
-  options: [
-    "They sleep early.",
-    "They slept early.",
-    "They were sleeping early.",
-    "They will sleep early."
-  ],
-  correct: "They were sleeping early."
-},
-{
-  question: "Future Continuous",
-  options: [
-    "I study at night.",
-    "I studied at night.",
-    "I will be studying at night.",
-    "I have studied at night."
-  ],
-  correct: "I will be studying at night."
-},
-{
-  question: "Past Perfect",
-  options: [
-    "We start work.",
-    "We started work.",
-    "We had started work.",
-    "We are starting work."
-  ],
-  correct: "We had started work."
-},
-{
-  question: "Present Perfect Continuous",
-  options: [
-    "She sings here.",
-    "She sang here.",
-    "She has been singing here.",
-    "She will sing here."
-  ],
-  correct: "She has been singing here."
-},
-{
-  question: "Future Perfect",
-  options: [
-    "He writes the report.",
-    "He wrote the report.",
-    "He will have written the report.",
-    "He is writing the report."
-  ],
-  correct: "He will have written the report."
-},
-{
-  question: "Past Perfect Continuous",
-  options: [
-    "They travel together.",
-    "They were traveling together.",
-    "They had been traveling together.",
-    "They will travel together."
-  ],
-  correct: "They had been traveling together."
-},
-{
-  question: "Future Perfect Continuous",
-  options: [
-    "I learn English.",
-    "I learned English.",
-    "I will have been learning English.",
-    "I am learning English."
-  ],
-  correct: "I will have been learning English."
-},
-// ===== NEXT 30 QUESTIONS =====
+      {
+        question: "Present Simple",
+        options: [
+          "Cats are drinking milk.",
+          "Cats drink milk.",
+          "Cats drank milk.",
+          "Cats will drink milk."
+        ],
+        correct: "Cats drink milk."
+      },
+      {
+        question: "Present Continuous",
+        options: [
+          "We watch TV.",
+          "We watched TV.",
+          "We are watching TV.",
+          "We will watch TV."
+        ],
+        correct: "We are watching TV."
+      },
+      {
+        question: "Past Simple",
+        options: [
+          "She cleans the room.",
+          "She cleaned the room.",
+          "She is cleaning the room.",
+          "She has cleaned the room."
+        ],
+        correct: "She cleaned the room."
+      },
+      {
+        question: "Future Simple",
+        options: [
+          "I finish homework.",
+          "I finished homework.",
+          "I am finishing homework.",
+          "I will finish homework."
+        ],
+        correct: "I will finish homework."
+      },
+      {
+        question: "Present Perfect",
+        options: [
+          "He breaks the glass.",
+          "He broke the glass.",
+          "He has broken the glass.",
+          "He is breaking the glass."
+        ],
+        correct: "He has broken the glass."
+      },
+      {
+        question: "Past Continuous",
+        options: [
+          "They sleep early.",
+          "They slept early.",
+          "They were sleeping early.",
+          "They will sleep early."
+        ],
+        correct: "They were sleeping early."
+      },
+      {
+        question: "Future Continuous",
+        options: [
+          "I study at night.",
+          "I studied at night.",
+          "I will be studying at night.",
+          "I have studied at night."
+        ],
+        correct: "I will be studying at night."
+      },
+      {
+        question: "Past Perfect",
+        options: [
+          "We start work.",
+          "We started work.",
+          "We had started work.",
+          "We are starting work."
+        ],
+        correct: "We had started work."
+      },
+      {
+        question: "Present Perfect Continuous",
+        options: [
+          "She sings here.",
+          "She sang here.",
+          "She has been singing here.",
+          "She will sing here."
+        ],
+        correct: "She has been singing here."
+      },
+      {
+        question: "Future Perfect",
+        options: [
+          "He writes the report.",
+          "He wrote the report.",
+          "He will have written the report.",
+          "He is writing the report."
+        ],
+        correct: "He will have written the report."
+      },
+      {
+        question: "Past Perfect Continuous",
+        options: [
+          "They travel together.",
+          "They were traveling together.",
+          "They had been traveling together.",
+          "They will travel together."
+        ],
+        correct: "They had been traveling together."
+      },
+      {
+        question: "Future Perfect Continuous",
+        options: [
+          "I learn English.",
+          "I learned English.",
+          "I will have been learning English.",
+          "I am learning English."
+        ],
+        correct: "I will have been learning English."
+      },
+      // ===== NEXT 30 QUESTIONS =====
 
-{
-  question: "Present Simple",
-  options: [
-    "He is running now.",
-    "He runs every morning.",
-    "He ran yesterday.",
-    "He will run tomorrow."
-  ],
-  correct: "He runs every morning."
-},
-{
-  question: "Present Continuous",
-  options: [
-    "She sings well.",
-    "She sang well.",
-    "She is singing now.",
-    "She will sing soon."
-  ],
-  correct: "She is singing now."
-},
-{
-  question: "Past Simple",
-  options: [
-    "They are eating food.",
-    "They eat food.",
-    "They ate food.",
-    "They will eat food."
-  ],
-  correct: "They ate food."
-},
-{
-  question: "Future Simple",
-  options: [
-    "I watch TV.",
-    "I watched TV.",
-    "I am watching TV.",
-    "I will watch TV."
-  ],
-  correct: "I will watch TV."
-},
-{
-  question: "Present Perfect",
-  options: [
-    "She cleans the room.",
-    "She cleaned the room.",
-    "She has cleaned the room.",
-    "She is cleaning the room."
-  ],
-  correct: "She has cleaned the room."
-},
-{
-  question: "Past Continuous",
-  options: [
-    "I write a letter.",
-    "I wrote a letter.",
-    "I was writing a letter.",
-    "I will write a letter."
-  ],
-  correct: "I was writing a letter."
-},
-{
-  question: "Future Continuous",
-  options: [
-    "He works late.",
-    "He worked late.",
-    "He will be working late.",
-    "He has worked late."
-  ],
-  correct: "He will be working late."
-},
-{
-  question: "Past Perfect",
-  options: [
-    "She starts school.",
-    "She started school.",
-    "She had started school.",
-    "She is starting school."
-  ],
-  correct: "She had started school."
-},
-{
-  question: "Present Perfect Continuous",
-  options: [
-    "I play football.",
-    "I played football.",
-    "I have been playing football.",
-    "I will play football."
-  ],
-  correct: "I have been playing football."
-},
-{
-  question: "Future Perfect",
-  options: [
-    "They finish the job.",
-    "They finished the job.",
-    "They will have finished the job.",
-    "They are finishing the job."
-  ],
-  correct: "They will have finished the job."
-},
+      {
+        question: "Present Simple",
+        options: [
+          "He is running now.",
+          "He runs every morning.",
+          "He ran yesterday.",
+          "He will run tomorrow."
+        ],
+        correct: "He runs every morning."
+      },
+      {
+        question: "Present Continuous",
+        options: [
+          "She sings well.",
+          "She sang well.",
+          "She is singing now.",
+          "She will sing soon."
+        ],
+        correct: "She is singing now."
+      },
+      {
+        question: "Past Simple",
+        options: [
+          "They are eating food.",
+          "They eat food.",
+          "They ate food.",
+          "They will eat food."
+        ],
+        correct: "They ate food."
+      },
+      {
+        question: "Future Simple",
+        options: [
+          "I watch TV.",
+          "I watched TV.",
+          "I am watching TV.",
+          "I will watch TV."
+        ],
+        correct: "I will watch TV."
+      },
+      {
+        question: "Present Perfect",
+        options: [
+          "She cleans the room.",
+          "She cleaned the room.",
+          "She has cleaned the room.",
+          "She is cleaning the room."
+        ],
+        correct: "She has cleaned the room."
+      },
+      {
+        question: "Past Continuous",
+        options: [
+          "I write a letter.",
+          "I wrote a letter.",
+          "I was writing a letter.",
+          "I will write a letter."
+        ],
+        correct: "I was writing a letter."
+      },
+      {
+        question: "Future Continuous",
+        options: [
+          "He works late.",
+          "He worked late.",
+          "He will be working late.",
+          "He has worked late."
+        ],
+        correct: "He will be working late."
+      },
+      {
+        question: "Past Perfect",
+        options: [
+          "She starts school.",
+          "She started school.",
+          "She had started school.",
+          "She is starting school."
+        ],
+        correct: "She had started school."
+      },
+      {
+        question: "Present Perfect Continuous",
+        options: [
+          "I play football.",
+          "I played football.",
+          "I have been playing football.",
+          "I will play football."
+        ],
+        correct: "I have been playing football."
+      },
+      {
+        question: "Future Perfect",
+        options: [
+          "They finish the job.",
+          "They finished the job.",
+          "They will have finished the job.",
+          "They are finishing the job."
+        ],
+        correct: "They will have finished the job."
+      },
 
-{
-  question: "Past Perfect Continuous",
-  options: [
-    "He studies here.",
-    "He was studying here.",
-    "He had been studying here.",
-    "He will study here."
-  ],
-  correct: "He had been studying here."
-},
-{
-  question: "Future Perfect Continuous",
-  options: [
-    "She teaches math.",
-    "She taught math.",
-    "She will have been teaching math.",
-    "She is teaching math."
-  ],
-  correct: "She will have been teaching math."
-},
-{
-  question: "Present Simple",
-  options: [
-    "Dogs are barking.",
-    "Dogs bark loudly.",
-    "Dogs barked loudly.",
-    "Dogs will bark loudly."
-  ],
-  correct: "Dogs bark loudly."
-},
-{
-  question: "Present Continuous",
-  options: [
-    "We make a plan.",
-    "We made a plan.",
-    "We are making a plan.",
-    "We will make a plan."
-  ],
-  correct: "We are making a plan."
-},
-{
-  question: "Past Simple",
-  options: [
-    "She opens the door.",
-    "She opened the door.",
-    "She is opening the door.",
-    "She has opened the door."
-  ],
-  correct: "She opened the door."
-},
-{
-  question: "Future Simple",
-  options: [
-    "I help you.",
-    "I helped you.",
-    "I am helping you.",
-    "I will help you."
-  ],
-  correct: "I will help you."
-},
-{
-  question: "Present Perfect",
-  options: [
-    "He breaks the cup.",
-    "He broke the cup.",
-    "He has broken the cup.",
-    "He is breaking the cup."
-  ],
-  correct: "He has broken the cup."
-},
-{
-  question: "Past Continuous",
-  options: [
-    "They talk loudly.",
-    "They talked loudly.",
-    "They were talking loudly.",
-    "They will talk loudly."
-  ],
-  correct: "They were talking loudly."
-},
-{
-  question: "Future Continuous",
-  options: [
-    "I read tonight.",
-    "I read last night.",
-    "I will be reading tonight.",
-    "I have read tonight."
-  ],
-  correct: "I will be reading tonight."
-},
-{
-  question: "Past Perfect",
-  options: [
-    "We reach home.",
-    "We reached home.",
-    "We had reached home.",
-    "We are reaching home."
-  ],
-  correct: "We had reached home."
-},
+      {
+        question: "Past Perfect Continuous",
+        options: [
+          "He studies here.",
+          "He was studying here.",
+          "He had been studying here.",
+          "He will study here."
+        ],
+        correct: "He had been studying here."
+      },
+      {
+        question: "Future Perfect Continuous",
+        options: [
+          "She teaches math.",
+          "She taught math.",
+          "She will have been teaching math.",
+          "She is teaching math."
+        ],
+        correct: "She will have been teaching math."
+      },
+      {
+        question: "Present Simple",
+        options: [
+          "Dogs are barking.",
+          "Dogs bark loudly.",
+          "Dogs barked loudly.",
+          "Dogs will bark loudly."
+        ],
+        correct: "Dogs bark loudly."
+      },
+      {
+        question: "Present Continuous",
+        options: [
+          "We make a plan.",
+          "We made a plan.",
+          "We are making a plan.",
+          "We will make a plan."
+        ],
+        correct: "We are making a plan."
+      },
+      {
+        question: "Past Simple",
+        options: [
+          "She opens the door.",
+          "She opened the door.",
+          "She is opening the door.",
+          "She has opened the door."
+        ],
+        correct: "She opened the door."
+      },
+      {
+        question: "Future Simple",
+        options: [
+          "I help you.",
+          "I helped you.",
+          "I am helping you.",
+          "I will help you."
+        ],
+        correct: "I will help you."
+      },
+      {
+        question: "Present Perfect",
+        options: [
+          "He breaks the cup.",
+          "He broke the cup.",
+          "He has broken the cup.",
+          "He is breaking the cup."
+        ],
+        correct: "He has broken the cup."
+      },
+      {
+        question: "Past Continuous",
+        options: [
+          "They talk loudly.",
+          "They talked loudly.",
+          "They were talking loudly.",
+          "They will talk loudly."
+        ],
+        correct: "They were talking loudly."
+      },
+      {
+        question: "Future Continuous",
+        options: [
+          "I read tonight.",
+          "I read last night.",
+          "I will be reading tonight.",
+          "I have read tonight."
+        ],
+        correct: "I will be reading tonight."
+      },
+      {
+        question: "Past Perfect",
+        options: [
+          "We reach home.",
+          "We reached home.",
+          "We had reached home.",
+          "We are reaching home."
+        ],
+        correct: "We had reached home."
+      },
 
-{
-  question: "Present Perfect Continuous",
-  options: [
-    "She dances here.",
-    "She danced here.",
-    "She has been dancing here.",
-    "She will dance here."
-  ],
-  correct: "She has been dancing here."
-},
-{
-  question: "Future Perfect",
-  options: [
-    "He completes the course.",
-    "He completed the course.",
-    "He will have completed the course.",
-    "He is completing the course."
-  ],
-  correct: "He will have completed the course."
-},
-{
-  question: "Past Perfect Continuous",
-  options: [
-    "They wait outside.",
-    "They were waiting outside.",
-    "They had been waiting outside.",
-    "They will wait outside."
-  ],
-  correct: "They had been waiting outside."
-},
-{
-  question: "Future Perfect Continuous",
-  options: [
-    "I live here.",
-    "I lived here.",
-    "I will have been living here.",
-    "I am living here."
-  ],
-  correct: "I will have been living here."
-},
-{
-  question: "Present Simple",
-  options: [
-    "She is smiling.",
-    "She smiles a lot.",
-    "She smiled yesterday.",
-    "She will smile later."
-  ],
-  correct: "She smiles a lot."
-},
-{
-  question: "Present Continuous",
-  options: [
-    "He fixes the bike.",
-    "He fixed the bike.",
-    "He is fixing the bike.",
-    "He will fix the bike."
-  ],
-  correct: "He is fixing the bike."
-},
-{
-  question: "Past Simple",
-  options: [
-    "I answer the call.",
-    "I answered the call.",
-    "I am answering the call.",
-    "I have answered the call."
-  ],
-  correct: "I answered the call."
-},
-{
-  question: "Future Simple",
-  options: [
-    "They join us.",
-    "They joined us.",
-    "They are joining us.",
-    "They will join us."
-  ],
-  correct: "They will join us."
-},
-{
-  question: "Present Perfect",
-  options: [
-    "We see the place.",
-    "We saw the place.",
-    "We have seen the place.",
-    "We are seeing the place."
-  ],
-  correct: "We have seen the place."
-},
-// ===== NEXT 30 QUESTIONS =====
+      {
+        question: "Present Perfect Continuous",
+        options: [
+          "She dances here.",
+          "She danced here.",
+          "She has been dancing here.",
+          "She will dance here."
+        ],
+        correct: "She has been dancing here."
+      },
+      {
+        question: "Future Perfect",
+        options: [
+          "He completes the course.",
+          "He completed the course.",
+          "He will have completed the course.",
+          "He is completing the course."
+        ],
+        correct: "He will have completed the course."
+      },
+      {
+        question: "Past Perfect Continuous",
+        options: [
+          "They wait outside.",
+          "They were waiting outside.",
+          "They had been waiting outside.",
+          "They will wait outside."
+        ],
+        correct: "They had been waiting outside."
+      },
+      {
+        question: "Future Perfect Continuous",
+        options: [
+          "I live here.",
+          "I lived here.",
+          "I will have been living here.",
+          "I am living here."
+        ],
+        correct: "I will have been living here."
+      },
+      {
+        question: "Present Simple",
+        options: [
+          "She is smiling.",
+          "She smiles a lot.",
+          "She smiled yesterday.",
+          "She will smile later."
+        ],
+        correct: "She smiles a lot."
+      },
+      {
+        question: "Present Continuous",
+        options: [
+          "He fixes the bike.",
+          "He fixed the bike.",
+          "He is fixing the bike.",
+          "He will fix the bike."
+        ],
+        correct: "He is fixing the bike."
+      },
+      {
+        question: "Past Simple",
+        options: [
+          "I answer the call.",
+          "I answered the call.",
+          "I am answering the call.",
+          "I have answered the call."
+        ],
+        correct: "I answered the call."
+      },
+      {
+        question: "Future Simple",
+        options: [
+          "They join us.",
+          "They joined us.",
+          "They are joining us.",
+          "They will join us."
+        ],
+        correct: "They will join us."
+      },
+      {
+        question: "Present Perfect",
+        options: [
+          "We see the place.",
+          "We saw the place.",
+          "We have seen the place.",
+          "We are seeing the place."
+        ],
+        correct: "We have seen the place."
+      },
+      // ===== NEXT 30 QUESTIONS =====
 
-{
-  question: "Present Simple",
-  options: [
-    "She is walking now.",
-    "She walks every evening.",
-    "She walked yesterday.",
-    "She will walk tomorrow."
-  ],
-  correct: "She walks every evening."
-},
-{
-  question: "Present Continuous",
-  options: [
-    "He plays chess.",
-    "He played chess.",
-    "He is playing chess.",
-    "He will play chess."
-  ],
-  correct: "He is playing chess."
-},
-{
-  question: "Past Simple",
-  options: [
-    "They are cleaning the room.",
-    "They clean the room.",
-    "They cleaned the room.",
-    "They will clean the room."
-  ],
-  correct: "They cleaned the room."
-},
-{
-  question: "Future Simple",
-  options: [
-    "I finish my work.",
-    "I finished my work.",
-    "I am finishing my work.",
-    "I will finish my work."
-  ],
-  correct: "I will finish my work."
-},
-{
-  question: "Present Perfect",
-  options: [
-    "She opens the shop.",
-    "She opened the shop.",
-    "She has opened the shop.",
-    "She is opening the shop."
-  ],
-  correct: "She has opened the shop."
-},
-{
-  question: "Past Continuous",
-  options: [
-    "I drive the car.",
-    "I drove the car.",
-    "I was driving the car.",
-    "I will drive the car."
-  ],
-  correct: "I was driving the car."
-},
-{
-  question: "Future Continuous",
-  options: [
-    "He works at night.",
-    "He worked at night.",
-    "He will be working at night.",
-    "He has worked at night."
-  ],
-  correct: "He will be working at night."
-},
-{
-  question: "Past Perfect",
-  options: [
-    "She cooks dinner.",
-    "She cooked dinner.",
-    "She had cooked dinner.",
-    "She is cooking dinner."
-  ],
-  correct: "She had cooked dinner."
-},
-{
-  question: "Present Perfect Continuous",
-  options: [
-    "I read books.",
-    "I read books yesterday.",
-    "I have been reading books.",
-    "I will read books."
-  ],
-  correct: "I have been reading books."
-},
-{
-  question: "Future Perfect",
-  options: [
-    "They complete the exam.",
-    "They completed the exam.",
-    "They will have completed the exam.",
-    "They are completing the exam."
-  ],
-  correct: "They will have completed the exam."
-},
+      {
+        question: "Present Simple",
+        options: [
+          "She is walking now.",
+          "She walks every evening.",
+          "She walked yesterday.",
+          "She will walk tomorrow."
+        ],
+        correct: "She walks every evening."
+      },
+      {
+        question: "Present Continuous",
+        options: [
+          "He plays chess.",
+          "He played chess.",
+          "He is playing chess.",
+          "He will play chess."
+        ],
+        correct: "He is playing chess."
+      },
+      {
+        question: "Past Simple",
+        options: [
+          "They are cleaning the room.",
+          "They clean the room.",
+          "They cleaned the room.",
+          "They will clean the room."
+        ],
+        correct: "They cleaned the room."
+      },
+      {
+        question: "Future Simple",
+        options: [
+          "I finish my work.",
+          "I finished my work.",
+          "I am finishing my work.",
+          "I will finish my work."
+        ],
+        correct: "I will finish my work."
+      },
+      {
+        question: "Present Perfect",
+        options: [
+          "She opens the shop.",
+          "She opened the shop.",
+          "She has opened the shop.",
+          "She is opening the shop."
+        ],
+        correct: "She has opened the shop."
+      },
+      {
+        question: "Past Continuous",
+        options: [
+          "I drive the car.",
+          "I drove the car.",
+          "I was driving the car.",
+          "I will drive the car."
+        ],
+        correct: "I was driving the car."
+      },
+      {
+        question: "Future Continuous",
+        options: [
+          "He works at night.",
+          "He worked at night.",
+          "He will be working at night.",
+          "He has worked at night."
+        ],
+        correct: "He will be working at night."
+      },
+      {
+        question: "Past Perfect",
+        options: [
+          "She cooks dinner.",
+          "She cooked dinner.",
+          "She had cooked dinner.",
+          "She is cooking dinner."
+        ],
+        correct: "She had cooked dinner."
+      },
+      {
+        question: "Present Perfect Continuous",
+        options: [
+          "I read books.",
+          "I read books yesterday.",
+          "I have been reading books.",
+          "I will read books."
+        ],
+        correct: "I have been reading books."
+      },
+      {
+        question: "Future Perfect",
+        options: [
+          "They complete the exam.",
+          "They completed the exam.",
+          "They will have completed the exam.",
+          "They are completing the exam."
+        ],
+        correct: "They will have completed the exam."
+      },
 
-{
-  question: "Past Perfect Continuous",
-  options: [
-    "He trains daily.",
-    "He was training daily.",
-    "He had been training daily.",
-    "He will train daily."
-  ],
-  correct: "He had been training daily."
-},
-{
-  question: "Future Perfect Continuous",
-  options: [
-    "She lives here.",
-    "She lived here.",
-    "She will have been living here.",
-    "She is living here."
-  ],
-  correct: "She will have been living here."
-},
-{
-  question: "Present Simple",
-  options: [
-    "The sun is rising.",
-    "The sun rises in the east.",
-    "The sun rose yesterday.",
-    "The sun will rise later."
-  ],
-  correct: "The sun rises in the east."
-},
-{
-  question: "Present Continuous",
-  options: [
-    "We plan the trip.",
-    "We planned the trip.",
-    "We are planning the trip.",
-    "We will plan the trip."
-  ],
-  correct: "We are planning the trip."
-},
-{
-  question: "Past Simple",
-  options: [
-    "She answers the phone.",
-    "She answered the phone.",
-    "She is answering the phone.",
-    "She has answered the phone."
-  ],
-  correct: "She answered the phone."
-},
-{
-  question: "Future Simple",
-  options: [
-    "I join the class.",
-    "I joined the class.",
-    "I am joining the class.",
-    "I will join the class."
-  ],
-  correct: "I will join the class."
-},
-{
-  question: "Present Perfect",
-  options: [
-    "He fixes the bike.",
-    "He fixed the bike.",
-    "He has fixed the bike.",
-    "He is fixing the bike."
-  ],
-  correct: "He has fixed the bike."
-},
-{
-  question: "Past Continuous",
-  options: [
-    "They watch the match.",
-    "They watched the match.",
-    "They were watching the match.",
-    "They will watch the match."
-  ],
-  correct: "They were watching the match."
-},
-{
-  question: "Future Continuous",
-  options: [
-    "I sleep early.",
-    "I slept early.",
-    "I will be sleeping early.",
-    "I have slept early."
-  ],
-  correct: "I will be sleeping early."
-},
-{
-  question: "Past Perfect",
-  options: [
-    "We start the meeting.",
-    "We started the meeting.",
-    "We had started the meeting.",
-    "We are starting the meeting."
-  ],
-  correct: "We had started the meeting."
-},
+      {
+        question: "Past Perfect Continuous",
+        options: [
+          "He trains daily.",
+          "He was training daily.",
+          "He had been training daily.",
+          "He will train daily."
+        ],
+        correct: "He had been training daily."
+      },
+      {
+        question: "Future Perfect Continuous",
+        options: [
+          "She lives here.",
+          "She lived here.",
+          "She will have been living here.",
+          "She is living here."
+        ],
+        correct: "She will have been living here."
+      },
+      {
+        question: "Present Simple",
+        options: [
+          "The sun is rising.",
+          "The sun rises in the east.",
+          "The sun rose yesterday.",
+          "The sun will rise later."
+        ],
+        correct: "The sun rises in the east."
+      },
+      {
+        question: "Present Continuous",
+        options: [
+          "We plan the trip.",
+          "We planned the trip.",
+          "We are planning the trip.",
+          "We will plan the trip."
+        ],
+        correct: "We are planning the trip."
+      },
+      {
+        question: "Past Simple",
+        options: [
+          "She answers the phone.",
+          "She answered the phone.",
+          "She is answering the phone.",
+          "She has answered the phone."
+        ],
+        correct: "She answered the phone."
+      },
+      {
+        question: "Future Simple",
+        options: [
+          "I join the class.",
+          "I joined the class.",
+          "I am joining the class.",
+          "I will join the class."
+        ],
+        correct: "I will join the class."
+      },
+      {
+        question: "Present Perfect",
+        options: [
+          "He fixes the bike.",
+          "He fixed the bike.",
+          "He has fixed the bike.",
+          "He is fixing the bike."
+        ],
+        correct: "He has fixed the bike."
+      },
+      {
+        question: "Past Continuous",
+        options: [
+          "They watch the match.",
+          "They watched the match.",
+          "They were watching the match.",
+          "They will watch the match."
+        ],
+        correct: "They were watching the match."
+      },
+      {
+        question: "Future Continuous",
+        options: [
+          "I sleep early.",
+          "I slept early.",
+          "I will be sleeping early.",
+          "I have slept early."
+        ],
+        correct: "I will be sleeping early."
+      },
+      {
+        question: "Past Perfect",
+        options: [
+          "We start the meeting.",
+          "We started the meeting.",
+          "We had started the meeting.",
+          "We are starting the meeting."
+        ],
+        correct: "We had started the meeting."
+      },
 
-{
-  question: "Present Perfect Continuous",
-  options: [
-    "She paints pictures.",
-    "She painted pictures.",
-    "She has been painting pictures.",
-    "She will paint pictures."
-  ],
-  correct: "She has been painting pictures."
-},
-{
-  question: "Future Perfect",
-  options: [
-    "He submits the form.",
-    "He submitted the form.",
-    "He will have submitted the form.",
-    "He is submitting the form."
-  ],
-  correct: "He will have submitted the form."
-},
-{
-  question: "Past Perfect Continuous",
-  options: [
-    "They wait in line.",
-    "They were waiting in line.",
-    "They had been waiting in line.",
-    "They will wait in line."
-  ],
-  correct: "They had been waiting in line."
-},
+      {
+        question: "Present Perfect Continuous",
+        options: [
+          "She paints pictures.",
+          "She painted pictures.",
+          "She has been painting pictures.",
+          "She will paint pictures."
+        ],
+        correct: "She has been painting pictures."
+      },
+      {
+        question: "Future Perfect",
+        options: [
+          "He submits the form.",
+          "He submitted the form.",
+          "He will have submitted the form.",
+          "He is submitting the form."
+        ],
+        correct: "He will have submitted the form."
+      },
+      {
+        question: "Past Perfect Continuous",
+        options: [
+          "They wait in line.",
+          "They were waiting in line.",
+          "They had been waiting in line.",
+          "They will wait in line."
+        ],
+        correct: "They had been waiting in line."
+      },
 
 
 
-  ]
-},
-   unit11112: {
-  name: "Identify the Tense",
-  description: "Choose the correct tense from the sentence",
-  questions: [
-    { question: "Do you play football every day?", options: TENSE_OPTIONS, correct: "0" },
-    { question: "Is she watching TV right now?", options: TENSE_OPTIONS, correct: "1" },
-    { question: "Have they finished their homework?", options: TENSE_OPTIONS, correct: "2" },
-    { question: "Did you call him yesterday?", options: TENSE_OPTIONS, correct: "4" },
-    { question: "Will you help me tomorrow?", options: TENSE_OPTIONS, correct: "8" },
-    { question: "Was she cooking when I arrived?", options: TENSE_OPTIONS, correct: "5" },
-    { question: "Has he been studying for two hours?", options: TENSE_OPTIONS, correct: "3" },
-    { question: "Had they left before the rain started?", options: TENSE_OPTIONS, correct: "6" },
-    { question: "Will she be traveling next week?", options: TENSE_OPTIONS, correct: "9" },
-    { question: "Does he work in an office?", options: TENSE_OPTIONS, correct: "0" },
+    ]
+  },
+  unit11112: {
+    name: "Identify the Tense",
+    description: "Choose the correct tense from the sentence",
+    questions: [
+      { question: "Do you play football every day?", options: TENSE_OPTIONS, correct: "0" },
+      { question: "Is she watching TV right now?", options: TENSE_OPTIONS, correct: "1" },
+      { question: "Have they finished their homework?", options: TENSE_OPTIONS, correct: "2" },
+      { question: "Did you call him yesterday?", options: TENSE_OPTIONS, correct: "4" },
+      { question: "Will you help me tomorrow?", options: TENSE_OPTIONS, correct: "8" },
+      { question: "Was she cooking when I arrived?", options: TENSE_OPTIONS, correct: "5" },
+      { question: "Has he been studying for two hours?", options: TENSE_OPTIONS, correct: "3" },
+      { question: "Had they left before the rain started?", options: TENSE_OPTIONS, correct: "6" },
+      { question: "Will she be traveling next week?", options: TENSE_OPTIONS, correct: "9" },
+      { question: "Does he work in an office?", options: TENSE_OPTIONS, correct: "0" },
 
-    { question: "Are you learning English these days?", options: TENSE_OPTIONS, correct: "1" },
-    { question: "Have you ever visited Karachi?", options: TENSE_OPTIONS, correct: "2" },
-    { question: "Did she pass the exam?", options: TENSE_OPTIONS, correct: "4" },
-    { question: "Were they playing outside?", options: TENSE_OPTIONS, correct: "5" },
-    { question: "Had he finished the work?", options: TENSE_OPTIONS, correct: "6" },
-    { question: "Will they have completed the project by Monday?", options: TENSE_OPTIONS, correct: "10" },
-    { question: "Has it stopped raining?", options: TENSE_OPTIONS, correct: "2" },
-    { question: "Will he have been living here for five years?", options: TENSE_OPTIONS, correct: "11" },
-    { question: "Do we need more time?", options: TENSE_OPTIONS, correct: "0" },
-    { question: "Is it raining now?", options: TENSE_OPTIONS, correct: "1" },
+      { question: "Are you learning English these days?", options: TENSE_OPTIONS, correct: "1" },
+      { question: "Have you ever visited Karachi?", options: TENSE_OPTIONS, correct: "2" },
+      { question: "Did she pass the exam?", options: TENSE_OPTIONS, correct: "4" },
+      { question: "Were they playing outside?", options: TENSE_OPTIONS, correct: "5" },
+      { question: "Had he finished the work?", options: TENSE_OPTIONS, correct: "6" },
+      { question: "Will they have completed the project by Monday?", options: TENSE_OPTIONS, correct: "10" },
+      { question: "Has it stopped raining?", options: TENSE_OPTIONS, correct: "2" },
+      { question: "Will he have been living here for five years?", options: TENSE_OPTIONS, correct: "11" },
+      { question: "Do we need more time?", options: TENSE_OPTIONS, correct: "0" },
+      { question: "Is it raining now?", options: TENSE_OPTIONS, correct: "1" },
 
-    { question: "Have you been waiting long?", options: TENSE_OPTIONS, correct: "3" },
-    { question: "Did they buy a new car?", options: TENSE_OPTIONS, correct: "4" },
-    { question: "Was he driving fast?", options: TENSE_OPTIONS, correct: "5" },
-    { question: "Had she already eaten?", options: TENSE_OPTIONS, correct: "6" },
-    { question: "Will we meet again?", options: TENSE_OPTIONS, correct: "8" },
-    { question: "Are they working at the moment?", options: TENSE_OPTIONS, correct: "1" },
-    { question: "Has she called you?", options: TENSE_OPTIONS, correct: "2" },
-    { question: "Did it rain yesterday?", options: TENSE_OPTIONS, correct: "4" },
-    { question: "Were you sleeping at that time?", options: TENSE_OPTIONS, correct: "5" },
-    { question: "Will I be waiting for you?", options: TENSE_OPTIONS, correct: "9" },
+      { question: "Have you been waiting long?", options: TENSE_OPTIONS, correct: "3" },
+      { question: "Did they buy a new car?", options: TENSE_OPTIONS, correct: "4" },
+      { question: "Was he driving fast?", options: TENSE_OPTIONS, correct: "5" },
+      { question: "Had she already eaten?", options: TENSE_OPTIONS, correct: "6" },
+      { question: "Will we meet again?", options: TENSE_OPTIONS, correct: "8" },
+      { question: "Are they working at the moment?", options: TENSE_OPTIONS, correct: "1" },
+      { question: "Has she called you?", options: TENSE_OPTIONS, correct: "2" },
+      { question: "Did it rain yesterday?", options: TENSE_OPTIONS, correct: "4" },
+      { question: "Were you sleeping at that time?", options: TENSE_OPTIONS, correct: "5" },
+      { question: "Will I be waiting for you?", options: TENSE_OPTIONS, correct: "9" },
 
-    { question: "Have they been working here for years?", options: TENSE_OPTIONS, correct: "3" },
-    { question: "Does she like coffee?", options: TENSE_OPTIONS, correct: "0" },
-    { question: "Will she have finished her work?", options: TENSE_OPTIONS, correct: "10" },
-    { question: "Had he been working all day?", options: TENSE_OPTIONS, correct: "7" },
-    { question: "Is he playing cricket now?", options: TENSE_OPTIONS, correct: "1" },
-    { question: "Did you see that movie?", options: TENSE_OPTIONS, correct: "4" },
-    { question: "Have you completed the task?", options: TENSE_OPTIONS, correct: "2" },
-    { question: "Were they watching TV?", options: TENSE_OPTIONS, correct: "5" },
-    { question: "Will it rain tomorrow?", options: TENSE_OPTIONS, correct: "8" },
-    { question: "Do they live near the school?", options: TENSE_OPTIONS, correct: "0" },
+      { question: "Have they been working here for years?", options: TENSE_OPTIONS, correct: "3" },
+      { question: "Does she like coffee?", options: TENSE_OPTIONS, correct: "0" },
+      { question: "Will she have finished her work?", options: TENSE_OPTIONS, correct: "10" },
+      { question: "Had he been working all day?", options: TENSE_OPTIONS, correct: "7" },
+      { question: "Is he playing cricket now?", options: TENSE_OPTIONS, correct: "1" },
+      { question: "Did you see that movie?", options: TENSE_OPTIONS, correct: "4" },
+      { question: "Have you completed the task?", options: TENSE_OPTIONS, correct: "2" },
+      { question: "Were they watching TV?", options: TENSE_OPTIONS, correct: "5" },
+      { question: "Will it rain tomorrow?", options: TENSE_OPTIONS, correct: "8" },
+      { question: "Do they live near the school?", options: TENSE_OPTIONS, correct: "0" },
 
-    { question: "Has she been feeling better?", options: TENSE_OPTIONS, correct: "3" },
-    { question: "Had we met before?", options: TENSE_OPTIONS, correct: "6" },
-    { question: "Will you be studying tonight?", options: TENSE_OPTIONS, correct: "9" },
-    { question: "Did he break the glass?", options: TENSE_OPTIONS, correct: "4" },
-    { question: "Is she teaching English now?", options: TENSE_OPTIONS, correct: "1" },
-    { question: "Have they seen this place?", options: TENSE_OPTIONS, correct: "2" },
-    { question: "Were you working late?", options: TENSE_OPTIONS, correct: "5" },
-    { question: "Will they have arrived by noon?", options: TENSE_OPTIONS, correct: "10" },
-    { question: "Does it rain a lot here?", options: TENSE_OPTIONS, correct: "0" },
-    { question: "Had she been crying?", options: TENSE_OPTIONS, correct: "7" },
+      { question: "Has she been feeling better?", options: TENSE_OPTIONS, correct: "3" },
+      { question: "Had we met before?", options: TENSE_OPTIONS, correct: "6" },
+      { question: "Will you be studying tonight?", options: TENSE_OPTIONS, correct: "9" },
+      { question: "Did he break the glass?", options: TENSE_OPTIONS, correct: "4" },
+      { question: "Is she teaching English now?", options: TENSE_OPTIONS, correct: "1" },
+      { question: "Have they seen this place?", options: TENSE_OPTIONS, correct: "2" },
+      { question: "Were you working late?", options: TENSE_OPTIONS, correct: "5" },
+      { question: "Will they have arrived by noon?", options: TENSE_OPTIONS, correct: "10" },
+      { question: "Does it rain a lot here?", options: TENSE_OPTIONS, correct: "0" },
+      { question: "Had she been crying?", options: TENSE_OPTIONS, correct: "7" },
 
-    { question: "Will you call me later?", options: TENSE_OPTIONS, correct: "8" },
-    { question: "Have you been learning coding?", options: TENSE_OPTIONS, correct: "3" },
-    { question: "Did we miss the bus?", options: TENSE_OPTIONS, correct: "4" },
-    { question: "Is he sleeping right now?", options: TENSE_OPTIONS, correct: "1" },
-    { question: "Had the train left already?", options: TENSE_OPTIONS, correct: "6" },
-    { question: "Will she be waiting for us?", options: TENSE_OPTIONS, correct: "9" },
-    { question: "Do you understand this lesson?", options: TENSE_OPTIONS, correct: "0" },
-    { question: "Have they been arguing?", options: TENSE_OPTIONS, correct: "3" },
-    { question: "Will he have completed the course?", options: TENSE_OPTIONS, correct: "10" },
-    { question: "Will she have been working here for ten years?", options: TENSE_OPTIONS, correct: "11" },
-    { question: "Does she go to school by bus?", options: TENSE_OPTIONS, correct: "0" },
-  { question: "Are they having lunch right now?", options: TENSE_OPTIONS, correct: "1" },
-  { question: "Have you checked your email?", options: TENSE_OPTIONS, correct: "2" },
-  { question: "Has he been working since morning?", options: TENSE_OPTIONS, correct: "3" },
-  { question: "Did she lose her keys?", options: TENSE_OPTIONS, correct: "4" },
-  { question: "Was it snowing last night?", options: TENSE_OPTIONS, correct: "5" },
-  { question: "Had they completed the test?", options: TENSE_OPTIONS, correct: "6" },
-  { question: "Had she been waiting long?", options: TENSE_OPTIONS, correct: "7" },
-  { question: "Will you join us later?", options: TENSE_OPTIONS, correct: "8" },
-  { question: "Will he be driving tonight?", options: TENSE_OPTIONS, correct: "9" },
+      { question: "Will you call me later?", options: TENSE_OPTIONS, correct: "8" },
+      { question: "Have you been learning coding?", options: TENSE_OPTIONS, correct: "3" },
+      { question: "Did we miss the bus?", options: TENSE_OPTIONS, correct: "4" },
+      { question: "Is he sleeping right now?", options: TENSE_OPTIONS, correct: "1" },
+      { question: "Had the train left already?", options: TENSE_OPTIONS, correct: "6" },
+      { question: "Will she be waiting for us?", options: TENSE_OPTIONS, correct: "9" },
+      { question: "Do you understand this lesson?", options: TENSE_OPTIONS, correct: "0" },
+      { question: "Have they been arguing?", options: TENSE_OPTIONS, correct: "3" },
+      { question: "Will he have completed the course?", options: TENSE_OPTIONS, correct: "10" },
+      { question: "Will she have been working here for ten years?", options: TENSE_OPTIONS, correct: "11" },
+      { question: "Does she go to school by bus?", options: TENSE_OPTIONS, correct: "0" },
+      { question: "Are they having lunch right now?", options: TENSE_OPTIONS, correct: "1" },
+      { question: "Have you checked your email?", options: TENSE_OPTIONS, correct: "2" },
+      { question: "Has he been working since morning?", options: TENSE_OPTIONS, correct: "3" },
+      { question: "Did she lose her keys?", options: TENSE_OPTIONS, correct: "4" },
+      { question: "Was it snowing last night?", options: TENSE_OPTIONS, correct: "5" },
+      { question: "Had they completed the test?", options: TENSE_OPTIONS, correct: "6" },
+      { question: "Had she been waiting long?", options: TENSE_OPTIONS, correct: "7" },
+      { question: "Will you join us later?", options: TENSE_OPTIONS, correct: "8" },
+      { question: "Will he be driving tonight?", options: TENSE_OPTIONS, correct: "9" },
 
-  { question: "Will they have reached home by now?", options: TENSE_OPTIONS, correct: "10" },
-  { question: "Will she have been studying for hours?", options: TENSE_OPTIONS, correct: "11" },
-  { question: "Do we have enough time?", options: TENSE_OPTIONS, correct: "0" },
-  { question: "Is the baby sleeping now?", options: TENSE_OPTIONS, correct: "1" },
-  { question: "Have they already paid the bill?", options: TENSE_OPTIONS, correct: "2" },
-  { question: "Have you been feeling tired?", options: TENSE_OPTIONS, correct: "3" },
-  { question: "Did he forget your name?", options: TENSE_OPTIONS, correct: "4" },
-  { question: "Were you listening to music?", options: TENSE_OPTIONS, correct: "5" },
-  { question: "Had I seen you before?", options: TENSE_OPTIONS, correct: "6" },
-  { question: "Had it been raining all night?", options: TENSE_OPTIONS, correct: "7" },
+      { question: "Will they have reached home by now?", options: TENSE_OPTIONS, correct: "10" },
+      { question: "Will she have been studying for hours?", options: TENSE_OPTIONS, correct: "11" },
+      { question: "Do we have enough time?", options: TENSE_OPTIONS, correct: "0" },
+      { question: "Is the baby sleeping now?", options: TENSE_OPTIONS, correct: "1" },
+      { question: "Have they already paid the bill?", options: TENSE_OPTIONS, correct: "2" },
+      { question: "Have you been feeling tired?", options: TENSE_OPTIONS, correct: "3" },
+      { question: "Did he forget your name?", options: TENSE_OPTIONS, correct: "4" },
+      { question: "Were you listening to music?", options: TENSE_OPTIONS, correct: "5" },
+      { question: "Had I seen you before?", options: TENSE_OPTIONS, correct: "6" },
+      { question: "Had it been raining all night?", options: TENSE_OPTIONS, correct: "7" },
 
-  { question: "Will she call you tomorrow?", options: TENSE_OPTIONS, correct: "8" },
-  { question: "Will they be staying here?", options: TENSE_OPTIONS, correct: "9" },
-  { question: "Will he have learned English by then?", options: TENSE_OPTIONS, correct: "10" },
-  { question: "Will you have been working all day?", options: TENSE_OPTIONS, correct: "11" },
-  { question: "Do they understand the rules?", options: TENSE_OPTIONS, correct: "0" },
-  { question: "Is she cleaning the room?", options: TENSE_OPTIONS, correct: "1" },
-  { question: "Have we solved the problem?", options: TENSE_OPTIONS, correct: "2" },
-  { question: "Has it been getting colder?", options: TENSE_OPTIONS, correct: "3" },
-  { question: "Did the teacher explain the lesson?", options: TENSE_OPTIONS, correct: "4" },
-  { question: "Was he shouting at you?", options: TENSE_OPTIONS, correct: "5" },
+      { question: "Will she call you tomorrow?", options: TENSE_OPTIONS, correct: "8" },
+      { question: "Will they be staying here?", options: TENSE_OPTIONS, correct: "9" },
+      { question: "Will he have learned English by then?", options: TENSE_OPTIONS, correct: "10" },
+      { question: "Will you have been working all day?", options: TENSE_OPTIONS, correct: "11" },
+      { question: "Do they understand the rules?", options: TENSE_OPTIONS, correct: "0" },
+      { question: "Is she cleaning the room?", options: TENSE_OPTIONS, correct: "1" },
+      { question: "Have we solved the problem?", options: TENSE_OPTIONS, correct: "2" },
+      { question: "Has it been getting colder?", options: TENSE_OPTIONS, correct: "3" },
+      { question: "Did the teacher explain the lesson?", options: TENSE_OPTIONS, correct: "4" },
+      { question: "Was he shouting at you?", options: TENSE_OPTIONS, correct: "5" },
 
-  { question: "Had she locked the door?", options: TENSE_OPTIONS, correct: "6" },
-  { question: "Had they been arguing before you came?", options: TENSE_OPTIONS, correct: "7" },
-  { question: "Will it be sunny tomorrow?", options: TENSE_OPTIONS, correct: "8" },
-  { question: "Will you be using the computer?", options: TENSE_OPTIONS, correct: "9" },
-  { question: "Will they have cleaned the house?", options: TENSE_OPTIONS, correct: "10" },
-  { question: "Will she have been teaching here for years?", options: TENSE_OPTIONS, correct: "11" }
+      { question: "Had she locked the door?", options: TENSE_OPTIONS, correct: "6" },
+      { question: "Had they been arguing before you came?", options: TENSE_OPTIONS, correct: "7" },
+      { question: "Will it be sunny tomorrow?", options: TENSE_OPTIONS, correct: "8" },
+      { question: "Will you be using the computer?", options: TENSE_OPTIONS, correct: "9" },
+      { question: "Will they have cleaned the house?", options: TENSE_OPTIONS, correct: "10" },
+      { question: "Will she have been teaching here for years?", options: TENSE_OPTIONS, correct: "11" }
 
-  
-  ]
-  
-}
+
+    ]
+
+  }
 }

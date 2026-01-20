@@ -28,6 +28,7 @@ export default function UnitSelector({ onSelectUnit, onReset }: UnitSelectorProp
   const bgAccent = "bg-blue-50 dark:bg-blue-950"
 
   const units = [
+    { id: "pstav", data: quizData.pstav },
     { id: "unit1111", data: quizData.unit1111 },
     { id: "unit11112", data: quizData.unit11112 },
     { id: "unit133", data: quizData.unit133 },
