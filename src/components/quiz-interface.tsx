@@ -229,7 +229,7 @@ export default function QuizInterface({ unit, gender = "male", onQuizComplete, o
               </div>
             </div>
 
-{/* 
+
             <div className={`p-8 rounded-2xl ${lightBg} border border-border/50`}>
               <h3 className="font-bold text-lg mb-6">Questions Overview</h3>
               <div className="grid grid-cols-5 md:grid-cols-10 gap-3">
@@ -249,7 +249,7 @@ export default function QuizInterface({ unit, gender = "male", onQuizComplete, o
                   </button>
                 ))}
               </div>
-            </div> */}
+            </div> 
           </div>
         </div>
       </div>
