@@ -23,310 +23,310 @@ export const quizData = {
       {
         "question": "اُس لڑکے نے سبق یاد کر لیا ہے۔",
         "options": [
+          "That boy has forgotten the lesson.",
+          "That boy has taught the lesson.",
           "That boy has memorized the lesson.",
-          "That boy is memorizing the lesson.",
-          "That boy had memorized the lesson.",
-          "That boy will memorize the lesson."
+          "That boy has read the lesson."
         ],
-        "correct": "0"
+        "correct": "2"
       },
       {
         "question": "اُس لڑکی نے کہانی لکھ لی ہے۔",
         "options": [
-          "She wrote a story.",
-          "She has written a story.",
-          "She was writing a story.",
-          "She writes a story."
+          "That girl has written the story.",
+          "That girl has told the story.",
+          "That girl has read the story.",
+          "That girl has heard the story."
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "وہ نظم پڑھا چکے ہیں۔",
         "options": [
-          "They have recited the poem.",
-          "They recited the poem.",
-          "They had recited the poem.",
-          "They were reciting the poem."
+          "He has written the poem.",
+          "He has already read the poem.",
+          "He has taught the poem.",
+          "He has learnt the poem."
         ],
-        "correct": "0"
+        "correct": "1"
       },
       {
         "question": "آپ اپنا کام ختم کر چکے ہیں۔",
         "options": [
+          "You have started your work.",
           "You have finished your work.",
-          "You had finished your work.",
-          "You are finishing your work.",
-          "You finished your work."
+          "You have left your work.",
+          "You have done your work."
         ],
-        "correct": "0"
+        "correct": "1"
       },
       {
         "question": "میں ناشتہ کر چکا ہوں۔",
         "options": [
-          "I have taken breakfast.",
-          "I had taken breakfast.",
-          "I take breakfast.",
-          "I was taking breakfast."
+          "I have had breakfast.",
+          "I have made breakfast.",
+          "I have eaten lunch.",
+          "I have cooked breakfast."
         ],
         "correct": "0"
       },
       {
         "question": "ہم نے گیت من لیے ہیں۔",
         "options": [
+          "We have heard the song.",
+          "We have written the song.",
           "We have sung the song.",
-          "We sung the song.",
-          "We were singing the song.",
-          "We had sung the song."
+          "We have played the song."
         ],
-        "correct": "0"
+        "correct": "2"
       },
       {
         "question": "کتے نے خرگوش کو پکڑ لیا ہے۔",
         "options": [
-          "The dog caught the rabbit.",
+          "The dog has killed the rabbit.",
+          "The dog has chased the rabbit.",
           "The dog has caught the rabbit.",
-          "The dog had caught the rabbit.",
-          "The dog was catching the rabbit."
+          "The dog has seen the rabbit."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "چوہوں نے دیواروں میں بل بنا لیے ہیں۔",
         "options": [
-          "The rats made holes in the walls.",
-          "The rats have made holes in the walls.",
-          "The rats were making holes in the walls.",
-          "The rats make holes in the walls."
+          "The mice have dug holes in the walls.",
+          "The mice have made holes in the walls.",
+          "The mice have broken the walls.",
+          "The mice have hidden in the walls."
         ],
         "correct": "1"
       },
       {
         "question": "لڑکوں نے گھونسلے سے انڈے چرا لیے ہیں۔",
         "options": [
-          "The boys stole eggs from the nest.",
+          "The boys have eaten eggs from the nest.",
+          "The boys have broken eggs from the nest.",
           "The boys have stolen eggs from the nest.",
-          "The boys were stealing eggs from the nest.",
-          "The boys had stolen eggs from the nest."
+          "The boys have bought eggs from the nest."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "موسم برسات شروع ہو چکا ہے۔",
         "options": [
-          "The rainy season had started.",
-          "The rainy season starts.",
-          "The rainy season has started.",
-          "The rainy season started."
+          "The summer season has started.",
+          "The winter season has started.",
+          "The dry season has started.",
+          "The rainy season has started."
         ],
-        "correct": "2"
+        "correct": "3"
       },
       {
         "question": "موسم سرما ختم ہو چکا ہے۔",
         "options": [
           "The winter season has ended.",
-          "The winter season ended.",
-          "The winter season was ending.",
-          "The winter season ends."
+          "The summer season has ended.",
+          "The spring season has ended.",
+          "The winter season has started."
         ],
         "correct": "0"
       },
       {
         "question": "پودے بڑھ کر درخت بن چکے ہیں۔",
         "options": [
+          "The plants have grown into bushes.",
           "The plants have grown into trees.",
-          "The plants grew into trees.",
-          "The plants had grown into trees.",
-          "The plants are growing into trees."
-        ],
-        "correct": "0"
-      },
-      {
-        "question": "غریب آدمی امیر ہو چکا ہے۔",
-        "options": [
-          "The poor man became rich.",
-          "The poor man becomes rich.",
-          "The poor man has become rich.",
-          "The poor man was becoming rich."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "امجد انعام حاصل کر چکا ہے۔",
-        "options": [
-          "Amjad obtained the prize.",
-          "Amjad has obtained the prize.",
-          "Amjad had obtained the prize.",
-          "Amjad was obtaining the prize."
+          "The plants have become flowers.",
+          "The plants have dried up."
         ],
         "correct": "1"
       },
       {
+        "question": "غریب آدمی امیر ہو چکا ہے۔",
+        "options": [
+          "The poor man has become rich.",
+          "The rich man has become poor.",
+          "The poor man has died.",
+          "The poor man has suffered."
+        ],
+        "correct": "0"
+      },
+      {
+        "question": "امجد انعام حاصل کر چکا ہے۔",
+        "options": [
+          "Amjad has lost the prize.",
+          "Amjad has won the prize.",
+          "Amjad has received the prize.",
+          "Amjad has given the prize."
+        ],
+        "correct": "2"
+      },
+      {
         "question": "ہم نے دعوت قبول کر لی ہے۔",
         "options": [
-          "We accepted the invitation.",
+          "We have rejected the invitation.",
           "We have accepted the invitation.",
-          "We had accepted the invitation.",
-          "We were accepting the invitation."
+          "We have sent the invitation.",
+          "We have received the invitation."
         ],
         "correct": "1"
       },
       {
         "question": "کلاک چار بجا چکا ہے۔",
         "options": [
-          "The clock struck four.",
+          "The clock has stopped.",
+          "The clock has broken.",
           "The clock has struck four.",
-          "The clock was striking four.",
-          "The clock strikes four."
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "امجد پر چہ حل کر چکے ہیں۔",
-        "options": [
-          "They solved the problem on Amjad.",
-          "They have solved the problem on Amjad.",
-          "They were solving the problem on Amjad.",
-          "They had solved the problem on Amjad."
+          "The clock has fallen."
         ],
         "correct": "2"
       },
       {
+        "question": "امیدوار پر چہ حل کر چکے ہیں۔",
+        "options": [
+          "The candidate has asked the question.",
+          "The candidate has solved the problem.",
+          "The candidate has failed the problem.",
+          "The candidate has created the problem."
+        ],
+        "correct": "1"
+      },
+      {
         "question": "مہمان خصوصی انعام تقسیم کر چکا ہے۔",
         "options": [
-          "The guest distributed the special award.",
-          "The guest has distributed the special award.",
-          "The guest was distributing the special award.",
-          "The guest had distributed the special award."
+          "The special guest has received the prize.",
+          "The special guest has announced the prize.",
+          "The special guest has distributed the prize.",
+          "The special guest has bought the prize."
         ],
         "correct": "2"
       },
       {
         "question": "پرنسپل نے طلبہ کو اسناد دے دی ہیں۔",
         "options": [
-          "The principal gave certificates to the students.",
           "The principal has given certificates to the students.",
-          "The principal was giving certificates to the students.",
-          "The principal gives certificates to the students."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "ٹیمیں بیچ کھیل چکی ہیں۔",
-        "options": [
-          "The teams have played the match.",
-          "The teams played the match.",
-          "The teams were playing the match.",
-          "The teams had played the match."
+          "The principal has taken certificates from the students.",
+          "The principal has torn the students' certificates.",
+          "The principal has signed the certificates."
         ],
         "correct": "0"
       },
       {
+        "question": "ٹیمیں بیچ کھیل چکی ہیں۔",
+        "options": [
+          "The teams have lost the match.",
+          "The teams have won the match.",
+          "The teams have started the match.",
+          "The teams have played the match."
+        ],
+        "correct": "3"
+      },
+      {
         "question": "عدالت میرے حق میں فیصلہ دے چکی ہے۔",
         "options": [
-          "The court decided in my favor.",
-          "The court has decided in my favor.",
-          "The court was deciding in my favor.",
-          "The court had decided in my favor."
+          "The court has given a decision against me.",
+          "The court has changed the decision.",
+          "The court has given a decision in my favor.",
+          "The court has delayed the decision."
         ],
         "correct": "2"
       },
       {
-        "question": "بورڈ نے نتیجے کا اعلان کر دیا ہے۔",
+        "question": "بورڈ نے نتیجہ کا اعلان کر دیا ہے۔",
         "options": [
-          "The board announced the result.",
+          "The board has cancelled the result.",
           "The board has announced the result.",
-          "The board was announcing the result.",
-          "The board had announced the result."
+          "The board has checked the result.",
+          "The board has hidden the result."
         ],
-        "correct": "2"
+        "correct": "1"
       },
       {
         "question": "چور گھر میں نقب لگا چکے ہیں۔",
         "options": [
-          "The thieves dug a tunnel in the house.",
-          "The thieves have dug a tunnel in the house.",
-          "The thieves were digging a tunnel in the house.",
-          "The thieves had dug a tunnel in the house."
+          "The thieves have entered the house.",
+          "The thieves have locked the house.",
+          "The thieves have broken into the house.",
+          "The thieves have left the house."
         ],
         "correct": "2"
       },
       {
         "question": "میں یہ تصویر بیچ چکا ہوں۔",
         "options": [
-          "I sold this picture.",
-          "I have sold this picture.",
-          "I was selling this picture.",
-          "I had sold this picture."
+          "I have bought this picture.",
+          "I have drawn this picture.",
+          "I have lost this picture.",
+          "I have sold this picture."
         ],
-        "correct": "2"
+        "correct": "3"
       },
       {
         "question": "نسیمہ نے امتحان پاس کر لیا ہے۔",
         "options": [
-          "Nasima passed the exam.",
-          "Nasima has passed the exam.",
-          "Nasima was passing the exam.",
-          "Nasima had passed the exam."
+          "Naseema has failed the exam.",
+          "Naseema has passed the exam.",
+          "Naseema has appeared in the exam.",
+          "Naseema has taken the exam."
         ],
-        "correct": "2"
+        "correct": "1"
       },
       {
         "question": "بشیر وظیفہ حاصل کر چکا ہے۔",
         "options": [
-          "Bashir got the scholarship.",
-          "Bashir has got the scholarship.",
-          "Bashir was getting the scholarship.",
-          "Bashir had got the scholarship."
+          "Basheer has lost the scholarship.",
+          "Basheer has applied for the scholarship.",
+          "Basheer has received the scholarship.",
+          "Basheer has given the scholarship."
         ],
         "correct": "2"
       },
       {
         "question": "تمام پرندے اڑ چکے ہیں۔",
         "options": [
-          "All the birds flew away.",
-          "All the birds have flown away.",
-          "All the birds were flying away.",
-          "All the birds had flown away."
+          "All the birds have flown.",
+          "All the birds have died.",
+          "All the birds have come.",
+          "All the birds have sung."
         ],
-        "correct": "2"
+        "correct": "0"
       },
       {
         "question": "ہم بندوق چلا چکے ہیں۔",
         "options": [
-          "We fired the gun.",
+          "We have loaded the gun.",
           "We have fired the gun.",
-          "We were firing the gun.",
-          "We had fired the gun."
+          "We have bought the gun.",
+          "We have cleaned the gun."
         ],
-        "correct": "2"
+        "correct": "1"
       },
       {
         "question": "میچ بغیر ہار جیت کے ختم ہو چکا ہے۔",
         "options": [
-          "The match ended without a win or loss.",
+          "The match has been won.",
+          "The match has been lost.",
           "The match has ended without a win or loss.",
-          "The match was ending without a win or loss.",
-          "The match had ended without a win or loss."
+          "The match has been cancelled."
         ],
         "correct": "2"
       },
       {
         "question": "فوج نے قلعے پر قبضہ کر لیا ہے۔",
         "options": [
-          "The army captured the fort.",
-          "The army has captured the fort.",
-          "The army was capturing the fort.",
-          "The army had captured the fort."
+          "The army has left the fort.",
+          "The army has destroyed the fort.",
+          "The army has built the fort.",
+          "The army has captured the fort."
         ],
-        "correct": "2"
+        "correct": "3"
       },
       {
         "question": "اس نے کتاب نہیں پھاڑی ہے۔",
         "options": [
-          "She has torn the book.",
-          "She has not torn the book.",
-          "She tore the book.",
-          "She is tearing the book."
+          "He has torn the book.",
+          "He has written the book.",
+          "He has not torn the book.",
+          "He has bought the book."
         ],
         "correct": "2"
       },
@@ -334,79 +334,79 @@ export const quizData = {
         "question": "انھوں نے ہمارا انتظار نہیں کیا ہے۔",
         "options": [
           "They have waited for us.",
-          "They are waiting for us.",
-          "They did not wait for us.",
-          "They have not waited for us."
-        ],
-        "correct": "3"
-      },
-      {
-        "question": "پرنسپل نے سکول بند نہیں کیا ہے۔",
-        "options": [
-          "The Principal has closed the school.",
-          "The Principal has not closed the school.",
-          "The Principal did not close the school.",
-          "The Principal is closing the school."
+          "They have left us.",
+          "They have not waited for us.",
+          "They have called us."
         ],
         "correct": "2"
       },
       {
+        "question": "پرنسپل نے سکول بند نہیں کیا ہے۔",
+        "options": [
+          "The principal has closed the school.",
+          "The principal has not closed the school.",
+          "The principal has opened the school.",
+          "The principal has left the school."
+        ],
+        "correct": "1"
+      },
+      {
         "question": "ہم چائے پی نہیں چکے ہیں۔",
         "options": [
-          "We have taken tea.",
-          "We are taking tea.",
-          "We did not take tea.",
-          "We have not taken tea."
+          "We have drunk tea.",
+          "We have not drunk tea.",
+          "We have made tea.",
+          "We have spilled tea."
         ],
-        "correct": "3"
+        "correct": "1"
       },
       {
         "question": "گاڑی روانہ نہیں ہوئی ہے۔",
         "options": [
-          "The car has left.",
-          "The car has not left.",
-          "The car did not leave.",
-          "The car is leaving."
+          "The car has arrived.",
+          "The car has stopped.",
+          "The car has not departed.",
+          "The car has started."
         ],
         "correct": "2"
       },
       {
         "question": "مستری نے کام ادھورا نہیں چھوڑا ہے۔",
         "options": [
-          "The mason has left the work incomplete.",
-          "The mason has not left the work incomplete.",
-          "The mason did not leave the work incomplete.",
-          "The mason leaves the work incomplete."
+          "The carpenter has finished the work.",
+          "The carpenter has not left the work unfinished.",
+          "The carpenter has started the work.",
+          "The carpenter has done the work."
         ],
-        "correct": "2"
+        "correct": "1"
       },
       {
         "question": "بادشاہ نے تاج نہیں اُتارا ہے۔",
         "options": [
-          "The king has not taken off the crown.",
-          "The king took off the crown.",
-          "The king has taken off the crown.",
-          "The king is taking off the crown."
+          "The king has worn the crown.",
+          "The king has not removed the crown.",
+          "The king has lost the crown.",
+          "The king has broken the crown."
         ],
-        "correct": "0"
+        "correct": "1"
       },
       {
         "question": "مرغی انڈا نہیں دے چکی ہے۔",
         "options": [
-          "The hen has laid an egg.",
           "The hen has not laid an egg.",
-          "The hen did not lay an egg.",
-          "The hen lays an egg."
+          "The hen has laid an egg.",
+          "The hen has eaten an egg.",
+          "The hen has broken an egg."
         ],
-        "correct": "2"
+        "correct": "0"
       },
       {
-        "question": "مور جنگل میں نہیں ناچا ہے۔",
+        "question": "مور جنگل میں نہیں نا چا ہے۔",
         "options": [
+          "The peacock has flown in the forest.",
           "The peacock has danced in the forest.",
-          "The peacock did not dance in the forest.",
           "The peacock has not danced in the forest.",
-          "The peacock is dancing in the forest."
+          "The peacock has sung in the forest."
         ],
         "correct": "2"
       },
@@ -414,89 +414,89 @@ export const quizData = {
         "question": "سورج ڈوب نہیں چکا ہے۔",
         "options": [
           "The sun has set.",
-          "The sun is setting.",
-          "The sun did not set.",
-          "The sun has not set."
+          "The sun has risen.",
+          "The sun has not set.",
+          "The sun is hot."
         ],
-        "correct": "3"
+        "correct": "2"
       },
       {
         "question": "مریض نے دوائی نہیں پی ہے۔",
         "options": [
-          "The patient has taken medicine.",
-          "The patient has not taken medicine.",
-          "The patient did not take medicine.",
-          "The patient is taking medicine."
+          "The patient has taken the medicine.",
+          "The patient has bought the medicine.",
+          "The patient has not taken the medicine.",
+          "The patient has refused the medicine."
         ],
         "correct": "2"
       },
       {
         "question": "مزدوروں نے ہڑتال نہیں کی ہے۔",
         "options": [
-          "The labourers have gone on strike.",
-          "The labourers have not gone on strike.",
-          "The labourers did not go on strike.",
-          "The labourers are on strike."
+          "The workers have gone on strike.",
+          "The workers have worked hard.",
+          "The workers have not gone on strike.",
+          "The workers have left the job."
         ],
         "correct": "2"
       },
       {
         "question": "عورتوں نے دلہن کو نہیں سنوارا ہے۔",
         "options": [
-          "The women have not decorated the bride.",
-          "The women have decorated the bride.",
-          "The women did not decorate the bride.",
-          "The women are decorating the bride."
+          "The women have adorned the bride.",
+          "The women have met the bride.",
+          "The women have not adorned the bride.",
+          "The women have helped the bride."
         ],
-        "correct": "0"
+        "correct": "2"
       },
       {
         "question": "دلہے نے نئے کپڑے نہیں پہنے ہیں۔",
         "options": [
-          "The bridegroom has worn new clothes.",
-          "The bridegroom wears new clothes.",
-          "The bridegroom has not worn new clothes.",
-          "The bridegroom did not wear new clothes."
+          "The groom has torn new clothes.",
+          "The groom has bought new clothes.",
+          "The groom has not worn new clothes.",
+          "The groom has washed new clothes."
         ],
         "correct": "2"
       },
       {
         "question": "چھت نہیں گرمی ہے۔",
         "options": [
-          "The roof is hot.",
-          "The roof was hot.",
-          "The roof has been hot.",
-          "The roof is not hot."
+          "The roof has fallen.",
+          "The roof has leaked.",
+          "The roof has been built.",
+          "The roof has not fallen."
         ],
         "correct": "3"
       },
       {
         "question": "انھوں نے گم شدہ بچے کی تلاش نہیں کی ہے۔",
         "options": [
-          "They have searched for the lost child.",
+          "They have found the lost child.",
+          "They have lost the child.",
           "They have not searched for the lost child.",
-          "They did not search for the lost child.",
-          "They are searching for the lost child."
+          "They have called the child."
         ],
         "correct": "2"
       },
       {
         "question": "آپ نے میری درخواست منظور نہیں کی ہے۔",
         "options": [
-          "You have not accepted my application.",
-          "You have accepted my application.",
-          "You did not accept my application.",
-          "You accept my application."
+          "You have rejected my request.",
+          "You have accepted my request.",
+          "You have not approved my request.",
+          "You have read my request."
         ],
-        "correct": "0"
+        "correct": "2"
       },
       {
         "question": "عدالت نے ملزم کی درخواست پر غور نہیں کیا ہے۔",
         "options": [
-          "The court has considered the accused's application.",
-          "The court has not considered the accused's application.",
-          "The court did not consider the accused's application.",
-          "The court considers the accused's application."
+          "The court has accepted the accused’s request.",
+          "The court has considered the accused’s request.",
+          "The court has not considered the accused’s request.",
+          "The court has ignored the accused."
         ],
         "correct": "2"
       },
@@ -504,359 +504,369 @@ export const quizData = {
         "question": "اس نے اپنی بیوی پر اعتماد نہیں کیا ہے۔",
         "options": [
           "He has trusted his wife.",
+          "He has loved his wife.",
           "He has not trusted his wife.",
-          "He did not trust his wife.",
-          "He trusts his wife."
+          "He has helped his wife."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "چوکیدار نے اپنا فرض ادا نہیں کیا ہے۔",
         "options": [
-          "The watchman has performed his duty.",
-          "The watchman has not performed his duty.",
-          "The watchman did not perform his duty.",
-          "The watchman performs his duty."
+          "The guard has slept.",
+          "The guard has performed his duty.",
+          "The guard has not performed his duty.",
+          "The guard has run away."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "تمام مہمان نہیں آچکے ہیں۔",
         "options": [
           "All the guests have arrived.",
+          "All the guests have left.",
           "All the guests have not arrived.",
-          "All the guests did not arrive.",
-          "All the guests are arriving."
+          "All the guests are eating."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "کھلاڑیوں کو سرد مشروب نہیں دیے گئے ہیں۔",
         "options": [
+          "The players have been given hot drinks.",
           "The players have been given cold drinks.",
           "The players have not been given cold drinks.",
-          "The players were not given cold drinks.",
-          "The players are given cold drinks."
+          "The players have not been given food."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "کامیاب امیدوار کو اسناد نہیں دی گئی ہیں۔",
         "options": [
           "The successful candidate has been given certificates.",
+          "The successful candidate has failed.",
           "The successful candidate has not been given certificates.",
-          "The successful candidate was not given certificates.",
-          "The successful candidate is given certificates."
+          "The candidate has given certificates."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "اچھے کھلاڑیوں کی حوصلہ افزائی نہیں کی گئی ہے۔",
         "options": [
-          "Good players have been encouraged.",
-          "Good players have not been encouraged.",
-          "Good players were not encouraged.",
-          "Good players are encouraged."
+          "The good players have been encouraged.",
+          "The good players have been punished.",
+          "The good players have not been encouraged.",
+          "The good players have been selected."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "ہمارے دوست نے ہم سے مشورہ نہیں کیا ہے۔",
         "options": [
-          "Our friend has consulted us.",
+          "Our friend has argued with us.",
+          "Our friend has helped us.",
           "Our friend has not consulted us.",
-          "Our friend did not consult us.",
-          "Our friend consults us."
+          "Our friend has met us."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "سپاہی نے افسر کا حکم نہیں مانا ہے۔",
         "options": [
-          "The soldier has obeyed the officer's order.",
-          "The soldier has not obeyed the officer's order.",
-          "The soldier did not obey the officer's order.",
-          "The soldier obeys the officer's order."
+          "The soldier has obeyed the officer’s order.",
+          "The soldier has heard the officer’s order.",
+          "The soldier has not obeyed the officer’s order.",
+          "The soldier has given the order."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "دشمن نے ہتھیار نہیں ڈالے ہیں۔",
         "options": [
-          "The enemies have surrendered.",
-          "The enemies have not surrendered.",
-          "The enemies did not surrender.",
-          "The enemies surrender."
+          "The enemy has used weapons.",
+          "The enemy has surrendered their weapons.",
+          "The enemy has not surrendered their weapons.",
+          "The enemy has bought weapons."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "ہماری فوج نے پسپائی اختیار نہیں کی ہے۔",
         "options": [
-          "Our army has retreated.",
+          "Our army has attacked.",
+          "Our army has advanced.",
           "Our army has not retreated.",
-          "Our army did not retreat.",
-          "Our army retreats."
+          "Our army has stopped."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "میرے دوستوں نے مجھے چائے نہیں دی ہے۔",
         "options": [
           "My friends have given me tea.",
+          "My friends have taken tea.",
           "My friends have not given me tea.",
-          "My friends did not give me tea.",
-          "My friends give me tea."
+          "My friends have made tea."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "پولیس نے اسے رنگے ہاتھوں نہیں پکڑا ہے۔",
         "options": [
-          "The police have caught him red-handed.",
-          "The police have not caught him red-handed.",
-          "The police did not catch him red-handed.",
-          "The police catch him red-handed."
+          "The police has caught him red-handed.",
+          "The police has released him.",
+          "The police has not caught him red-handed.",
+          "The police has fined him."
         ],
-        "correct": "1"
+        "correct": "2"
+      },
+      {
+        "question": "کیا تم کام ختم کر چکے ہو؟",
+        "options": [
+          "Have you started the work?",
+          "Have you done the work?",
+          "Have you finished the work?",
+          "Have you left the work?"
+        ],
+        "correct": "2"
       },
       {
         "question": "کیا یہ لڑکا امتحان پاس کر چکا ہے؟",
         "options": [
+          "Has this boy taken the exam?",
+          "Has this boy failed the exam?",
           "Has this boy passed the exam?",
-          "Did this boy pass the exam?",
-          "Is this boy passing the exam?",
-          "This boy has passed the exam."
+          "Has this boy prepared for the exam?"
         ],
-        "correct": "0"
+        "correct": "2"
       },
       {
         "question": "کیا شکاری پرندے پکڑ چکا ہے؟",
         "options": [
-          "Did the hunter catch the birds?",
-          "Has the hunter caught the birds?",
-          "Is the hunter catching the birds?",
-          "The hunter has caught the birds."
+          "Has the hunter seen birds?",
+          "Has the hunter killed birds?",
+          "Has the hunter caught birds?",
+          "Has the hunter shot birds?"
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "تم نے اس آدمی کو کہاں دیکھا ہے؟",
         "options": [
-          "Where did you see that man?",
-          "Where have you seen that man?",
-          "Where are you seeing that man?",
-          "Where you have seen that man?"
+          "Where have you met this man?",
+          "Where have you seen this man?",
+          "Where have you found this man?",
+          "Where have you called this man?"
         ],
         "correct": "1"
       },
       {
         "question": "آپ کے دوست نے کب شادی کی ہے؟",
         "options": [
-          "When did your friend marry?",
+          "When did your friend get engaged?",
+          "When did your friend get married?",
           "When has your friend married?",
-          "When your friend has married?",
-          "When is your friend marrying?"
+          "When will your friend get married?"
         ],
         "correct": "1"
       },
       {
         "question": "کیا اُسکے بیٹے نے آدمی کو مار ڈالا ہے؟",
         "options": [
-          "Did his son kill the man?",
           "Has his son killed the man?",
-          "Is his son killing the man?",
-          "His son has killed the man."
+          "Has his son beaten the man?",
+          "Has his son met the man?",
+          "Has his son helped the man?"
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "آپ نے ڈوبتے ہوئے بچے کو کس طرح بچایا ہے؟",
         "options": [
+          "How did you find the drowning child?",
           "How did you save the drowning child?",
-          "How have you saved the drowning child?",
-          "How are you saving the drowning child?",
-          "How you have saved the drowning child?"
+          "How did you see the drowning child?",
+          "How did you teach the drowning child?"
         ],
         "correct": "1"
       },
       {
-        "question": "کیا ڈاکٹر صاف بچ کر نکل گئے ہیں؟",
+        "question": "کیا ڈاکو صاف بچ کر نکل گئے ہیں؟",
         "options": [
-          "Did the doctors escape safely?",
-          "Have the doctors escaped safely?",
-          "Are the doctors escaping safely?",
-          "The doctors have escaped safely."
+          "Have the thieves entered safely?",
+          "Have the thieves been caught?",
+          "Have the thieves escaped safely?",
+          "Have the thieves fought?"
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "کیا اس نے اپنی بے عزتی کا بدلہ نہیں لیا ہے؟",
         "options": [
-          "Did he not avenge his insult?",
-          "Has he not avenged his insult?",
-          "Is he not avenging his insult?",
-          "He has not avenged his insult."
+          "Has he not taken revenge for his humiliation?",
+          "Has he forgotten his humiliation?",
+          "Has he ignored his humiliation?",
+          "Has he felt humiliated?"
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "کیا اکبر نے اپنے فرض سے غفلت نہیں برتی ہے؟",
         "options": [
-          "Did Akbar not neglect his duty?",
-          "Has Akbar not neglected his duty?",
-          "Is Akbar not neglecting his duty?",
-          "Akbar has not neglected his duty."
+          "Has Akbar not been diligent in his duty?",
+          "Has Akbar not been negligent in his duty?",
+          "Has Akbar fulfilled his duty?",
+          "Has Akbar started his duty?"
         ],
         "correct": "1"
       },
       {
         "question": "انھوں نے اپنا کام مکمل کیوں نہیں کیا ہے؟",
         "options": [
-          "Why did they not complete their work?",
-          "Why have they not completed their work?",
-          "Why are they not completing their work?",
-          "Why they have not completed their work?"
+          "Why haven’t they completed their work?",
+          "Why didn’t they do their work?",
+          "Why have they completed their work?",
+          "Why are they doing the work?"
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "تم نے اپنے ساری آمدنی کیوں خرچ کر دی ہے؟",
         "options": [
-          "Why did you spend all your income?",
           "Why have you spent all your income?",
-          "Why are you spending all your income?",
-          "Why you have spent all your income?"
+          "Why did you spend all your income?",
+          "Why have you saved all your income?",
+          "Why are you spending all your income?"
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "اس نے اپنی پہلی تقریر کہاں کی ہے؟",
         "options": [
           "Where did he deliver his first speech?",
           "Where has he delivered his first speech?",
-          "Where is he delivering his first speech?",
-          "Where he has delivered his first speech?"
+          "When did he deliver his first speech?",
+          "Why did he deliver his first speech?"
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "کیا انھوں نے شادی پر آتشبازی کا مظاہرہ کیا ہے؟",
         "options": [
-          "Did they display fireworks at the wedding?",
-          "Have they displayed fireworks at the wedding?",
-          "Are they displaying fireworks at the wedding?",
-          "They have displayed fireworks at the wedding."
+          "Did they perform fireworks at the wedding?",
+          "Have they performed fireworks at the wedding?",
+          "Will they perform fireworks at the wedding?",
+          "Are they performing fireworks at the wedding?"
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "کیا تمھارا بھائی پہاڑ کی چوٹی پر پہنچ چکا ہے؟",
         "options": [
-          "Did your brother reach the mountain top?",
-          "Has your brother reached the mountain top?",
-          "Is your brother reaching the mountain top?",
-          "Your brother has reached the mountain top."
+          "Has your brother climbed the mountain?",
+          "Has your brother reached the mountain peak?",
+          "Did your brother reach the mountain peak?",
+          "Will your brother reach the mountain peak?"
         ],
         "correct": "1"
       },
       {
         "question": "کیا تم بازی جیت چکے ہو؟",
         "options": [
-          "Did you win the match?",
-          "Have you won the match?",
-          "Are you winning the match?",
-          "You have won the match."
+          "Have you lost the game?",
+          "Have you played the game?",
+          "Have you won the game?",
+          "Did you win the game?"
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "کیا تمھارے ساتھی بھاگ چکے ہیں؟",
         "options": [
-          "Did your companions run away?",
+          "Have your companions stayed?",
           "Have your companions run away?",
-          "Are your companions running away?",
-          "Your companions have run away."
+          "Did your companions run away?",
+          "Have your companions left?"
         ],
         "correct": "1"
       },
       {
         "question": "ڈاکوؤں نے امیر آدمی کو کہاں لوٹا ہے؟",
         "options": [
-          "Where did the dacoits loot the rich man?",
-          "Where have the dacoits looted the rich man?",
-          "Where are the dacoits looting the rich man?",
-          "Where the dacoits have looted the rich man?"
+          "Where have the robbers looted the rich man?",
+          "Where did the robbers loot the rich man?",
+          "Where have the robbers seen the rich man?",
+          "Why have the robbers looted the rich man?"
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "آپ نے میرے لیے ٹکٹ کیوں خریدا ہے؟",
         "options": [
-          "Why did you buy a ticket for me?",
-          "Why have you bought a ticket for me?",
-          "Why are you buying a ticket for me?",
-          "Why you have bought a ticket for me?"
+          "Why did you buy the ticket for me?",
+          "Why have you bought the ticket for me?",
+          "Where did you buy the ticket?",
+          "When did you buy the ticket?"
         ],
         "correct": "1"
       },
       {
         "question": "اس بچے کو کس نے بگاڑا ہے؟",
         "options": [
-          "Who spoiled this child?",
+          "Who has loved this child?",
+          "Who has taught this child?",
           "Who has spoiled this child?",
-          "Who is spoiling this child?",
-          "Who has been spoiling this child?"
+          "Who has raised this child?"
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "لڑکی نے بوتل کیوں توڑ دی ہے؟",
         "options": [
           "Why did the girl break the bottle?",
           "Why has the girl broken the bottle?",
-          "Why is the girl breaking the bottle?",
-          "Why the girl has broken the bottle?"
+          "When did the girl break the bottle?",
+          "How did the girl break the bottle?"
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "وہ چھت سے کیسے گرا ہے؟",
         "options": [
+          "Why did he fall from the roof?",
           "How did he fall from the roof?",
-          "How has he fallen from the roof?",
-          "How is he falling from the roof?",
-          "How he has fallen from the roof?"
+          "When did he fall from the roof?",
+          "Where did he fall from the roof?"
         ],
         "correct": "1"
       },
       {
         "question": "کیا اسلم کو کھوئی ہوئی رقم واپس مل گئی ہے؟",
         "options": [
-          "Did Aslam get the lost money back?",
-          "Has Aslam got the lost money back?",
-          "Is Aslam getting the lost money back?",
-          "Aslam has got the lost money back."
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "پولیس مکان میں کیوں داخل ہوئی؟",
-        "options": [
-          "Why did the police enter the house?",
-          "Why has the police entered the house?",
-          "Why is the police entering the house?",
-          "Why the police has entered the house?"
+          "Has Aslam got back the lost money?",
+          "Did Aslam get back the lost money?",
+          "Has Aslam lost the money?",
+          "Has Aslam found the money?"
         ],
         "correct": "0"
       },
       {
+        "question": "پولیس مکان میں کیوں داخل ہوئی؟",
+        "options": [
+          "Why has the police entered the house?",
+          "Why did the police enter the house?",
+          "When did the police enter the house?",
+          "How did the police enter the house?"
+        ],
+        "correct": "1"
+      },
+      {
         "question": "کیا جھیل میں پانی جم چکا ہے؟",
         "options": [
-          "Did the water in the lake freeze?",
+          "Has the water in the lake dried?",
           "Has the water in the lake frozen?",
-          "Is the water in the lake freezing?",
-          "The water in the lake has frozen."
+          "Did the water in the lake freeze?",
+          "Is the water in the lake cold?"
         ],
         "correct": "1"
       },
@@ -866,29 +876,29 @@ export const quizData = {
           "Why did you resign?",
           "Why have you resigned?",
           "Why are you resigning?",
-          "Why you have resigned?"
+          "Why will you resign?"
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "کیا اس نے بندوق بھر لی ہے؟",
         "options": [
-          "Did he load the gun?",
+          "Has he fired the gun?",
           "Has he loaded the gun?",
-          "Is he loading the gun?",
-          "He has loaded the gun."
+          "Did he load the gun?",
+          "Has he bought the gun?"
         ],
         "correct": "1"
       },
       {
         "question": "آپ نے روپیہ کہاں رکھا ہے؟",
         "options": [
-          "Where did you keep the money?",
           "Where have you kept the money?",
-          "Where are you keeping the money?",
-          "Where you have kept the money?"
+          "Where did you keep the money?",
+          "Where have you spent the money?",
+          "Where have you found the money?"
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "کیا اس نے گاؤں ہمیشہ کے لیے چھوڑ دیا ہے؟",
@@ -896,17 +906,17 @@ export const quizData = {
           "Did he leave the village forever?",
           "Has he left the village forever?",
           "Is he leaving the village forever?",
-          "He has left the village forever."
+          "Will he leave the village forever?"
         ],
         "correct": "1"
       },
       {
         "question": "کیا ہم نے اپنا دعوی ثابت کر دیا ہے؟",
         "options": [
-          "Did we prove our claim?",
+          "Have we lost our claim?",
           "Have we proved our claim?",
-          "Are we proving our claim?",
-          "We have proved our claim."
+          "Did we prove our claim?",
+          "Have we made our claim?"
         ],
         "correct": "1"
       }
@@ -1968,72 +1978,423 @@ export const quizData = {
       {
         "question": "لوگ تفریح کے لیے چھانگا مانگا جا رہے ہیں۔",
         "options": [
-          "People are collecting money for entertainment.",
-          "People are going for a walk.",
-          "People are asking for a swing for entertainment.",
-          "People are buying a swing."
+          "People are going to Changla Manga for fun.",
+          "People are coming to Changla Manga for fun.",
+          "People are playing at Changla Manga.",
+          "People are working at Changla Manga."
         ],
-        "correct": "2"
+        "correct": "0"
       },
       {
         "question": "لڑکا امتحان کی تیاری اچھی طرح کر رہا ہے۔",
         "options": [
-          "The boy is preparing for the exam well.",
+          "The boy is preparing for the exam.",
+          "The boy is preparing well for the exam.",
           "The boy is taking the exam.",
-          "The boy is failing the exam.",
-          "The boy is checking his exam paper."
+          "The boy is failing the exam."
         ],
-        "correct": "0"
+        "correct": "1"
+      },
+      {
+        "question": "پاکستان دن دوگنی رات چوگنی ترقی کر رہا ہے۔",
+        "options": [
+          "Pakistan is developing slowly.",
+          "Pakistan is developing rapidly (day by day).",
+          "Pakistan is developing continuously.",
+          "Pakistan is not developing."
+        ],
+        "correct": "1"
       },
       {
         "question": "مرغی انڈے دے رہی ہے۔",
         "options": [
-          "The hen is laying an egg.",
-          "The hen is eating an egg.",
-          "The hen is sitting on an egg.",
-          "The hen is breaking an egg."
+          "The hen is eating eggs.",
+          "The hen is sitting on eggs.",
+          "The hen is laying eggs.",
+          "The hen is breaking eggs."
         ],
-        "correct": "0"
+        "correct": "2"
       },
       {
         "question": "میں پاکستان کا نقشہ بنارہی ہوں۔",
         "options": [
-          "I am buying a map of Pakistan.",
           "I am drawing a map of Pakistan.",
+          "I am making a map of Pakistan.",
           "I am looking at a map of Pakistan.",
-          "I am coloring a map of Pakistan."
+          "I am buying a map of Pakistan."
         ],
         "correct": "1"
       },
       {
         "question": "گوالہ گائے کا دودھ دوھ رہا ہے۔",
         "options": [
-          "The milkman is milking the cow.",
           "The milkman is feeding the cow.",
-          "The milkman is selling the cow.",
+          "The milkman is washing the cow.",
+          "The milkman is milking the cow.",
           "The milkman is beating the cow."
         ],
-        "correct": "0"
+        "correct": "2"
       },
       {
         "question": "بچے مینڈکوں پر پتھر پھینک رہے ہیں۔",
         "options": [
-          "Children are feeding the frogs.",
-          "Children are catching the frogs.",
-          "Children are throwing stones at the frogs.",
-          "Children are looking at the frogs."
+          "The children are catching frogs.",
+          "The children are playing with frogs.",
+          "The children are throwing stones at the frogs.",
+          "The children are feeding the frogs."
+        ],
+        "correct": "2"
+      },
+
+      {
+        "question": "میں اپنی گھڑی تلاش کر رہا ہوں۔",
+        "options": [
+          "I am repairing my watch.",
+          "I am looking for my watch.",
+          "I am wearing my watch.",
+          "I am buying my watch."
+        ],
+        "correct": "1"
+      },
+      {
+        "question": "بوندا باندی ہو رہی ہے۔",
+        "options": [
+          "It is raining.",
+          "It is snowing.",
+          "It is drizzling.",
+          "It is storming."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "کنواں چل رہا ہے۔",
+        "options": [
+          "The well is drying.",
+          "The well is filling.",
+          "The well is being dug.",
+          "The well is working."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "میں اس وقت آرام کر رہا ہوں۔",
+        "options": [
+          "I am working at the moment.",
+          "I am sleeping at the moment.",
+          "I am eating at the moment.",
+          "I am resting at the moment."
+        ],
+        "correct": "3"
+      },
+      {
+        "question": "چولھے سے دھواں اُٹھ رہا ہے۔",
+        "options": [
+          "Smoke is coming from the stove.",
+          "Smoke is rising from the stove.",
+          "Fire is coming from the stove.",
+          "Smoke is going into the stove."
+        ],
+        "correct": "1"
+      },
+      {
+        "question": "ہم پرانے سکے جمع کر رہے ہیں۔",
+        "options": [
+          "We are spending old coins.",
+          "We are cleaning old coins.",
+          "We are collecting old coins.",
+          "We are finding old coins."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "مجھے چکر آ رہے ہیں۔",
+        "options": [
+          "I am feeling pain.",
+          "I am feeling tired.",
+          "I am feeling dizzy.",
+          "I am feeling sick."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "آپ اپنے دوست کو الوداع کہہ رہے ہیں۔",
+        "options": [
+          "You are saying hello to your friend.",
+          "You are saying goodbye to your friend.",
+          "You are meeting your friend.",
+          "You are calling your friend."
+        ],
+        "correct": "1"
+      },
+      {
+        "question": "وہ دریا میں غوطہ لگا رہا ہے۔",
+        "options": [
+          "He is swimming in the river.",
+          "He is drowning in the river.",
+          "He is diving into the river.",
+          "He is crossing the river."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "بچے شور مچا رہے ہیں۔",
+        "options": [
+          "The children are playing.",
+          "The children are shouting.",
+          "The children are making noise.",
+          "The children are crying."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "اکبر گندم کاٹ رہا ہے۔",
+        "options": [
+          "Akbar is planting wheat.",
+          "Akbar is watering wheat.",
+          "Akbar is cutting wheat.",
+          "Akbar is selling wheat."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "عورت دودھ ابال رہی ہے۔",
+        "options": [
+          "The woman is drinking milk.",
+          "The woman is buying milk.",
+          "The woman is boiling milk.",
+          "The woman is spilling milk."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "طلبہ سکول کو سجا رہے ہیں۔",
+        "options": [
+          "The students are cleaning the school.",
+          "The students are building the school.",
+          "The students are decorating the school.",
+          "The students are painting the school."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "وہ مجھے ملنے آرہا ہے۔",
+        "options": [
+          "He is leaving me.",
+          "He is calling me.",
+          "He is waiting for me.",
+          "He is coming to meet me."
+        ],
+        "correct": "3"
+      },
+      {
+        "question": "حکومت نئے سکول کھول رہی ہے۔",
+        "options": [
+          "The government is closing new schools.",
+          "The government is building new schools.",
+          "The government is opening new schools.",
+          "The government is visiting new schools."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "رکشا اس طرف نہیں آرہا ہے۔",
+        "options": [
+          "The rickshaw is not going that way.",
+          "The rickshaw is not coming this way.",
+          "The rickshaw is not stopping here.",
+          "The rickshaw is not coming there."
+        ],
+        "correct": "1"
+      },
+      {
+        "question": "لوگ ہوائی اڈے پر نہیں جا رہے ہیں۔",
+        "options": [
+          "People are not going to the airport.",
+          "People are not coming to the airport.",
+          "People are not leaving the airport.",
+          "People are not waiting at the airport."
+        ],
+        "correct": "0"
+      },
+      {
+        "question": "بچے شور نہیں کر رہے ہیں۔",
+        "options": [
+          "The children are not playing.",
+          "The children are not shouting.",
+          "The children are not making noise.",
+          "The children are not crying."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "میں اس کو راز نہیں بتا رہا ہوں۔",
+        "options": [
+          "I am not telling him the secret.",
+          "I am not telling him a lie.",
+          "I am not telling him the truth.",
+          "I am not listening to him."
+        ],
+        "correct": "0"
+      },
+      {
+        "question": "ہم یہاں کسی کا انتظار نہیں کر رہے ہیں۔",
+        "options": [
+          "We are not calling anyone here.",
+          "We are not seeing anyone here.",
+          "We are not waiting for anyone here.",
+          "We are not meeting anyone here."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "وہ مسکر انہیں رہی ہے۔ (Note: The input text missed 'نہیں', assuming negative based on list header)",
+        "options": [
+          "She is laughing at them.",
+          "She is not smiling at them.",
+          "She is looking at them.",
+          "She is shouting at them."
+        ],
+        "correct": "1"
+      },
+      {
+        "question": "کتے ہڈی پر نہیں لڑ رہے ہیں۔",
+        "options": [
+          "The dogs are not eating the bone.",
+          "The dogs are not barking at the bone.",
+          "The dogs are not fighting over the bone.",
+          "The dogs are not playing with the bone."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "ہم جائیداد تقسیم نہیں کر رہے ہیں۔",
+        "options": [
+          "We are not selling the property.",
+          "We are not buying the property.",
+          "We are not dividing the property.",
+          "We are not sharing the property."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "تم اپنے ساتھی سے تعاون نہیں کر رہے ہو۔",
+        "options": [
+          "You are not fighting with your companion.",
+          "You are not helping your companion.",
+          "You are not cooperating with your companion.",
+          "You are not talking to your companion."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "شریف آدمی تمھیں حقارت سے نہیں دیکھ رہا ہے۔",
+        "options": [
+          "The honest man is not looking at you.",
+          "The honest man is not seeing you.",
+          "The honest man is not looking at you with contempt.",
+          "The honest man is not watching you."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "وہ خطرے کا سامنا دلیری سے نہیں کر رہا ہے۔",
+        "options": [
+          "He is not facing danger.",
+          "He is not seeing danger.",
+          "He is not facing danger bravely.",
+          "He is not fighting danger."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "ڈرائیور موٹر کار تیز نہیں چلا رہا ہے۔",
+        "options": [
+          "The driver is not driving the car.",
+          "The driver is not driving the car slow.",
+          "The driver is not driving the car fast.",
+          "The driver is not stopping the car."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "میں بکری کا دودھ نہیں نکال رہی ہوں۔",
+        "options": [
+          "I am not milking the goat.",
+          "I am not feeding the goat.",
+          "I am not drinking the goat milk.",
+          "I am not washing the goat."
+        ],
+        "correct": "0"
+      },
+      {
+        "question": "بچے تتلیاں نہیں پکڑ رہے ہیں۔",
+        "options": [
+          "The children are not killing butterflies.",
+          "The children are not watching butterflies.",
+          "The children are not catching butterflies.",
+          "The children are not playing with butterflies."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "میں وقت ضائع نہیں کر رہا ہوں۔",
+        "options": [
+          "I am not spending time.",
+          "I am not saving time.",
+          "I am not killing time.",
+          "I am not wasting time."
+        ],
+        "correct": "3"
+      },
+      {
+        "question": "آپ مجھے اپنا پتہ انہیں بتا رہے ہیں۔ (Input implies negative 'نہیں')",
+        "options": [
+          "You are not telling me your address.",
+          "You are not giving me your address.",
+          "You are not showing me your address.",
+          "You are not writing your address."
+        ],
+        "correct": "1"
+      },
+      {
+        "question": "وہ جلوس کی قیادت نہیں کر رہا ہے۔",
+        "options": [
+          "He is not joining the procession.",
+          "He is not leading the procession.",
+          "He is not watching the procession.",
+          "He is not stopping the procession."
+        ],
+        "correct": "1"
+      },
+      {
+        "question": "گورنر جلسے کی صدارت نہیں کر رہا ہے۔",
+        "options": [
+          "The governor is not attending the meeting.",
+          "The governor is not speaking in the meeting.",
+          "The governor is not presiding over the meeting.",
+          "The governor is not leaving the meeting."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "وہ دیانتداری سے کام نہیں کر رہا ہے۔",
+        "options": [
+          "He is not doing work.",
+          "He is not working hard.",
+          "He is not working honestly.",
+          "He is not working sincerely."
         ],
         "correct": "2"
       },
       {
         "question": "میرے ساتھی میری ہمت بند ہا رہے ہیں۔",
         "options": [
-          "My friends are breaking my courage.",
-          "My friends are helping me.",
-          "My friends are praising me.",
-          "My friends are playing with me."
+          "My companions are stopping me.",
+          "My companions are discouraging me.",
+          "My companions are helping me.",
+          "My companions are encouraging me."
         ],
-        "correct": "0"
+        "correct": "3"
       },
       {
         "question": "ماہی گیر مچھلیاں پکڑ رہے ہیں۔",
@@ -2049,61 +2410,61 @@ export const quizData = {
         "question": "امجد گھڑی کو چابی دے رہا ہے۔",
         "options": [
           "Amjad is breaking the clock.",
-          "Amjad is winding the clock.",
-          "Amjad is buying a clock.",
-          "Amjad is fixing the clock."
+          "Amjad is giving the key to the clock.",
+          "Amjad is buying the clock.",
+          "Amjad is winding the clock."
         ],
         "correct": "1"
       },
       {
         "question": "پولیس قاتل کے پیچھے بھاگ رہی ہے۔",
         "options": [
-          "The police is catching the killer.",
-          "The police is running behind the killer.",
-          "The police is arresting the killer.",
-          "The police is helping the killer."
+          "The police are catching the murderer.",
+          "The police are following the murderer.",
+          "The police are chasing the murderer.",
+          "The police are watching the murderer."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "ہم ایک نئی کتاب چھاپ رہے ہیں۔",
         "options": [
-          "We are reading a new book.",
           "We are writing a new book.",
-          "We are printing a new book.",
-          "We are buying a new book."
+          "We are reading a new book.",
+          "We are buying a new book.",
+          "We are publishing a new book."
         ],
-        "correct": "2"
+        "correct": "3"
       },
       {
         "question": "یہ کپڑ استا بک رہا ہے۔",
         "options": [
-          "He is sewing clothes.",
-          "He is wearing clothes.",
-          "He is tearing clothes.",
-          "He is washing clothes."
-        ],
-        "correct": "0"
-      },
-      {
-        "question": "امیر آدمی خیرات دے رہا ہے۔",
-        "options": [
-          "The rich man is counting money.",
-          "The rich man is lending money.",
-          "The rich man is giving alms.",
-          "The rich man is borrowing money."
+          "This tailor is washing clothes.",
+          "This tailor is cutting clothes.",
+          "This tailor is stitching clothes.",
+          "This tailor is selling clothes."
         ],
         "correct": "2"
       },
       {
+        "question": "امیر آدمی خیرات دے رہا ہے۔",
+        "options": [
+          "The rich man is giving charity.",
+          "The rich man is taking charity.",
+          "The rich man is lending money.",
+          "The rich man is spending money."
+        ],
+        "correct": "0"
+      },
+      {
         "question": "فقیر سکے گن رہا ہے۔",
         "options": [
-          "The beggar is begging for coins.",
-          "The beggar is counting coins.",
-          "The beggar is stealing coins.",
-          "The beggar is throwing coins."
+          "The poor man is earning coins.",
+          "The poor man is spending coins.",
+          "The poor man is counting coins.",
+          "The poor man is stealing coins."
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "وہ نلکے کی ٹوٹی کھول رہا ہے۔",
@@ -2111,467 +2472,78 @@ export const quizData = {
           "He is closing the tap.",
           "He is breaking the tap.",
           "He is opening the tap.",
-          "He is washing the tap."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "میں اپنی گھڑی تلاش کر رہا ہوں۔",
-        "options": [
-          "I am buying my watch.",
-          "I am looking for my watch.",
-          "I is wearing my watch.",
-          "I am repairing my watch."
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "بوندا باندی ہو رہی ہے۔",
-        "options": [
-          "The snow is falling.",
-          "The wind is blowing.",
-          "It is drizzling.",
-          "The sun is shining."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "کنواں چل رہا ہے۔",
-        "options": [
-          "The well is drying.",
-          "The well is filling.",
-          "The well is working.",
-          "The well is falling."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "میں اس وقت آرام کر رہا ہوں۔",
-        "options": [
-          "I am working at the moment.",
-          "I am playing at the moment.",
-          "I am resting at the moment.",
-          "I am sleeping at the moment."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "چولھے سے دھواں اُٹھ رہا ہے۔",
-        "options": [
-          "Smoke is rising from the stove.",
-          "Fire is rising from the stove.",
-          "Food is cooking on the stove.",
-          "Water is boiling on the stove."
-        ],
-        "correct": "0"
-      },
-      {
-        "question": "ہم پرانے سکے جمع کر رہے ہیں۔",
-        "options": [
-          "We are collecting old coins.",
-          "We are spending old coins.",
-          "We are selling old coins.",
-          "We are finding old coins."
-        ],
-        "correct": "0"
-      },
-      {
-        "question": "مجھے چکر آ رہے ہیں۔",
-        "options": [
-          "I am feeling dizzy.",
-          "I am falling down.",
-          "I am running around.",
-          "I am feeling sleepy."
-        ],
-        "correct": "0"
-      },
-      {
-        "question": "آپ اپنے دوست کو الوداع کہہ رہے ہیں۔",
-        "options": [
-          "You are greeting your friend.",
-          "You are meeting your friend.",
-          "You are saying goodbye to your friend.",
-          "You are calling your friend."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "وہ دریا میں غوطہ لگا رہا ہے۔",
-        "options": [
-          "He is swimming in the river.",
-          "He is drowning in the river.",
-          "He is diving in the river.",
-          "He is fishing in the river."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "بچے شور مچا رہے ہیں۔",
-        "options": [
-          "Children are playing quietly.",
-          "Children are making noise.",
-          "Children are sleeping.",
-          "Children are studying."
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "اکبر گندم کاٹ رہا ہے۔",
-        "options": [
-          "Akbar is sowing wheat.",
-          "Akbar is cutting wheat.",
-          "Akbar is buying wheat.",
-          "Akbar is selling wheat."
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "عورت دودھ ابال رہی ہے۔",
-        "options": [
-          "The woman is churning milk.",
-          "The woman is boiling milk.",
-          "The woman is drinking milk.",
-          "The woman is spilling milk."
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "طلبہ سکول کو سجا رہے ہیں۔",
-        "options": [
-          "Students are building the school.",
-          "Students are cleaning the school.",
-          "Students are decorating the school.",
-          "Students are leaving the school."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "وہ مجھے ملنے آرہا ہے۔",
-        "options": [
-          "He is leaving me.",
-          "He is calling me.",
-          "He is coming to meet me.",
-          "He is waiting for me."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "حکومت نئے سکول کھول رہی ہے۔",
-        "options": [
-          "The government is closing new schools.",
-          "The government is opening new schools.",
-          "The government is building new schools.",
-          "The government is visiting new schools."
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "پاکستان دن دوگنی رات چوگنی ترقی کر رہا ہے۔",
-        "options": [
-          "Pakistan is developing day and night.",
-          "Pakistan is fighting day and night.",
-          "Pakistan is working day and night.",
-          "Pakistan is sleeping day and night."
-        ],
-        "correct": "0"
-      },
-      {
-        "question": "رکشا اس طرف نہیں آرہا ہے۔",
-        "options": [
-          "The rickshaw is coming this way.",
-          "The rickshaw is stopping here.",
-          "The rickshaw is not coming this way.",
-          "The rickshaw is going that way."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "لوگ ہوائی اڈے پر نہیں جا رہے ہیں۔",
-        "options": [
-          "People are going to the airport.",
-          "People are not going to the airport.",
-          "People are coming from the airport.",
-          "People are waiting at the airport."
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "بچے شور نہیں کر رہے ہیں۔",
-        "options": [
-          "Children are making noise.",
-          "Children are not making noise.",
-          "Children are shouting.",
-          "Children are crying."
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "میں اس کو راز نہیں بتا رہا ہوں۔",
-        "options": [
-          "I am telling him a secret.",
-          "I am keeping a secret from him.",
-          "I am listening to a secret.",
-          "I am guessing a secret."
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "ہم یہاں کسی کا انتظار نہیں کر رہے ہیں۔",
-        "options": [
-          "We are waiting for someone here.",
-          "We are not waiting for anyone here.",
-          "We are looking for someone here.",
-          "We are meeting someone here."
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "وہ مسکر انہیں رہی ہے۔",
-        "options": [
-          "She is laughing.",
-          "She is crying.",
-          "She is not smiling.",
-          "She is shouting."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "کتے ہڈی پر نہیں لڑ رہے ہیں۔",
-        "options": [
-          "The dogs are fighting over a bone.",
-          "The dogs are eating a bone.",
-          "The dogs are not fighting over a bone.",
-          "The dogs are burying a bone."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "ہم جائیداد تقسیم نہیں کر رہے ہیں۔",
-        "options": [
-          "We are dividing the property.",
-          "We are buying the property.",
-          "We are selling the property.",
-          "We are not dividing the property."
-        ],
-        "correct": "3"
-      },
-      {
-        "question": "تم اپنے ساتھی سے تعاون نہیں کر رہے ہو۔",
-        "options": [
-          "You are cheating your companion.",
-          "You are helping your companion.",
-          "You are not cooperating with your companion.",
-          "You are fighting your companion."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "شریف آدمی تمھیں حقارت سے نہیں دیکھ رہا ہے۔",
-        "options": [
-          "A noble man is looking at you with hatred.",
-          "A noble man is looking at you with love.",
-          "A noble man is not looking at you with hatred.",
-          "A noble man is looking at you with respect."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "وہ خطرے کا سامنا دلیری سے نہیں کر رہا ہے۔",
-        "options": [
-          "He is facing the danger bravely.",
-          "He is running away from danger.",
-          "He is not facing the danger bravely.",
-          "He is ignoring the danger."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "ڈرائیور موٹر کار تیز نہیں چلا رہا ہے۔",
-        "options": [
-          "The driver is driving the car fast.",
-          "The driver is stopping the car.",
-          "The driver is not driving the car fast.",
-          "The driver is repairing the car."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "میں بکری کا دودھ نہیں نکال رہی ہوں۔",
-        "options": [
-          "I am milking the goat.",
-          "I am feeding the goat.",
-          "I am not milking the goat.",
-          "I am beating the goat."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "بچے تتلیاں نہیں پکڑ رہے ہیں۔",
-        "options": [
-          "Children are catching butterflies.",
-          "Children are killing butterflies.",
-          "Children are not catching butterflies.",
-          "Children are watching butterflies."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "میں وقت ضائع نہیں کر رہا ہوں۔",
-        "options": [
-          "I am wasting time.",
-          "I am saving time.",
-          "I am not wasting time.",
-          "I am killing time."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "آپ مجھے اپنا پتہ انہیں بتا رہے ہیں۔",
-        "options": [
-          "You are hiding your address from me.",
-          "You are writing your address to me.",
-          "You are not telling me your address.",
-          "You are forgetting your address."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "وہ جلوس کی قیادت نہیں کر رہا ہے۔",
-        "options": [
-          "He is leading the procession.",
-          "He is ending the procession.",
-          "He is not leading the procession.",
-          "He is watching the procession."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "گورنر جلسے کی صدارت نہیں کر رہا ہے۔",
-        "options": [
-          "The Governor is attending the meeting.",
-          "The Governor is cancelling the meeting.",
-          "The Governor is not presiding over the meeting.",
-          "The Governor is speaking at the meeting."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "وہ دیانتداری سے کام نہیں کر رہا ہے۔",
-        "options": [
-          "He is working honestly.",
-          "He is working lazily.",
-          "He is not working honestly.",
-          "He is working quickly."
+          "He is fixing the tap."
         ],
         "correct": "2"
       },
       {
         "question": "تم میری رائے پر نکتہ چینی نہیں کر رہے ہو۔",
         "options": [
-          "You are agreeing with my opinion.",
-          "You are criticizing my opinion.",
-          "You are not finding fault with my opinion.",
-          "You are ignoring my opinion."
+          "You are not listening to my opinion.",
+          "You are not agreeing with my opinion.",
+          "You are not criticizing my opinion.",
+          "You are not discussing my opinion."
         ],
         "correct": "2"
       },
+
       {
-        "question": "یہ افسر اپنے فرائض سے غفلت نہیں برت رہا ہے۔",
+        "question": "وہ اپنے گناہ پر شرمندہ نہیں ہو رہا ہے۔",
         "options": [
-          "This officer is neglecting his duties.",
-          "This officer is performing his duties.",
-          "This officer is not neglecting his duties.",
-          "This officer is ignoring his duties."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "مزدور کام سے جی نہیں چرا رہے ہیں۔",
-        "options": [
-          "The laborers are working hard.",
-          "The laborers are shirking work.",
-          "The laborers are not shirking work.",
-          "The laborers are leaving work."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "ہم پھول نہیں سونگھ رہے ہیں۔",
-        "options": [
-          "We are plucking flowers.",
-          "We are smelling flowers.",
-          "We are not smelling flowers.",
-          "We are watering flowers."
-        ],
-        "correct": "2"
-      },
-      {
-        "question": "لڑکیاں جماعت میں اُونگھ نہیں رہی ہیں۔",
-        "options": [
-          "Girls are whispering in the class.",
-          "Girls are not whispering in the class.",
-          "Girls are shouting in the class.",
-          "Girls are studying in the class."
+          "He is not sorry for his sins.",
+          "He is not ashamed of his sins.",
+          "He is not forgetting his sins.",
+          "He is not repenting for his sins."
         ],
         "correct": "1"
       },
       {
-        "question": "وہ اپنے گناہ پر شرمندہ نہیں ہو رہا ہے۔",
-        "options": [
-          "He is feeling ashamed of his sin.",
-          "He is forgetting his sin.",
-          "He is not feeling ashamed of his sin.",
-          "He is repeating his sin."
-        ],
-        "correct": "2"
-      },
-      {
         "question": "باورچی کھانا نہیں پکا رہا ہے۔",
         "options": [
-          "The cook is preparing food.",
-          "The cook is eating food.",
-          "The cook is not cooking food.",
-          "The cook is serving food."
+          "The cook is not eating food.",
+          "The cook is not serving food.",
+          "The cook is not preparing food.",
+          "The cook is not cooking food."
         ],
-        "correct": "2"
+        "correct": "3"
       },
       {
         "question": "لڑکے گنے کا رس نہیں پی رہے ہیں۔",
         "options": [
-          "Boys are drinking sugarcane juice.",
-          "Boys are buying sugarcane.",
-          "Boys are not drinking sugarcane juice.",
-          "Boys are eating sugarcane."
+          "The boys are not buying sugarcane juice.",
+          "The boys are not selling sugarcane juice.",
+          "The boys are not drinking sugarcane juice.",
+          "The boys are not making sugarcane juice."
         ],
         "correct": "2"
       },
       {
         "question": "عورت مدد کے لیے نہیں پکار رہی ہے۔",
         "options": [
-          "The woman is crying for help.",
-          "The woman is laughing.",
+          "The woman is not asking for help.",
           "The woman is not calling for help.",
-          "The woman is whispering."
+          "The woman is not helping.",
+          "The woman is not shouting for help."
         ],
-        "correct": "2"
+        "correct": "1"
       },
       {
         "question": "امجد کپڑے نہیں بدل رہا ہے۔",
         "options": [
-          "Amjad is wearing clothes.",
-          "Amjad is washing clothes.",
+          "Amjad is not wearing clothes.",
+          "Amjad is not washing clothes.",
           "Amjad is not changing clothes.",
-          "Amjad is buying clothes."
+          "Amjad is not buying clothes."
         ],
         "correct": "2"
       },
       {
         "question": "عورت چکی نہیں چلا رہی ہے۔",
         "options": [
-          "The woman is running the mill.",
-          "The woman is breaking the mill.",
-          "The woman is not running the mill.",
-          "The woman is fixing the mill."
+          "The woman is not using the mill.",
+          "The woman is not breaking the mill.",
+          "The woman is not operating the mill.",
+          "The woman is not repairing the mill."
         ],
         "correct": "2"
       },
@@ -2579,21 +2551,21 @@ export const quizData = {
         "question": "کیا بچہ سورہا ہے؟",
         "options": [
           "Is the child weeping?",
-          "Is the child laughing?",
+          "Is the child playing?",
           "Is the child sleeping?",
-          "Is the child playing?"
+          "Is the child laughing?"
         ],
-        "correct": "0"
+        "correct": "2"
       },
       {
         "question": "کیا تم خبریں سن رہے ہو؟",
         "options": [
-          "Are you reading news?",
-          "Are you listening to news?",
-          "Are you watching news?",
-          "Are you telling news?"
+          "Are you reading the news?",
+          "Are you watching the news?",
+          "Are you listening to the news?",
+          "Are you telling the news?"
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "کیا کھلاڑی میچ کھیل رہے ہیں؟",
@@ -2608,190 +2580,190 @@ export const quizData = {
       {
         "question": "کیا سلمہ اپنی خالہ کے گھر جا رہی ہے؟",
         "options": [
-          "Is Salma coming from her aunt's house?",
-          "Is Salma going to her aunt's house?",
-          "Is Salma cleaning her aunt's house?",
-          "Is Salma leaving her aunt's house?"
+          "Is Salma coming to her aunt’s house?",
+          "Is Salma going to her aunt’s house?",
+          "Is Salma leaving her aunt’s house?",
+          "Is Salma calling her aunt’s house?"
         ],
         "correct": "1"
       },
       {
         "question": "لوگ کہاں ناچ رہے ہیں؟",
         "options": [
-          "Where are people sleeping?",
-          "Where are people eating?",
+          "Where are people going?",
+          "Where are people standing?",
           "Where are people dancing?",
-          "Where are people working?"
+          "Where are people sitting?"
         ],
         "correct": "2"
       },
       {
         "question": "طلبہ سکول سے جلدی واپس کیوں آ رہے ہیں؟",
         "options": [
-          "Why are students coming late from school?",
-          "Why are students going to school?",
-          "Why are students returning early from school?",
-          "Why are students staying at school?"
+          "Why are the students coming back early from school?",
+          "Why are the students going to school early?",
+          "Why are the students leaving school early?",
+          "Why are the students staying at school?"
         ],
-        "correct": "2"
+        "correct": "0"
       },
       {
         "question": "ہوائی جہاز یہاں کیوں اُتر رہا ہے؟",
         "options": [
-          "Why is the plane flying here?",
-          "Why is the plane taking off here?",
-          "Why is the plane landing here?",
-          "Why is the plane waiting here?"
+          "Why is the airplane flying here?",
+          "Why is the airplane landing here?",
+          "Why is the airplane taking off here?",
+          "Why is the airplane waiting here?"
         ],
-        "correct": "2"
+        "correct": "1"
       },
       {
         "question": "کیا تمھاری گھڑی روزانہ پانچ منٹ پیچھے رہ رہی ہے؟",
         "options": [
-          "Is your watch stopping daily?",
-          "Is your watch going fast daily?",
-          "Is your watch losing five minutes daily?",
-          "Is your watch breaking daily?"
+          "Is your watch stopping every day?",
+          "Is your watch running fast every day?",
+          "Is your watch running five minutes slow every day?",
+          "Is your watch working every day?"
         ],
         "correct": "2"
       },
       {
         "question": "گھنٹی کون بجا رہا ہے؟",
         "options": [
-          "Who is breaking the bell?",
           "Who is ringing the bell?",
-          "Who is buying the bell?",
-          "Who is hiding the bell?"
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "مہمان کب یہاں پہنچ رہے ہیں؟",
-        "options": [
-          "When are guests leaving here?",
-          "When are guests arriving here?",
-          "When are guests eating here?",
-          "When are guests sleeping here?"
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "کتنے آدمی اس معاملے پر غور کر رہے ہیں؟",
-        "options": [
-          "How many men are ignoring this matter?",
-          "How many men are discussing this matter?",
-          "How many men are creating this matter?",
-          "How many men are solving this matter?"
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "کیا میں آپ کو مخاطب نہیں کر رہا ہوں؟",
-        "options": [
-          "Am I addressing you?",
-          "Am I ignoring you?",
-          "Am I leaving you?",
-          "Am I calling you?"
+          "Who is breaking the bell?",
+          "Who is hearing the bell?",
+          "Who is opening the bell?"
         ],
         "correct": "0"
       },
       {
-        "question": "نرس کس سے باتیں کر رہی ہے؟",
+        "question": "مہمان کب یہاں پہنچ رہے ہیں؟",
         "options": [
-          "Who is the nurse beating?",
-          "Who is the nurse helping?",
-          "Who is the nurse talking to?",
-          "Who is the nurse looking at?"
+          "When are the guests leaving here?",
+          "When are the guests coming here?",
+          "When are the guests arriving here?",
+          "When are the guests waiting here?"
         ],
         "correct": "2"
+      },
+      {
+        "question": "کتنے آدمی اس معاملے پر غور کر رہے ہیں؟",
+        "options": [
+          "How many people are ignoring this matter?",
+          "How many people are solving this matter?",
+          "How many people are considering this matter?",
+          "How many people are discussing this matter?"
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "کیا میں آپ کو مخاطب نہیں کر رہا ہوں؟",
+        "options": [
+          "Am I not listening to you?",
+          "Am I not looking at you?",
+          "Am I not addressing you?",
+          "Am I not calling you?"
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "نرس کس سے باتیں کر رہی ہے؟",
+        "options": [
+          "Who is the nurse talking to?",
+          "Who is the nurse looking at?",
+          "Who is the nurse calling?",
+          "Who is the nurse helping?"
+        ],
+        "correct": "0"
       },
       {
         "question": "ڈاکٹر مریض کو ٹیکہ کیسے لگا رہا ہے؟",
         "options": [
           "How is the doctor treating the patient?",
-          "How is the doctor injecting the patient?",
-          "How is the doctor meeting the patient?",
-          "How is the doctor checking the patient?"
+          "How is the doctor giving the injection to the patient?",
+          "How is the doctor checking the patient?",
+          "How is the doctor meeting the patient?"
         ],
         "correct": "1"
       },
       {
         "question": "کتنے وکیل بحث کر رہے ہیں؟",
         "options": [
-          "How many lawyers are sleeping?",
-          "How many lawyers are arguing?",
-          "How many lawyers are eating?",
-          "How many lawyers are writing?"
+          "How many lawyers are fighting?",
+          "How many lawyers are working?",
+          "How many lawyers are debating?",
+          "How many lawyers are speaking?"
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "کیا چاند نکل رہا ہے؟",
         "options": [
           "Is the moon setting?",
-          "Is the moon disappearing?",
+          "Is the moon shining?",
           "Is the moon rising?",
-          "Is the moon shining?"
+          "Is the moon hiding?"
         ],
         "correct": "2"
       },
       {
         "question": "کیا برے لڑکے بسوں پر پتھر پھینک رہے ہیں؟",
         "options": [
-          "Are bad boys throwing stones at buses?",
-          "Are bad boys boarding buses?",
-          "Are bad boys breaking buses?",
-          "Are bad boys driving buses?"
+          "Are the naughty boys throwing stones at buses?",
+          "Are the bad boys breaking stones?",
+          "Are the naughty boys playing with buses?",
+          "Are the bad boys looking at buses?"
         ],
         "correct": "0"
       },
       {
         "question": "کیا مزدور مٹی کھودا رہے ہیں؟",
         "options": [
-          "Are laborers filling the earth?",
-          "Are laborers digging the earth?",
-          "Are laborers walking on the earth?",
-          "Are laborers selling the earth?"
+          "Are the workers carrying soil?",
+          "Are the workers digging soil?",
+          "Are the workers throwing soil?",
+          "Are the workers filling soil?"
         ],
         "correct": "1"
       },
       {
         "question": "تم اپنا مرکان کیوں بیچ رہے ہو؟",
         "options": [
-          "Why are you buying your shop?",
-          "Why are you selling your shop?",
-          "Why are you opening your shop?",
-          "Why are you closing your shop?"
+          "Why are you wearing your necklace?",
+          "Why are you buying a necklace?",
+          "Why are you selling your necklace?",
+          "Why are you losing your necklace?"
         ],
-        "correct": "1"
+        "correct": "2"
       },
       {
         "question": "کیا بشیر نیا موٹر سائیکل خرید رہا ہے؟",
         "options": [
-          "Is Bashir riding a new motorcycle?",
-          "Is Bashir selling a new motorcycle?",
-          "Is Bashir buying a new motorcycle?",
-          "Is Bashir breaking a new motorcycle?"
+          "Is Basheer selling a new motorcycle?",
+          "Is Basheer riding a new motorcycle?",
+          "Is Basheer buying a new motorcycle?",
+          "Is Basheer repairing a new motorcycle?"
         ],
         "correct": "2"
       },
       {
         "question": "عورتیں کپڑے کہاں دھو رہی ہیں؟",
         "options": [
-          "Where are women wearing clothes?",
-          "Where are women washing clothes?",
-          "Where are women buying clothes?",
-          "Where are women sewing clothes?"
+          "Where are the women washing clothes?",
+          "Where are the women wearing clothes?",
+          "Where are the women buying clothes?",
+          "Where are the women drying clothes?"
         ],
-        "correct": "1"
+        "correct": "0"
       },
       {
         "question": "کتنے آدمی اس کاروبار میں شریک ہو رہے ہیں؟",
         "options": [
-          "How many men are leaving this business?",
-          "How many men are sharing in this business?",
-          "How many men are hating this business?",
-          "How many men are ignoring this business?"
+          "How many people are starting this business?",
+          "How many people are participating in this business?",
+          "How many people are leaving this business?",
+          "How many people are watching this business?"
         ],
         "correct": "1"
       },
@@ -2799,79 +2771,119 @@ export const quizData = {
         "question": "تم بینک سے کتنا روپیہ نکلوا رہے ہو؟",
         "options": [
           "How much money are you depositing in the bank?",
-          "How much money are you stealing from the bank?",
           "How much money are you withdrawing from the bank?",
-          "How much money are you borrowing from the bank?"
+          "How much money are you stealing from the bank?",
+          "How much money are you saving in the bank?"
         ],
-        "correct": "2"
+        "correct": "1"
       },
       {
         "question": "مجھے رات کے کھانے پر کون دعوت دے رہا ہے؟",
         "options": [
-          "Who is inviting me to dinner?",
-          "Who is cooking for me?",
-          "Who is eating with me?",
-          "Who is serving me?"
+          "Who is cooking dinner for me?",
+          "Who is eating dinner with me?",
+          "Who is inviting me for dinner?",
+          "Who is serving dinner to me?"
         ],
-        "correct": "0"
+        "correct": "2"
       },
       {
         "question": "بچارے پناہ گزین کہاں جا رہے ہیں؟",
         "options": [
-          "Where are refugees going?",
-          "Where are refugees hiding?",
-          "Where are refugees sleeping?",
-          "Where are refugees coming from?"
+          "Where are the poor refugees going?",
+          "Where are the poor refugees coming from?",
+          "Where are the poor refugees living?",
+          "Where are the poor refugees hiding?"
         ],
         "correct": "0"
       },
       {
         "question": "کیا دوکاندار گاہک سے زیادہ پیسے وصول کر رہا ہے؟",
         "options": [
-          "Is the shopkeeper giving money to the customer?",
-          "Is the shopkeeper taking more money from the customer?",
-          "Is the shopkeeper counting money?",
-          "Is the shopkeeper refusing money?"
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "تم کس کا پیغام لے کر جا رہے ہو؟",
-        "options": [
-          "Whose message are you ignoring?",
-          "Whose message are you taking?",
-          "Whose message are you writing?",
-          "Whose message are you reading?"
-        ],
-        "correct": "1"
-      },
-      {
-        "question": "ٹھیکیدار کب سے کام شروع کر رہا ہے؟",
-        "options": [
-          "When is the contractor stopping work?",
-          "When is the contractor starting work?",
-          "Since when is the contractor starting work?",
-          "Why is the contractor working?"
+          "Is the shopkeeper taking less money from the customer?",
+          "Is the shopkeeper taking the exact money from the customer?",
+          "Is the shopkeeper charging extra money from the customer?",
+          "Is the shopkeeper giving money to the customer?"
         ],
         "correct": "2"
       },
       {
-        "question": "دروازے کون کھٹکھٹا رہا ہے؟",
+        "question": "تم کس کا پیغام لے کر جا رہے ہو؟",
         "options": [
-          "Who is breaking the door?",
-          "Who is knocking at the door?",
-          "Who is opening the door?",
-          "Who is painting the door?"
+          "Whose message are you reading?",
+          "Whose message are you writing?",
+          "Whose message are you taking?",
+          "Whose message are you deleting?"
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "ٹھیکیدار کب سے کام شروع کر رہا ہے؟",
+        "options": [
+          "When has the contractor finished work?",
+          "Since when has the contractor started work?",
+          "Why has the contractor started work?",
+          "Where has the contractor started work?"
         ],
         "correct": "1"
       },
       {
+        "question": "یہ افسر اپنے فرائض سے غفلت نہیں برت رہا ہے۔",
+        "options": [
+          "This officer is not doing his duties.",
+          "This officer is not ignoring his duties.",
+          "This officer is not neglecting his duties.",
+          "This officer is not forgetting his duties."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "مزدور کام سے جی نہیں چرا رہے ہیں۔",
+        "options": [
+          "The workers are not working.",
+          "The workers are not leaving work.",
+          "The workers are not shirking work.",
+          "The workers are not doing work."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "ہم پھول نہیں سونگھ رہے ہیں۔",
+        "options": [
+          "We are not picking flowers.",
+          "We are not smelling the flowers.",
+          "We are not watering the flowers.",
+          "We are not buying the flowers."
+        ],
+        "correct": "1"
+      },
+      {
+        "question": "لڑکیاں جماعت میں اُونگھ نہیں رہی ہیں۔",
+        "options": [
+          "The girls are not sleeping in the class.",
+          "The girls are not talking in the class.",
+          "The girls are not dozing in the class.",
+          "The girls are not playing in the class."
+        ],
+        "correct": "2"
+      },
+      {
+        "question": "دروازہ کون کھٹکھٹا رہا ہے؟",
+        "options": [
+          "Who is knocking on the door?",
+          "Who is opening the door?",
+          "Who is closing the door?",
+          "Who is breaking the door?"
+        ],
+        "correct": "0"
+      },
+      {
         "question": "تم کون سا رسالہ پڑھ رہے ہو؟",
         "options": [
-          "Which magazine are you writing?",
+          "Which book are you reading?",
           "Which magazine are you reading?",
-          "Which magazine are you buying?",
-          "Which magazine are you tearing?"
+          "Which novel are you reading?",
+          "Which paper are you reading?"
         ],
         "correct": "1"
       }
