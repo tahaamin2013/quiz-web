@@ -3,9 +3,9 @@ import { useState } from 'react';
 
 const page = () => {
     const sections = [
-        { id: 1, title: "Affirmative sentences", url: "/section/1/1" },
-        { id: 2, title: "Negative sentences", url: "/section/1/2" },
-        { id: 3, title: "Interrogative Sentences", url: "/section/1/3" },
+        { id: 1, title: "Affirmative sentences (Past Perfect Continuous Tense)", url: "/section/1/1" },
+        { id: 2, title: "Negative sentences (Past Perfect Continuous Tense)", url: "/section/1/2" },
+        { id: 3, title: "Interrogative Sentences (Past Perfect Continuous Tense)", url: "/section/1/3" },
     ];
 
     const questions: Record<number, string[]> = {

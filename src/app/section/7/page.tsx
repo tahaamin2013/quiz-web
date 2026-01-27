@@ -3,8 +3,8 @@ import { useState } from 'react';
 
 const page = () => {
     const sections = [
-        { id: 1, title: "Affirmative sentences", url: "/section/1/1" },
-        { id: 2, title: "Negative sentences and Interrogative Sentences", url: "/section/1/2" },
+        { id: 1, title: "Affirmative sentences (Past Perfect Tense)", url: "/section/1/1" },
+        { id: 2, title: "Negative sentences and Interrogative Sentences (Past Perfect Tense)", url: "/section/1/2" },
     ];
 
     const questions: Record<number, string[]> = {
