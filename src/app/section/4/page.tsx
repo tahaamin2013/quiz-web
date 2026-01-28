@@ -4,7 +4,7 @@ import { useState } from 'react';
 const page = () => {
     const sections = [
         { id: 1, title: "Affirmative sentences", url: "/section/1/1" },
-        { id: 2, title: "Negative sentence & Interrogative Sentences", url: "/section/1/2" },
+        { id: 2, title: "Negative sentence & Interrogative Sentences (Present Perfect Continuous Tense)", url: "/section/1/2" },
     ];
 
     const questions: Record<number, string[]> = {
