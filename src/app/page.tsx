@@ -84,6 +84,7 @@ export default function Home() {
             <div className="py-1" role="none">
               <a href="/table-of-tenses" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem">Table of Tenses</a>
               <a href="/translation" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem">Translation</a>
+              <a href="/excersices" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem">Grammar Excersices</a>
             </div>
           </div>
         <UnitSelector onSelectUnit={handleUnitSelect} onReset={handleReset} />
