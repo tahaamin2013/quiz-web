@@ -102,58 +102,89 @@ const page = () => {
         ],
 
     };
-
     const [selectedSection, setSelectedSection] = useState<number>(1);
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
+    const handlePrint = () => {
+        window.print();
+    };
+
     return (
-        <div className="flex gap-6 p-4 md:p-6 bg-gray-100 min-h-screen flex-col md:flex-row">
-            {/* Mobile menu button */}
-            <button
-                onClick={() => setSidebarOpen(!sidebarOpen)}
-                className="md:hidden bg-blue-500 text-white p-2 rounded-lg"
-            >
-                {sidebarOpen ? '✕' : '☰'}
-            </button>
+        <>
+            {/* PRINT CSS */}
+            <style jsx global>{`
+                @media print {
+                    body * {
+                        visibility: hidden;
+                    }
+                    .print-area, .print-area * {
+                        visibility: visible;
+                    }
+                    .print-area {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                    }
+                }
+            `}</style>
 
-            {/* Sidebar */}
-            <div className={`w-full md:w-64 flex flex-col gap-3 ${sidebarOpen ? 'block' : 'hidden'} md:block md:sticky md:top-0 md:h-screen md:overflow-y-auto`}>
-                {sections.map((section) => (
-                    <button
-                        key={section.id}
-                        onClick={() => {
-                            setSelectedSection(section.id);
-                            setSidebarOpen(false);
-                        }}
-                        className={`p-4 rounded-lg font-bold w-full mt-4 text-left border-2 cursor-pointer transition ${selectedSection === section.id
-                            ? 'bg-blue-500 text-white border-blue-600'
-                            : 'bg-white text-black border-gray-300 hover:bg-gray-50'
-                            }`}
-                    >
-                        {section.title}
-                    </button>
-                ))}
-            </div>
+            <div className="flex gap-6 p-4 md:p-6 bg-gray-100 min-h-screen flex-col md:flex-row">
 
-            {/* Main content area */}
-            <div className="flex-1 bg-white  p-4 md:p-6 rounded-lg w-full">
-                <h2 className="text-xl md:text-2xl font-bold mb-4">
-                    {sections.find(s => s.id === selectedSection)?.title}
-                </h2>
-                <ul className="space-y-2">
-                    {questions[selectedSection]?.map((question: string, index: number) => (
-                        <li key={index} className="flex gap-4 text-base md:text-lg text-right p-2 border-b justify-end">
-                            <span style={{ fontFamily: 'Noto Nastaliq Urdu, serif' }}>{question}</span>
-                            <span className="font-bold text-gray-600 w-8">{index + 1}.</span>
-                        </li>
+                {/* Mobile menu */}
+                <button
+                    onClick={() => setSidebarOpen(!sidebarOpen)}
+                    className="md:hidden bg-blue-500 text-white p-2 rounded-lg print:hidden"
+                >
+                    {sidebarOpen ? '✕' : '☰'}
+                </button>
+
+                {/* Sidebar */}
+                <div className={`w-full md:w-64 flex flex-col gap-3 ${sidebarOpen ? 'block' : 'hidden'} md:block md:sticky md:top-0 md:h-screen md:overflow-y-auto print:hidden`}>
+                    {sections.map((section) => (
+                        <button
+                            key={section.id}
+                            onClick={() => {
+                                setSelectedSection(section.id);
+                                setSidebarOpen(false);
+                            }}
+                            className={`p-4 rounded-lg font-bold w-full mt-4 text-left border-2 transition ${selectedSection === section.id
+                                ? 'bg-blue-500 text-white border-blue-600'
+                                : 'bg-white text-black border-gray-300 hover:bg-gray-50'
+                                }`}
+                        >
+                            {section.title}
+                        </button>
                     ))}
-                </ul>
+                </div>
+
+                {/* MAIN */}
+                <div className="flex-1 bg-white p-4 md:p-6 rounded-lg w-full print-area">
+
+                    {/* Print Button */}
+                    <button
+                        onClick={handlePrint}
+                        className="bg-green-600 text-white px-4 py-2 rounded-lg mb-4 print:hidden"
+                    >
+                        🖨️ Print Sentences
+                    </button>
+
+                    <h2 className="text-xl md:text-2xl font-bold mb-4 text-right">
+                        {sections.find(s => s.id === selectedSection)?.title}
+                    </h2>
+
+                    <ul className="space-y-2">
+                        {questions[selectedSection]?.map((question, index) => (
+                            <li key={index} className="flex gap-4 text-base md:text-lg text-right p-2 border-b justify-end">
+                                <span style={{ fontFamily: 'Noto Nastaliq Urdu, serif' }}>{question}</span>
+                                <span className="font-bold text-gray-600 w-8">{index + 1}.</span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
             </div>
-        </div>
+        </>
     );
 };
 
 export default page;
-
-
-
